@@ -8,7 +8,8 @@ uses
   Db, DBTables, Variants,
   InstallUnit, SpravUnit, DateUtils,
   DbiProcs,DbiErrs, DbiTypes, IdBaseComponent, IdComponent, IdTCPConnection,
-  IdTCPClient, IdFTP
+  IdTCPClient, IdFTP, IdUDPClient,  IdUDPBase
+   
      {$IFDEF VER150}  // Delphi 7
      {$ELSE}     //
         , System.UITypes   //
@@ -329,6 +330,7 @@ type
     QueryOplata: TQuery;
     CurrencyField17: TCurrencyField;
     IdFTP: TIdFTP;
+    IdUDPClient1: TIdUDPClient;
     TableNaklName: TTable;
     TableNaklNameCod: TAutoIncField;
     TableNaklNameNaklName: TStringField;
@@ -618,7 +620,7 @@ begin
         SaveNid := Time <  sr.Time;  // время резервного ф. меньше времени текущего ф
       end;
 
-  If SaveNid and BdeCopy then  // надо резервировать
+  If SaveNid and BdeCopy then  // надо резервировать и используем BDe средство копирования
   begin
 
     // если присутствуют резервные файлы => удаляем их
@@ -784,8 +786,8 @@ begin
 
    end;
 
-   If DirectoryExists(BufDir) then begin // если первая резервная папка не существует
-     // копирование средствами BDE
+   If DirectoryExists(BufDir) then begin //
+     // копирование не используя средства BDE  4й пар=FALSE
      CopyTable(Database1.Directory, TableTovar.TableName   , BufDir, False);
      CopyTable(Database1.Directory, TableGrup.TableName    , BufDir, False);
      CopyTable(Database1.Directory, TableEdIzmer.TableName , BufDir, False);
@@ -872,7 +874,7 @@ begin
             If (FtpFileName = sr.Name) then begin
               FileExist:=True;
               FtpFileDate:= idFTP.DirectoryListing.Items[I].ModifiedDate;  // возвращается мировое время
-              FtpFileDate:= IncHour(FtpFileDate, 3); // увеличиваем время на 3 часа,
+              FtpFileDate:= IncHour(FtpFileDate, TimeGtm); // увеличиваем время на 3 часа,
               StFtpFileDate:=DateTimeToStr(FtpFileDate);
               // FtpDate := DateTimeToFileDate(FtpFileDate);
               BaseFileDate := FileDateToDateTime(sr.Time);
@@ -960,7 +962,7 @@ begin
             If (FtpFileName = sr.Name) then begin
               FileExist:=True;
               FtpFileDate:= idFTP.DirectoryListing.Items[I].ModifiedDate;  // возвращается мировое время
-              FtpFileDate:= IncHour(FtpFileDate, 3); // увеличиваем время на 3 часа,
+              FtpFileDate:= IncHour(FtpFileDate, TimeGtm); // увеличиваем время на 3 часа,
               StFtpFileDate:=DateTimeToStr(FtpFileDate);
               // FtpDate := DateTimeToFileDate(FtpFileDate);
               BaseFileDate := FileDateToDateTime(sr.Time);

@@ -1,0 +1,13 @@
+*.exe
+*.DB
+*.zip
+*.~*
+*.dcu
+Base/
+Base Архив/
+Bde/
+bdesetup/
+BufBase/
+Tmp/
+Trade/
+Компонент/

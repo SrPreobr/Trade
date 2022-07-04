@@ -56,6 +56,7 @@ object ZhurnalForm: TZhurnalForm
             Expanded = False
             FieldName = 'Time'
             Title.Caption = #1042#1088#1077#1084#1103' '#1055#1088#1072#1074#1082#1080
+            Width = 64
             Visible = True
           end
           item
@@ -76,6 +77,7 @@ object ZhurnalForm: TZhurnalForm
             Expanded = False
             FieldName = 'DocDate'
             Title.Caption = #1044#1072#1090#1072' '#1044#1086#1082'-'#1090#1072
+            Width = 64
             Visible = True
           end
           item
@@ -176,18 +178,21 @@ object ZhurnalForm: TZhurnalForm
             Expanded = False
             FieldName = 'DateOplata'
             Title.Caption = #1044#1072#1090#1072#1054#1087#1083
+            Width = 64
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'Pr'
             Title.Caption = #1055#1088#1080#1084'.'
+            Width = 64
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'SonCod'
             Title.Caption = #1050#1086#1076#1057#1099#1085#1072
+            Width = 64
             Visible = True
           end>
       end

@@ -151,12 +151,18 @@ end;
 procedure TZhurnalForm.SetProsmotr(NKind : TNaklKind);
 begin
   RadioButtonNakl.OnClick(RadioButtonNakl);
-  If NKind =All then
+  If NKind =All then begin // меню все накладные
+    If NaklKind <> All then  begin  // но тип накладной выбирался до этого
+      ComboBoxTipDoc.ItemIndex:= ord(NaklKind) -1;
+      CheckBoxTipDoc.Checked:= True;
+    end;
+  end
   else begin
     ComboBoxTipDoc.ItemIndex:= ord(NKind) -1;
     CheckBoxTipDoc.Checked:= True;
+    NaklKind:= NKind;
   end;
-  NaklKind:= NKind;
+  
 end;
 
 procedure TZhurnalForm.SetComboBoxTipDoc;
@@ -217,9 +223,13 @@ begin
      *)
 
     // вычисление типа документа по выборке из NaklName
-    For K:=Succ(Low(NaklName)) to High(NaklName) do If NaklName[K] = ComboBoxTipDoc.Text then Kind:=Integer(K);
-    DBGrid1.DataSource.DataSet.Filter:='([Kind] = '''+IntToStr(Kind)+''')';
-    buf:='N.Kind='+ IntToStr(Kind)+' and ';
+    For K:=Succ(Low(NaklName)) to High(NaklName) do If NaklName[K] = ComboBoxTipDoc.Text then
+    begin
+      NaklNameCod:=Integer(K);
+
+    end;
+    DBGrid1.DataSource.DataSet.Filter:='([Kind] = '''+IntToStr(NaklNameCod)+''')';
+    buf:='N.Kind='+ IntToStr(NaklNameCod)+' and ';
 
   end;
   If ComboBoxTipDoc.ItemIndex>=0 then NaklKind:= TNaklKind(ComboBoxTipDoc.ItemIndex+1);

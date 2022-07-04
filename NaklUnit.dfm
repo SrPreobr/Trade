@@ -1,7 +1,7 @@
 object NaklForm: TNaklForm
-  Left = 59
+  Left = 30
   Top = 67
-  Width = 1097
+  Width = 1067
   Height = 590
   Caption = #1047#1072#1082#1091#1087#1082#1072
   Color = clBtnFace
@@ -20,7 +20,7 @@ object NaklForm: TNaklForm
   object PageControl1: TPageControl
     Left = 0
     Top = 0
-    Width = 1081
+    Width = 1051
     Height = 551
     ActivePage = TabSheet1
     Align = alClient
@@ -36,7 +36,7 @@ object NaklForm: TNaklForm
       object Splitter1: TSplitter
         Left = 0
         Top = 124
-        Width = 1073
+        Width = 1043
         Height = 4
         Cursor = crVSplit
         Align = alTop
@@ -44,7 +44,7 @@ object NaklForm: TNaklForm
       object Splitter5: TSplitter
         Left = 0
         Top = 509
-        Width = 1073
+        Width = 1043
         Height = 4
         Cursor = crVSplit
         Align = alBottom
@@ -52,7 +52,7 @@ object NaklForm: TNaklForm
       object Splitter2: TSplitter
         Left = 0
         Top = 468
-        Width = 1073
+        Width = 1043
         Height = 2
         Cursor = crVSplit
         Align = alBottom
@@ -60,12 +60,12 @@ object NaklForm: TNaklForm
       object Panel6: TPanel
         Left = 0
         Top = 0
-        Width = 1073
+        Width = 1043
         Height = 124
         Align = alTop
         TabOrder = 1
         DesignSize = (
-          1073
+          1043
           124)
         object Label3: TLabel
           Left = 65
@@ -595,12 +595,12 @@ object NaklForm: TNaklForm
       object Panel7: TPanel
         Left = 0
         Top = 470
-        Width = 1073
+        Width = 1043
         Height = 39
         Align = alBottom
         TabOrder = 2
         DesignSize = (
-          1073
+          1043
           39)
         object Label13: TLabel
           Left = 477
@@ -731,7 +731,7 @@ object NaklForm: TNaklForm
       object DBGrid1: TDBGrid
         Left = 0
         Top = 128
-        Width = 1073
+        Width = 1043
         Height = 340
         Align = alClient
         DataSource = DM.DataSourceRecNakl
@@ -767,6 +767,7 @@ object NaklForm: TNaklForm
           item
             Expanded = False
             FieldName = 'TovarCod'
+            Width = 64
             Visible = True
           end
           item
@@ -810,18 +811,21 @@ object NaklForm: TNaklForm
             Expanded = False
             FieldName = 'Kolvo'
             Title.Caption = #1050#1086#1083'-'#1074#1086
+            Width = 64
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'Zena'
             PopupMenu = PopupMenu1
+            Width = 64
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'ZenaMinusNds'
             Title.Caption = #1062#1077#1085#1072' '#1073#1077#1079' '#1053#1044#1057
+            Width = 64
             Visible = True
           end
           item
@@ -837,6 +841,7 @@ object NaklForm: TNaklForm
             FieldName = 'NDS'
             ReadOnly = True
             Title.Caption = #1074' '#1090'.'#1095'.'#1053#1044#1057
+            Width = 64
             Visible = True
           end
           item
@@ -859,7 +864,7 @@ object NaklForm: TNaklForm
       object StatusBar1: TStatusBar
         Left = 0
         Top = 513
-        Width = 1073
+        Width = 1043
         Height = 10
         Panels = <>
         SimplePanel = True

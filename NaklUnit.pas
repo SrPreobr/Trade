@@ -2064,10 +2064,18 @@ var   PosVert : Integer;
         If CheckBoxTovarNamePr.Checked then St:=St+DM.TableRecNakl.FieldByName('TovarName').AsString+#09;
         If CheckBoxFasovkaPr.Checked   then St:=St+DM.TableRecNakl.FieldByName('Fasovka').AsString+#09;
         If CheckBoxProizvPr.Checked    then St:=St+DM.TableRecNakl.FieldByName('ProizvName').AsString+#09;
+
+        If CheckBoxAgentPr.Checked     then St:=St+Format('%5s',[DM.TableRecNakl.FieldByName('AgentName').AsString])+#09;
+
+
         If CheckBoxEdIzmerPr.Checked   then St:=St+DM.TableRecNakl.FieldByName('EdIzmerName').AsString+#09;
         If CheckBoxZena0Pr.Checked     then St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Zena0').AsCurrency])+#09;
 
-        If CheckBoxKolvoPr.Checked then St:=St+FormatCurr('##0.00;; ',DM.TableRecNakl.FieldByName('Kolvo').AsCurrency)+#09;
+        If CheckBoxKolvoPr.Checked then
+          If CheckBoxDelNol.Checked then
+            St:=St+FormatCurr('##0;; ',DM.TableRecNakl.FieldByName('Kolvo').AsCurrency)+#09   //##0.00;; 
+          else
+            St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Kolvo').AsCurrency])+#09;
         {
           If CheckBoxDelNol.Checked  and (DM.TableRecNakl.FieldByName('Kolvo').AsCurrency = 0) then St:=St+''+#09
           else
@@ -2075,9 +2083,19 @@ var   PosVert : Integer;
             then St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Kolvo').AsCurrency])+#09
             else St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Kolvo').AsCurrency])+#09;
          }
-        If CheckBoxZenaPr.Checked then St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Zena').AsCurrency])+#09;
+        If CheckBoxZenaPr.Checked then
+          If CheckBoxDelNol.Checked then
+            St:=St+FormatCurr('##0.00;; ',DM.TableRecNakl.FieldByName('Zena').AsCurrency)+#09
+          else
+            St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Zena').AsCurrency])+#09;
 
-        If CheckBoxSumPr.Checked          then St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Sum').AsCurrency])+#09;
+        If CheckBoxSumPr.Checked then
+          If CheckBoxDelNol.Checked then
+            St:=St+FormatCurr('##0.00;; ',DM.TableRecNakl.FieldByName('Sum').AsCurrency)+#09
+          else
+            St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Sum').AsCurrency])+#09;
+            
+//        If CheckBoxSumPr.Checked          then St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Sum').AsCurrency])+#09;
         If CheckBoxZenaMinusNdsPr.Checked then St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('ZenaMinusNds').AsCurrency])+#09;
         If CheckBoxNDS.Checked            then St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('Nds').AsCurrency]);
         If CheckBoxPerCentPr.Checked      then St:=St+Format('%6.2f',[DM.TableRecNakl.FieldByName('PerCent').AsCurrency]);
@@ -2136,7 +2154,16 @@ begin  // ButtonPrepPrintClick
                     'Заменить его новым ?',
                      mtConfirmation		, [mbYes, mbNo], 0) = mrYes) then PrToFile;
 
-    if CheckBoxOneFile.Checked then PrToFile;
+    if CheckBoxOneFile.Checked and  // добавлять накладную в  файл
+     (MessageDlg('Распечатать накладную № '+IntToStr(SpinEditN.Value)+#10#13+
+                    'в файл '+FileName+'?',
+                     mtConfirmation		, [mbYes, mbNo], 0) = mrYes) then
+      If Not FileExists(FileName) then PrToFile
+      else If  (MessageDlg('Файл '+FileName+' уже существует!'+#10#13+
+                    'Накладная будет добавлена в файл ?',
+                     mtConfirmation		, [mbYes, mbNo], 0) = mrYes) then PrToFile;
+
+
   end;  {печать в файл}
 
   If Not MainForm.PrintToFile.Checked  then

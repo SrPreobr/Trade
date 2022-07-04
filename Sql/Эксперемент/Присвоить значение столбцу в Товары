@@ -1,0 +1,14 @@
+/*
+Alias: WORK
+LiveAnswer: FALSE
+
+*/
+
+UPDATE Tovar
+SET RecomPr =27;
+
+
+                               
+                                        
+
+
