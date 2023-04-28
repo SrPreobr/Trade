@@ -99,6 +99,7 @@ end;
 
 procedure TSpravForm.FormActivate(Sender: TObject);
 begin
+  
   If obj='GrupSprav'    then CheckBoxActiv.Checked := GrupActivOnly;
   If obj='PokupSprav'   then CheckBoxActiv.Checked := PokupActivOnly;
   If obj='PostavSprav'  then CheckBoxActiv.Checked := PostavActivOnly;

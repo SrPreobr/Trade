@@ -874,7 +874,7 @@ begin
             If (FtpFileName = sr.Name) then begin
               FileExist:=True;
               FtpFileDate:= idFTP.DirectoryListing.Items[I].ModifiedDate;  // возвращается мировое время
-              FtpFileDate:= IncHour(FtpFileDate, TimeGtm); // увеличиваем время на 3 часа,
+              FtpFileDate:= IncHour(FtpFileDate, TimeGtm); // увеличиваем время на 3 часа, приводим к времени компа
               StFtpFileDate:=DateTimeToStr(FtpFileDate);
               // FtpDate := DateTimeToFileDate(FtpFileDate);
               BaseFileDate := FileDateToDateTime(sr.Time);

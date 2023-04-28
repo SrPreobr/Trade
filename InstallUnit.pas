@@ -31,10 +31,11 @@ const
       BaseRezDir           : String ='\Base\Buf\';
       BaseRezDir1          : String ='\Base\Buf\';
 
-      FtpUsername          : String= 'u0662823';
-      FtpPassword          : String= 'IT!0ugGo';  //
+      FtpUsername          : String= 'u0662823'; //  'u0662823_u066282'
+      FtpPassword          : String= '4HRcl3OKu02ff8oM';  //
       FtpHost              : String= '31.31.196.247';    //   ip_ftp_servera
       BackToFtp            : Boolean= True;
+      TimeGtm              : Integer= 2; // + к гринвичу чтоб получить местное время (Израиль=+2), устанавливается в LoadIni
 
 
       NDS                  : Integer=18;
@@ -317,12 +318,17 @@ procedure TInstallForm.LoadIni;
 var Ind : Integer;
     Metka, Mes : String;
     SumAllIni, SumAll0Ini, PerCentIni : Currency;
-
+    TimeZoneInfo : TTimeZoneInformation;
+    r : Word;
 begin
- IniName       := '.\'+ExtractFileName( ChangeFileExt(Application.ExeName,'.ini') );
+    r := GetTimeZoneInformation(TimeZoneInfo);
+
+    if r>0 then TimeGtm := - TimeZoneInfo.Bias div 60;
+
+  IniName       := '.\'+ExtractFileName( ChangeFileExt(Application.ExeName,'.ini') );
 // IniName:= DM.DataBase1.Directory+ExtractFileName( ChangeFileExt(Application.ExeName,'.ini') );
 
- If FileExists(IniName) then
+  If FileExists(IniName) then
    try
     IniFile:= TIniFile.Create(IniName);
     Metka:=IniFile.ReadString('MetkaIni','Metka',Metka);
