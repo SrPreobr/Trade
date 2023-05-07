@@ -1,6 +1,6 @@
 
  Start         Length     Name                   Class
- 0001:00000000 00115514H .text                   CODE
+ 0001:00000000 001154ACH .text                   CODE
  0002:00000000 00003574H .data                   DATA
  0002:00003574 00001575H .bss                    BSS
 
@@ -127,13 +127,13 @@ Detailed map of segments
  0001:000E3FAC 00001174 C=CODE     S=.text    G=(none)   M=SqlUnit  ACBP=A9
  0001:000E5120 00008D4C C=CODE     S=.text    G=(none)   M=BalansUnit ACBP=A9
  0001:000EDE6C 000035FC C=CODE     S=.text    G=(none)   M=SaldoUnit ACBP=A9
- 0001:000F1468 0000842C C=CODE     S=.text    G=(none)   M=TovarUnit ACBP=A9
- 0001:000F9894 00000EC8 C=CODE     S=.text    G=(none)   M=SpravUnit ACBP=A9
- 0001:000FA75C 000068C0 C=CODE     S=.text    G=(none)   M=DMUnit   ACBP=A9
- 0001:0010101C 00010CF4 C=CODE     S=.text    G=(none)   M=NaklUnit ACBP=A9
- 0001:00111D10 00001194 C=CODE     S=.text    G=(none)   M=InstallUnit ACBP=A9
- 0001:00112EA4 00002084 C=CODE     S=.text    G=(none)   M=MainUnit ACBP=A9
- 0001:00114F28 000005EC C=CODE     S=.text    G=(none)   M=Trade    ACBP=A9
+ 0001:000F1468 000082D8 C=CODE     S=.text    G=(none)   M=TovarUnit ACBP=A9
+ 0001:000F9740 00000EC8 C=CODE     S=.text    G=(none)   M=SpravUnit ACBP=A9
+ 0001:000FA608 000069AC C=CODE     S=.text    G=(none)   M=DMUnit   ACBP=A9
+ 0001:00100FB4 00010CF4 C=CODE     S=.text    G=(none)   M=NaklUnit ACBP=A9
+ 0001:00111CA8 00001194 C=CODE     S=.text    G=(none)   M=InstallUnit ACBP=A9
+ 0001:00112E3C 00002084 C=CODE     S=.text    G=(none)   M=MainUnit ACBP=A9
+ 0001:00114EC0 000005EC C=CODE     S=.text    G=(none)   M=Trade    ACBP=A9
  0002:00000000 000000A0 C=DATA     S=.data    G=DGROUP   M=System   ACBP=A9
  0002:000000A0 00000020 C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
  0002:000000C0 00000274 C=DATA     S=.data    G=DGROUP   M=SysUtils ACBP=A9
@@ -1485,7 +1485,7 @@ Detailed map of segments
  0001:00035274       Dlgs
  0001:000C1F10       DLLDetachCallBack
  0002:00004FB0       DM
- 0001:00101010       DMUnit
+ 0001:00100FA8       DMUnit
  0001:0007C0C0       DoAlign
  0001:000609E4       DoAlign
  0001:000991F0       DoBindFields
@@ -1735,9 +1735,9 @@ Detailed map of segments
  0001:00035244       Finalization
  0001:0003520C       Finalization
  0001:00041988       Finalization
- 0001:00100FE0       Finalization
- 0001:000FA724       Finalization
- 0001:000F985C       Finalization
+ 0001:00100F78       Finalization
+ 0001:000FA5D0       Finalization
+ 0001:000F9708       Finalization
  0001:000351BC       Finalization
  0001:0009C31C       Finalization
  0001:00041920       Finalization
@@ -1835,7 +1835,7 @@ Detailed map of segments
  0001:00034644       Finalization
  0001:0000F384       Finalization
  0001:00086A78       Finalization
- 0001:00111CD8       Finalization
+ 0001:00111C70       Finalization
  0001:00072C0C       Finalization
  0001:000316A8       Finalization
  0001:00034498       Finalization
@@ -1845,11 +1845,11 @@ Detailed map of segments
  0001:00085998       Finalization
  0001:00041A9C       Finalization
  0001:00037E64       Finalization
- 0001:00112DA4       Finalization
+ 0001:00112D3C       Finalization
  0001:00080E9C       Finalization
- 0001:00114EEC       Finalization
+ 0001:00114E84       Finalization
  0001:000313F0       Finalization
- 0001:00114F28       Finalization
+ 0001:00114EC0       Finalization
  0001:000CEAF4       Finalization
  0001:0007FF48       Finalization
  0001:000D07C8       Finalization
@@ -2474,7 +2474,7 @@ Detailed map of segments
  0001:00006990       InsertMenu
  0001:00006998       InsertMenuItem
  0002:00005008       InstallForm
- 0001:00112E9C       InstallUnit
+ 0001:00112E34       InstallUnit
  0002:00004888       InstBlockList
  0002:0000488C       InstFreeList
  0001:00015F00       Int64Compare
@@ -2651,7 +2651,7 @@ Detailed map of segments
  0002:0000556C       MainForm
  0002:00004030       MainInstance
  0002:00004034       MainThreadID
- 0001:00114F1C       MainUnit
+ 0001:00114EB4       MainUnit
  0001:000004CC       MakeEmpty
  0001:00003694       MakeErrorMessage
  0002:00001118       MakeLast
@@ -2746,7 +2746,7 @@ Detailed map of segments
  0002:00004FB8       NaklFormAr
  0002:00002B14       NaklName
  0002:00002AB4       NaklPrintPath
- 0001:00111D08       NaklUnit
+ 0001:00111CA0       NaklUnit
  0001:00096768       NameDelimiter
  0001:000C213C       NativeToAnsi
  0001:000C21E8       NativeToAnsiBuf
@@ -2962,7 +2962,7 @@ Detailed map of segments
  0001:000224C8       PropPathError
  0002:00001274       Props
  0001:00021254       PropValueError
- 0001:0010B268       PrToFile
+ 0001:0010B200       PrToFile
  0001:000F0838       PrToFile
  0001:000EC424       PrToFile
  0001:000A67D0       PtInRect
@@ -3154,7 +3154,7 @@ Detailed map of segments
  0001:00006B18       SetClipboardData
  0001:00044F54       SetComCtlStyle
  0001:00021BEC       SetCompName
- 0001:001060B0       SetControl
+ 0001:00106048       SetControl
  0001:00006B20       SetCursor
  0001:0009F570       SetCursorType
  0001:000065F0       SetDIBColorTable
@@ -3291,7 +3291,7 @@ Detailed map of segments
  0001:000C1678       Split
  0001:000DA42C       SplitColumns
  0002:00004FA8       SpravForm
- 0001:000FA754       SpravUnit
+ 0001:000FA600       SpravUnit
  0002:00002414       SQLDelay
  0002:00004F88       SqlForm
  0001:00080D08       SQLTimeStampToDateTime
@@ -5898,53 +5898,53 @@ Detailed map of segments
  0001:0008D124       TDefCollection.Update
  0001:0008D15C       TDefCollection.UpdateDefs
  0001:00095C18       TDetailDataLink.GetDetailDataSet
- 0001:00100C24       TDM.Bde_PackTable
- 0001:000FE848       TDM.CopyFromFtp
- 0001:000FD534       TDM.CopyTable
- 0001:000FE2B0       TDM.CopyToFtp
- 0001:001002EC       TDM.DataModuleCreate
- 0001:000FDBB4       TDM.DataModuleDestroy
- 0001:000FCAF8       TDM.DataSetToText
- 0001:000FCE2C       TDM.FormSqlCreateTable
- 0001:00100EDC       TDM.Table1AfterPost
- 0001:000FD4A8       TDM.TableActivGetText
- 0001:00100B6C       TDM.TableAgentNewRecord
- 0001:00100E88       TDM.TableEdIzmerAfterPost
- 0001:00100E6C       TDM.TableGrupAfterPost
- 0001:00100FA0       TDM.TableKursAfterPost
- 0001:00100E34       TDM.TableNaklAfterPost
- 0001:00100998       TDM.TableNaklCalcFields
- 0001:00100F84       TDM.TableParentAfterPost
- 0001:00100F68       TDM.TablePereOzenkaAfterPost
- 0001:00100FBC       TDM.TablePriceAfterPost
- 0001:00100EA4       TDM.TableProizvAfterPost
- 0001:000FFDBC       TDM.TableRecNaklAfterDelete
- 0001:000FF5D4       TDM.TableRecNaklAfterPost
- 0001:000FFFA0       TDM.TableRecNaklBeforeDelete
- 0001:000FFA4C       TDM.TableRecNaklBeforeInsert
- 0001:00100B24       TDM.TableRecNaklBeforePost
- 0001:000FEE30       TDM.TableRecNaklCalcFields
- 0001:000FFD00       TDM.TableRecNaklNewRecord
- 0001:000FF59C       TDM.TableRecNaklTovarCodValidate
- 0001:000FF668       TDM.TableRecNaklZenaSetText
- 0001:00100EF8       TDM.TableSkladAfterPost
- 0001:00100F14       TDM.TableSotrudnAfterPost
- 0001:000FF4B0       TDM.TableSotrudnCalcFields
- 0001:000FF65C       TDM.TableTovarAfterOpen
- 0001:00100E50       TDM.TableTovarAfterPost
- 0001:000FF76C       TDM.TableTovarBeforeInsert
- 0001:001009C8       TDM.TableTovarCalcFields
- 0001:00100B68       TDM.TableTovarFilterRecord
- 0001:000FF89C       TDM.TableTovarNewRecord
- 0001:00100FD8       TDM.TableTovarUpdateRecord
- 0001:00100254       TDM.TableTovarZenaRoznChange
- 0001:001000E0       TDM.TableTovarZenaZakupkaChange
- 0001:00100080       TDM.TableTovarZenaZakupkaSetText
- 0001:00100F30       TDM.TableUnitAfterPost
- 0001:00100F4C       TDM.TableValutaAfterPost
- 0001:00100EC0       TDM.TableZhurnalAfterPost
- 0001:00100968       TDM.TableZhurnalCalcFields
- 0001:000FD218       TDM.TextToDataSet
+ 0001:00100BBC       TDM.Bde_PackTable
+ 0001:000FE6F4       TDM.CopyFromFtp
+ 0001:000FD3E0       TDM.CopyTable
+ 0001:000FE15C       TDM.CopyToFtp
+ 0001:00100198       TDM.DataModuleCreate
+ 0001:000FDA60       TDM.DataModuleDestroy
+ 0001:000FC9A4       TDM.DataSetToText
+ 0001:000FCCD8       TDM.FormSqlCreateTable
+ 0001:00100E74       TDM.Table1AfterPost
+ 0001:000FD354       TDM.TableActivGetText
+ 0001:00100B04       TDM.TableAgentNewRecord
+ 0001:00100E20       TDM.TableEdIzmerAfterPost
+ 0001:00100E04       TDM.TableGrupAfterPost
+ 0001:00100F38       TDM.TableKursAfterPost
+ 0001:00100DCC       TDM.TableNaklAfterPost
+ 0001:00100844       TDM.TableNaklCalcFields
+ 0001:00100F1C       TDM.TableParentAfterPost
+ 0001:00100F00       TDM.TablePereOzenkaAfterPost
+ 0001:00100F54       TDM.TablePriceAfterPost
+ 0001:00100E3C       TDM.TableProizvAfterPost
+ 0001:000FFC68       TDM.TableRecNaklAfterDelete
+ 0001:000FF480       TDM.TableRecNaklAfterPost
+ 0001:000FFE4C       TDM.TableRecNaklBeforeDelete
+ 0001:000FF8F8       TDM.TableRecNaklBeforeInsert
+ 0001:001009D0       TDM.TableRecNaklBeforePost
+ 0001:000FECDC       TDM.TableRecNaklCalcFields
+ 0001:000FFBAC       TDM.TableRecNaklNewRecord
+ 0001:000FF448       TDM.TableRecNaklTovarCodValidate
+ 0001:000FF514       TDM.TableRecNaklZenaSetText
+ 0001:00100E90       TDM.TableSkladAfterPost
+ 0001:00100EAC       TDM.TableSotrudnAfterPost
+ 0001:000FF35C       TDM.TableSotrudnCalcFields
+ 0001:000FF508       TDM.TableTovarAfterOpen
+ 0001:00100DE8       TDM.TableTovarAfterPost
+ 0001:000FF618       TDM.TableTovarBeforeInsert
+ 0001:00100874       TDM.TableTovarCalcFields
+ 0001:00100A14       TDM.TableTovarFilterRecord
+ 0001:000FF748       TDM.TableTovarNewRecord
+ 0001:00100F70       TDM.TableTovarUpdateRecord
+ 0001:00100100       TDM.TableTovarZenaRoznChange
+ 0001:000FFF8C       TDM.TableTovarZenaZakupkaChange
+ 0001:000FFF2C       TDM.TableTovarZenaZakupkaSetText
+ 0001:00100EC8       TDM.TableUnitAfterPost
+ 0001:00100EE4       TDM.TableValutaAfterPost
+ 0001:00100E58       TDM.TableZhurnalAfterPost
+ 0001:00100814       TDM.TableZhurnalCalcFields
+ 0001:000FD0C4       TDM.TextToDataSet
  0001:00066C4C       TDockTree.AdjustDockRect
  0001:00066C60       TDockTree.BeginUpdate
  0001:0006891C       TDockTree.ControlVisibilityChanged
@@ -6817,10 +6817,10 @@ Detailed map of segments
  0001:000ADE04       TInplaceEditList.WMPaint
  0001:000ADE0C       TInplaceEditList.WMSetCursor
  0001:000ADE70       TInplaceEditList.WndProc
- 0001:00112614       TInstallForm.FormCreate
- 0001:001120E0       TInstallForm.FormKindToNaklKind
- 0001:00112728       TInstallForm.LoadIni
- 0001:001120F8       TInstallForm.PodborerChange
+ 0001:001125AC       TInstallForm.FormCreate
+ 0001:00112078       TInstallForm.FormKindToNaklKind
+ 0001:001126C0       TInstallForm.LoadIni
+ 0001:00112090       TInstallForm.PodborerChange
  0001:0001D184       TIntConst.Create
  0001:00090B08       TIntegerField.CheckRange
  0001:00090A80       TIntegerField.Create
@@ -6923,31 +6923,31 @@ Detailed map of segments
  0002:000000A0       TlsIndex
  0002:FFAE9010       TlsLast
  0001:00005E14       TlsSetValue
- 0001:00114B80       TMainForm.AdjustResolution
- 0001:00114C74       TMainForm.CopyBaseFromFtpClick
- 0001:00114DC0       TMainForm.CopyBaseToFtpClick
- 0001:00113798       TMainForm.ExitFileClick
- 0001:00114544       TMainForm.FormActivate
- 0001:00114314       TMainForm.FormClose
- 0001:00114C68       TMainForm.FormCreate
- 0001:0011413C       TMainForm.N8Click
- 0001:001137E0       TMainForm.NewNaklDeystClick
- 0001:00114808       TMainForm.PasswordEnter
- 0001:00114984       TMainForm.PasswordKeyDown
- 0001:00113B94       TMainForm.PrintSetupClick
- 0001:00113BA4       TMainForm.PrintToFileClick
- 0001:00114998       TMainForm.SaldoZakupMenuClick
- 0001:00114550       TMainForm.SetDostup
- 0001:00114178       TMainForm.SpravClick
- 0001:00114100       TMainForm.SQLMenuClick
- 0001:00113BC0       TMainForm.TableToTextClick
- 0001:00113E38       TMainForm.TextToTableClick
- 0001:00114E8C       TMainForm.Timer1Timer
- 0001:001137A4       TMainForm.TovarMenuClick
- 0001:001149D4       TMainForm.WindowScale
- 0001:00114B08       TMainForm.WindowScaleDownItemClick
- 0001:00114A90       TMainForm.WindowScaleUpItemClick
- 0001:00113ACC       TMainForm.ZhurnalClick
+ 0001:00114B18       TMainForm.AdjustResolution
+ 0001:00114C0C       TMainForm.CopyBaseFromFtpClick
+ 0001:00114D58       TMainForm.CopyBaseToFtpClick
+ 0001:00113730       TMainForm.ExitFileClick
+ 0001:001144DC       TMainForm.FormActivate
+ 0001:001142AC       TMainForm.FormClose
+ 0001:00114C00       TMainForm.FormCreate
+ 0001:001140D4       TMainForm.N8Click
+ 0001:00113778       TMainForm.NewNaklDeystClick
+ 0001:001147A0       TMainForm.PasswordEnter
+ 0001:0011491C       TMainForm.PasswordKeyDown
+ 0001:00113B2C       TMainForm.PrintSetupClick
+ 0001:00113B3C       TMainForm.PrintToFileClick
+ 0001:00114930       TMainForm.SaldoZakupMenuClick
+ 0001:001144E8       TMainForm.SetDostup
+ 0001:00114110       TMainForm.SpravClick
+ 0001:00114098       TMainForm.SQLMenuClick
+ 0001:00113B58       TMainForm.TableToTextClick
+ 0001:00113DD0       TMainForm.TextToTableClick
+ 0001:00114E24       TMainForm.Timer1Timer
+ 0001:0011373C       TMainForm.TovarMenuClick
+ 0001:0011496C       TMainForm.WindowScale
+ 0001:00114AA0       TMainForm.WindowScaleDownItemClick
+ 0001:00114A28       TMainForm.WindowScaleUpItemClick
+ 0001:00113A64       TMainForm.ZhurnalClick
  0001:000720FC       TMainMenu.GetHandle
  0001:000720D0       TMainMenu.ItemChanged
  0001:00072040       TMainMenu.MenuChanged
@@ -7177,79 +7177,79 @@ Detailed map of segments
  0001:0000E388       TMultiReadExclusiveWriteSynchronizer.UnblockReaders
  0001:0000E3A0       TMultiReadExclusiveWriteSynchronizer.WaitForReadSignal
  0001:0000E3B0       TMultiReadExclusiveWriteSynchronizer.WaitForWriteSignal
- 0001:0010F3F0       TNaklForm.BitBtnParentDelClick
- 0001:0010FA98       TNaklForm.Button1Click
- 0001:00106090       TNaklForm.ButtonCancelClick
- 0001:00102F5C       TNaklForm.ButtonCloseClick
- 0001:0010E014       TNaklForm.ButtonDelAllClick
- 0001:0011071C       TNaklForm.ButtonDopOstatokClick
- 0001:0010E1C4       TNaklForm.ButtonFromParentClick
- 0001:0010DE58       TNaklForm.ButtonFromTovarClick
- 0001:00109FB0       TNaklForm.ButtonNClick
- 0001:0010DE38       TNaklForm.ButtonNewNClick
- 0001:00110980       TNaklForm.ButtonNo0Click
- 0001:0010DC04       TNaklForm.ButtonParentClick
- 0001:0010CEF4       TNaklForm.ButtonPereSchetZenaClick
- 0001:0010C43C       TNaklForm.ButtonPrepPrintClick
- 0001:0010F858       TNaklForm.ButtonSaveSqlClick
- 0001:0010E0E8       TNaklForm.ButtonSetAllZensClick
- 0001:00110DD8       TNaklForm.ButtonSortClick
- 0001:00111738       TNaklForm.CalcRasbor
- 0001:0011197C       TNaklForm.CalcSetRes
- 0001:0010D638       TNaklForm.CheckBoxColumnClick
- 0001:00108ED4       TNaklForm.CheckBoxNDSClick
- 0001:00111BE8       TNaklForm.CheckBoxOplataSrazuClick
- 0001:0010FB14       TNaklForm.CheckBoxPreSumClick
- 0001:0010DC00       TNaklForm.CheckBoxRecFromParentClick
- 0001:0010F338       TNaklForm.CheckBoxZakupkaClick
- 0001:001098BC       TNaklForm.ComboBoxParentAdd
- 0001:0010F680       TNaklForm.ComboBoxParentChange
- 0001:00109708       TNaklForm.ComboBoxParentItemsSet
- 0001:00108FC8       TNaklForm.ComboBoxPodborChange
- 0001:00102F08       TNaklForm.DateTimePickerDateOplataPolnayChange
- 0001:0010FCB8       TNaklForm.DBGrid1CellClick
- 0001:0010FFCC       TNaklForm.DBGrid1ColEnter
- 0001:00109F2C       TNaklForm.DBGrid1ColExit
- 0001:0010A18C       TNaklForm.DBGrid1DrawColumnCell
- 0001:001090D4       TNaklForm.DBGrid1EditButtonClick
- 0001:001111CC       TNaklForm.DBGrid1KeyDown
- 0001:00111354       TNaklForm.DBGrid1KeyPress
- 0001:0010D2B8       TNaklForm.DBLookupComboBoxAgentFromClick
- 0001:0010F0A8       TNaklForm.DBLookupComboBoxAgentFromDropDown
- 0001:0010D4B0       TNaklForm.DBLookupComboBoxAgentToClick
- 0001:0010F1F4       TNaklForm.DBLookupComboBoxAgentToDropDown
- 0001:0010AD88       TNaklForm.DBLookupComboBoxSkladDropDown
- 0001:0010D488       TNaklForm.DBLookupComboBoxSkladFromClick
- 0001:0010D624       TNaklForm.DBLookupComboBoxSkladToClick
- 0001:0010AFF8       TNaklForm.DBLookupComboBoxSotrudnDropDown
- 0001:0010D49C       TNaklForm.DBLookupComboBoxSotrudnFromClick
- 0001:0010AB10       TNaklForm.DBLookupComboBoxUnitDropDown
- 0001:0010D334       TNaklForm.DBLookupComboBoxUnitFromClick
- 0001:0010D4C4       TNaklForm.DBLookupComboBoxUnitToClick
- 0001:00111A14       TNaklForm.EditCalcExit
- 0001:00111A98       TNaklForm.EditCalcKeyDown
- 0001:00110FEC       TNaklForm.EditPrihodTovarLocateChange
- 0001:00102F68       TNaklForm.FilterChange
- 0001:00109124       TNaklForm.FormActivate
- 0001:00102BB8       TNaklForm.FormClose
- 0001:0010CEAC       TNaklForm.FormCreate
- 0001:0010A930       TNaklForm.FormDeactivate
- 0001:0010DC58       TNaklForm.GetNewN
- 0001:00111C6C       TNaklForm.MaskEditOplataSumExit
- 0001:00103200       TNaklForm.NaklModified
- 0001:00110248       TNaklForm.PopUpClick
- 0001:0010F8F4       TNaklForm.RadioButtonCheckClick
- 0001:001101E4       TNaklForm.RadioButtonSortNClick
- 0001:00103AB8       TNaklForm.Save
- 0001:00111ACC       TNaklForm.ScWindowScale
- 0001:00107850       TNaklForm.SetNakl
- 0001:0010F09C       TNaklForm.Showing
- 0001:00102EC0       TNaklForm.SpinEditCreditChange
- 0001:0010D278       TNaklForm.SpinEditNDbClick
- 0001:00109F58       TNaklForm.SpinEditPercentChange
- 0001:0010FA8C       TNaklForm.TabSheet3Show
- 0001:00108980       TNaklForm.ZakupkaSumSet
- 0001:00108028       TNaklForm.ZenaRecNaklSet
+ 0001:0010F388       TNaklForm.BitBtnParentDelClick
+ 0001:0010FA30       TNaklForm.Button1Click
+ 0001:00106028       TNaklForm.ButtonCancelClick
+ 0001:00102EF4       TNaklForm.ButtonCloseClick
+ 0001:0010DFAC       TNaklForm.ButtonDelAllClick
+ 0001:001106B4       TNaklForm.ButtonDopOstatokClick
+ 0001:0010E15C       TNaklForm.ButtonFromParentClick
+ 0001:0010DDF0       TNaklForm.ButtonFromTovarClick
+ 0001:00109F48       TNaklForm.ButtonNClick
+ 0001:0010DDD0       TNaklForm.ButtonNewNClick
+ 0001:00110918       TNaklForm.ButtonNo0Click
+ 0001:0010DB9C       TNaklForm.ButtonParentClick
+ 0001:0010CE8C       TNaklForm.ButtonPereSchetZenaClick
+ 0001:0010C3D4       TNaklForm.ButtonPrepPrintClick
+ 0001:0010F7F0       TNaklForm.ButtonSaveSqlClick
+ 0001:0010E080       TNaklForm.ButtonSetAllZensClick
+ 0001:00110D70       TNaklForm.ButtonSortClick
+ 0001:001116D0       TNaklForm.CalcRasbor
+ 0001:00111914       TNaklForm.CalcSetRes
+ 0001:0010D5D0       TNaklForm.CheckBoxColumnClick
+ 0001:00108E6C       TNaklForm.CheckBoxNDSClick
+ 0001:00111B80       TNaklForm.CheckBoxOplataSrazuClick
+ 0001:0010FAAC       TNaklForm.CheckBoxPreSumClick
+ 0001:0010DB98       TNaklForm.CheckBoxRecFromParentClick
+ 0001:0010F2D0       TNaklForm.CheckBoxZakupkaClick
+ 0001:00109854       TNaklForm.ComboBoxParentAdd
+ 0001:0010F618       TNaklForm.ComboBoxParentChange
+ 0001:001096A0       TNaklForm.ComboBoxParentItemsSet
+ 0001:00108F60       TNaklForm.ComboBoxPodborChange
+ 0001:00102EA0       TNaklForm.DateTimePickerDateOplataPolnayChange
+ 0001:0010FC50       TNaklForm.DBGrid1CellClick
+ 0001:0010FF64       TNaklForm.DBGrid1ColEnter
+ 0001:00109EC4       TNaklForm.DBGrid1ColExit
+ 0001:0010A124       TNaklForm.DBGrid1DrawColumnCell
+ 0001:0010906C       TNaklForm.DBGrid1EditButtonClick
+ 0001:00111164       TNaklForm.DBGrid1KeyDown
+ 0001:001112EC       TNaklForm.DBGrid1KeyPress
+ 0001:0010D250       TNaklForm.DBLookupComboBoxAgentFromClick
+ 0001:0010F040       TNaklForm.DBLookupComboBoxAgentFromDropDown
+ 0001:0010D448       TNaklForm.DBLookupComboBoxAgentToClick
+ 0001:0010F18C       TNaklForm.DBLookupComboBoxAgentToDropDown
+ 0001:0010AD20       TNaklForm.DBLookupComboBoxSkladDropDown
+ 0001:0010D420       TNaklForm.DBLookupComboBoxSkladFromClick
+ 0001:0010D5BC       TNaklForm.DBLookupComboBoxSkladToClick
+ 0001:0010AF90       TNaklForm.DBLookupComboBoxSotrudnDropDown
+ 0001:0010D434       TNaklForm.DBLookupComboBoxSotrudnFromClick
+ 0001:0010AAA8       TNaklForm.DBLookupComboBoxUnitDropDown
+ 0001:0010D2CC       TNaklForm.DBLookupComboBoxUnitFromClick
+ 0001:0010D45C       TNaklForm.DBLookupComboBoxUnitToClick
+ 0001:001119AC       TNaklForm.EditCalcExit
+ 0001:00111A30       TNaklForm.EditCalcKeyDown
+ 0001:00110F84       TNaklForm.EditPrihodTovarLocateChange
+ 0001:00102F00       TNaklForm.FilterChange
+ 0001:001090BC       TNaklForm.FormActivate
+ 0001:00102B50       TNaklForm.FormClose
+ 0001:0010CE44       TNaklForm.FormCreate
+ 0001:0010A8C8       TNaklForm.FormDeactivate
+ 0001:0010DBF0       TNaklForm.GetNewN
+ 0001:00111C04       TNaklForm.MaskEditOplataSumExit
+ 0001:00103198       TNaklForm.NaklModified
+ 0001:001101E0       TNaklForm.PopUpClick
+ 0001:0010F88C       TNaklForm.RadioButtonCheckClick
+ 0001:0011017C       TNaklForm.RadioButtonSortNClick
+ 0001:00103A50       TNaklForm.Save
+ 0001:00111A64       TNaklForm.ScWindowScale
+ 0001:001077E8       TNaklForm.SetNakl
+ 0001:0010F034       TNaklForm.Showing
+ 0001:00102E58       TNaklForm.SpinEditCreditChange
+ 0001:0010D210       TNaklForm.SpinEditNDbClick
+ 0001:00109EF0       TNaklForm.SpinEditPercentChange
+ 0001:0010FA24       TNaklForm.TabSheet3Show
+ 0001:00108918       TNaklForm.ZakupkaSumSet
+ 0001:00107FC0       TNaklForm.ZenaRecNaklSet
  0001:0008CF00       TNamedItem.GetDisplayName
  0001:0008CF14       TNamedItem.SetDisplayName
  0001:000A2C88       TNavButton.Destroy
@@ -7361,7 +7361,7 @@ Detailed map of segments
  0001:0003167C       TOrderedList.PopItem
  0001:000315E4       TOrderedList.Push
  0002:00004FA0       TovarForm
- 0001:000F988C       TovarUnit
+ 0001:000F9738       TovarUnit
  0001:0001EA44       TOwnedCollection.Create
  0001:0001EA88       TOwnedCollection.GetOwner
  0001:00046A44       TPageControl.CanShowTab
@@ -7620,7 +7620,7 @@ Detailed map of segments
  0001:000CD5D8       TQueryDataLink.GetDetailDataSet
  0001:000CD5DC       TQueryDataLink.RecordChanged
  0001:00006BD8       TrackPopupMenu
- 0001:00115350       Trade
+ 0001:001152E8       Trade
  0001:00055274       TRadioButton.CMCtl3DChanged
  0001:0005527C       TRadioButton.CMDialogChar
  0001:00055300       TRadioButton.CNCommand
@@ -8017,14 +8017,14 @@ Detailed map of segments
  0001:0003C528       TSplitter.StopSizing
  0001:0003C174       TSplitter.UpdateControlSize
  0001:0003C3CC       TSplitter.UpdateSize
- 0001:000FA37C       TSpravForm.DBGrid1DblClick
- 0001:000F9C40       TSpravForm.FilterChange
- 0001:000FA0B4       TSpravForm.FormActivate
- 0001:000F9B18       TSpravForm.FormClose
- 0001:000F9BAC       TSpravForm.FormCreate
- 0001:000FA358       TSpravForm.FormDeactivate
- 0001:000FA608       TSpravForm.ScWindowScale
- 0001:000F9C34       TSpravForm.Showing
+ 0001:000FA228       TSpravForm.DBGrid1DblClick
+ 0001:000F9AEC       TSpravForm.FilterChange
+ 0001:000F9F60       TSpravForm.FormActivate
+ 0001:000F99C4       TSpravForm.FormClose
+ 0001:000F9A58       TSpravForm.FormCreate
+ 0001:000FA204       TSpravForm.FormDeactivate
+ 0001:000FA4B4       TSpravForm.ScWindowScale
+ 0001:000F9AE0       TSpravForm.Showing
  0001:000E487C       TSqlForm.CloseMenuClick
  0001:000E4B3C       TSqlForm.ExitMenuClick
  0001:000E4C0C       TSqlForm.FormClose
@@ -8382,36 +8382,36 @@ Detailed map of segments
  0001:000D06AC       TTimerSpeedButton.MouseUp
  0001:000D0760       TTimerSpeedButton.Paint
  0001:000D06E0       TTimerSpeedButton.TimerExpired
- 0001:000F3CF0       TTovarForm.Button1Click
- 0001:000F6AAC       TTovarForm.Button2Click
- 0001:000F6FF8       TTovarForm.Button4Click
- 0001:000F7880       TTovarForm.ButtonActivRoznClick
- 0001:000F7B98       TTovarForm.ButtonBaseRubClick
+ 0001:000F3B9C       TTovarForm.Button1Click
+ 0001:000F6958       TTovarForm.Button2Click
+ 0001:000F6EA4       TTovarForm.Button4Click
+ 0001:000F772C       TTovarForm.ButtonActivRoznClick
+ 0001:000F7A44       TTovarForm.ButtonBaseRubClick
  0001:000F2234       TTovarForm.ButtonCloseClick
- 0001:000F7F18       TTovarForm.ButtonExcelSaveClick
- 0001:000F7A70       TTovarForm.ButtonKursRubClick
- 0001:000F7320       TTovarForm.ButtonMySqlClick
- 0001:000F44A8       TTovarForm.ButtonPrepPrintClick
- 0001:000F96A0       TTovarForm.ButtonTovarMaxDateClick
- 0001:000F5E28       TTovarForm.CheckBoxColumnClick
- 0001:000F7ED0       TTovarForm.CheckExcelInstall
- 0001:000F3DB0       TTovarForm.ComboBoxPodborChange
- 0001:000F3BD4       TTovarForm.DBGrid1CellClick
- 0001:000F6D68       TTovarForm.DBGrid1DblClick
- 0001:000F4050       TTovarForm.DBGrid1DrawColumnCell
- 0001:000F6B6C       TTovarForm.DBGrid1KeyDown
- 0001:000F6C5C       TTovarForm.DBGrid1KeyPress
- 0001:000F3F1C       TTovarForm.EditLocateChange
+ 0001:000F7DC4       TTovarForm.ButtonExcelSaveClick
+ 0001:000F791C       TTovarForm.ButtonKursRubClick
+ 0001:000F71CC       TTovarForm.ButtonMySqlClick
+ 0001:000F4354       TTovarForm.ButtonPrepPrintClick
+ 0001:000F954C       TTovarForm.ButtonTovarMaxDateClick
+ 0001:000F5CD4       TTovarForm.CheckBoxColumnClick
+ 0001:000F7D7C       TTovarForm.CheckExcelInstall
+ 0001:000F3C5C       TTovarForm.ComboBoxPodborChange
+ 0001:000F3A80       TTovarForm.DBGrid1CellClick
+ 0001:000F6C14       TTovarForm.DBGrid1DblClick
+ 0001:000F3EFC       TTovarForm.DBGrid1DrawColumnCell
+ 0001:000F6A18       TTovarForm.DBGrid1KeyDown
+ 0001:000F6B08       TTovarForm.DBGrid1KeyPress
+ 0001:000F3DC8       TTovarForm.EditLocateChange
  0001:000F22C4       TTovarForm.FilterChange
- 0001:000F37D8       TTovarForm.FormActivate
+ 0001:000F3684       TTovarForm.FormActivate
  0001:000F2240       TTovarForm.FormClose
- 0001:000F342C       TTovarForm.FormCreate
- 0001:000F3AF8       TTovarForm.FormDeactivate
- 0001:000F7954       TTovarForm.ScWindowScale
- 0001:000F3114       TTovarForm.SetComboGrup
- 0001:000F6EB0       TTovarForm.ShowFormClick
- 0001:000F6B60       TTovarForm.Showing
- 0001:000F5DD0       TTovarForm.SpinEditPercentZakupkaChange
+ 0001:000F32D8       TTovarForm.FormCreate
+ 0001:000F39A4       TTovarForm.FormDeactivate
+ 0001:000F7800       TTovarForm.ScWindowScale
+ 0001:000F2FC0       TTovarForm.SetComboGrup
+ 0001:000F6D5C       TTovarForm.ShowFormClick
+ 0001:000F6A0C       TTovarForm.Showing
+ 0001:000F5C7C       TTovarForm.SpinEditPercentZakupkaChange
  0001:000550A8       TurnSiblingsOff
  0001:000925EC       TVarBytesField.Create
  0001:0009263C       TVarBytesField.GetDataSize
@@ -17098,206 +17098,206 @@ Detailed map of segments
  0001:000F2234       TTovarForm.ButtonCloseClick
  0001:000F2240       TTovarForm.FormClose
  0001:000F22C4       TTovarForm.FilterChange
- 0001:000F3114       TTovarForm.SetComboGrup
- 0001:000F342C       TTovarForm.FormCreate
- 0001:000F37D8       TTovarForm.FormActivate
- 0001:000F3AF8       TTovarForm.FormDeactivate
- 0001:000F3BD4       TTovarForm.DBGrid1CellClick
- 0001:000F3CF0       TTovarForm.Button1Click
- 0001:000F3DB0       TTovarForm.ComboBoxPodborChange
- 0001:000F3F1C       TTovarForm.EditLocateChange
- 0001:000F4050       TTovarForm.DBGrid1DrawColumnCell
- 0001:000F44A8       TTovarForm.ButtonPrepPrintClick
- 0001:000F5DD0       TTovarForm.SpinEditPercentZakupkaChange
- 0001:000F5E28       TTovarForm.CheckBoxColumnClick
- 0001:000F6AAC       TTovarForm.Button2Click
- 0001:000F6B60       TTovarForm.Showing
- 0001:000F6B6C       TTovarForm.DBGrid1KeyDown
- 0001:000F6C5C       TTovarForm.DBGrid1KeyPress
- 0001:000F6D68       TTovarForm.DBGrid1DblClick
- 0001:000F6EB0       TTovarForm.ShowFormClick
- 0001:000F6FF8       TTovarForm.Button4Click
- 0001:000F7320       TTovarForm.ButtonMySqlClick
- 0001:000F7880       TTovarForm.ButtonActivRoznClick
- 0001:000F7954       TTovarForm.ScWindowScale
- 0001:000F7A70       TTovarForm.ButtonKursRubClick
- 0001:000F7B98       TTovarForm.ButtonBaseRubClick
- 0001:000F7ED0       TTovarForm.CheckExcelInstall
- 0001:000F7F18       TTovarForm.ButtonExcelSaveClick
- 0001:000F96A0       TTovarForm.ButtonTovarMaxDateClick
- 0001:000F985C       Finalization
- 0001:000F988C       TovarUnit
- 0001:000F9B18       TSpravForm.FormClose
- 0001:000F9BAC       TSpravForm.FormCreate
- 0001:000F9C34       TSpravForm.Showing
- 0001:000F9C40       TSpravForm.FilterChange
- 0001:000FA0B4       TSpravForm.FormActivate
- 0001:000FA358       TSpravForm.FormDeactivate
- 0001:000FA37C       TSpravForm.DBGrid1DblClick
- 0001:000FA608       TSpravForm.ScWindowScale
- 0001:000FA724       Finalization
- 0001:000FA754       SpravUnit
- 0001:000FCAF8       TDM.DataSetToText
- 0001:000FCE2C       TDM.FormSqlCreateTable
- 0001:000FD218       TDM.TextToDataSet
- 0001:000FD4A8       TDM.TableActivGetText
- 0001:000FD534       TDM.CopyTable
- 0001:000FDBB4       TDM.DataModuleDestroy
- 0001:000FE2B0       TDM.CopyToFtp
- 0001:000FE848       TDM.CopyFromFtp
- 0001:000FEE30       TDM.TableRecNaklCalcFields
- 0001:000FF4B0       TDM.TableSotrudnCalcFields
- 0001:000FF59C       TDM.TableRecNaklTovarCodValidate
- 0001:000FF5D4       TDM.TableRecNaklAfterPost
- 0001:000FF65C       TDM.TableTovarAfterOpen
- 0001:000FF668       TDM.TableRecNaklZenaSetText
- 0001:000FF76C       TDM.TableTovarBeforeInsert
- 0001:000FF89C       TDM.TableTovarNewRecord
- 0001:000FFA4C       TDM.TableRecNaklBeforeInsert
- 0001:000FFD00       TDM.TableRecNaklNewRecord
- 0001:000FFDBC       TDM.TableRecNaklAfterDelete
- 0001:000FFFA0       TDM.TableRecNaklBeforeDelete
- 0001:00100080       TDM.TableTovarZenaZakupkaSetText
- 0001:001000E0       TDM.TableTovarZenaZakupkaChange
- 0001:00100254       TDM.TableTovarZenaRoznChange
- 0001:001002EC       TDM.DataModuleCreate
- 0001:00100968       TDM.TableZhurnalCalcFields
- 0001:00100998       TDM.TableNaklCalcFields
- 0001:001009C8       TDM.TableTovarCalcFields
- 0001:00100B24       TDM.TableRecNaklBeforePost
- 0001:00100B68       TDM.TableTovarFilterRecord
- 0001:00100B6C       TDM.TableAgentNewRecord
- 0001:00100C24       TDM.Bde_PackTable
- 0001:00100E34       TDM.TableNaklAfterPost
- 0001:00100E50       TDM.TableTovarAfterPost
- 0001:00100E6C       TDM.TableGrupAfterPost
- 0001:00100E88       TDM.TableEdIzmerAfterPost
- 0001:00100EA4       TDM.TableProizvAfterPost
- 0001:00100EC0       TDM.TableZhurnalAfterPost
- 0001:00100EDC       TDM.Table1AfterPost
- 0001:00100EF8       TDM.TableSkladAfterPost
- 0001:00100F14       TDM.TableSotrudnAfterPost
- 0001:00100F30       TDM.TableUnitAfterPost
- 0001:00100F4C       TDM.TableValutaAfterPost
- 0001:00100F68       TDM.TablePereOzenkaAfterPost
- 0001:00100F84       TDM.TableParentAfterPost
- 0001:00100FA0       TDM.TableKursAfterPost
- 0001:00100FBC       TDM.TablePriceAfterPost
- 0001:00100FD8       TDM.TableTovarUpdateRecord
- 0001:00100FE0       Finalization
- 0001:00101010       DMUnit
- 0001:00102BB8       TNaklForm.FormClose
- 0001:00102EC0       TNaklForm.SpinEditCreditChange
- 0001:00102F08       TNaklForm.DateTimePickerDateOplataPolnayChange
- 0001:00102F5C       TNaklForm.ButtonCloseClick
- 0001:00102F68       TNaklForm.FilterChange
- 0001:00103200       TNaklForm.NaklModified
- 0001:00103AB8       TNaklForm.Save
- 0001:00106090       TNaklForm.ButtonCancelClick
- 0001:001060B0       SetControl
- 0001:00107850       TNaklForm.SetNakl
- 0001:00108028       TNaklForm.ZenaRecNaklSet
- 0001:00108980       TNaklForm.ZakupkaSumSet
- 0001:00108ED4       TNaklForm.CheckBoxNDSClick
- 0001:00108FC8       TNaklForm.ComboBoxPodborChange
- 0001:001090D4       TNaklForm.DBGrid1EditButtonClick
- 0001:00109124       TNaklForm.FormActivate
- 0001:00109708       TNaklForm.ComboBoxParentItemsSet
- 0001:001098BC       TNaklForm.ComboBoxParentAdd
- 0001:00109F2C       TNaklForm.DBGrid1ColExit
- 0001:00109F58       TNaklForm.SpinEditPercentChange
- 0001:00109FB0       TNaklForm.ButtonNClick
- 0001:0010A18C       TNaklForm.DBGrid1DrawColumnCell
- 0001:0010A930       TNaklForm.FormDeactivate
- 0001:0010AB10       TNaklForm.DBLookupComboBoxUnitDropDown
- 0001:0010AD88       TNaklForm.DBLookupComboBoxSkladDropDown
- 0001:0010AFF8       TNaklForm.DBLookupComboBoxSotrudnDropDown
- 0001:0010B268       PrToFile
- 0001:0010C43C       TNaklForm.ButtonPrepPrintClick
- 0001:0010CEAC       TNaklForm.FormCreate
- 0001:0010CEF4       TNaklForm.ButtonPereSchetZenaClick
- 0001:0010D278       TNaklForm.SpinEditNDbClick
- 0001:0010D2B8       TNaklForm.DBLookupComboBoxAgentFromClick
- 0001:0010D334       TNaklForm.DBLookupComboBoxUnitFromClick
- 0001:0010D488       TNaklForm.DBLookupComboBoxSkladFromClick
- 0001:0010D49C       TNaklForm.DBLookupComboBoxSotrudnFromClick
- 0001:0010D4B0       TNaklForm.DBLookupComboBoxAgentToClick
- 0001:0010D4C4       TNaklForm.DBLookupComboBoxUnitToClick
- 0001:0010D624       TNaklForm.DBLookupComboBoxSkladToClick
- 0001:0010D638       TNaklForm.CheckBoxColumnClick
- 0001:0010DC00       TNaklForm.CheckBoxRecFromParentClick
- 0001:0010DC04       TNaklForm.ButtonParentClick
- 0001:0010DC58       TNaklForm.GetNewN
- 0001:0010DE38       TNaklForm.ButtonNewNClick
- 0001:0010DE58       TNaklForm.ButtonFromTovarClick
- 0001:0010E014       TNaklForm.ButtonDelAllClick
- 0001:0010E0E8       TNaklForm.ButtonSetAllZensClick
- 0001:0010E1C4       TNaklForm.ButtonFromParentClick
- 0001:0010F09C       TNaklForm.Showing
- 0001:0010F0A8       TNaklForm.DBLookupComboBoxAgentFromDropDown
- 0001:0010F1F4       TNaklForm.DBLookupComboBoxAgentToDropDown
- 0001:0010F338       TNaklForm.CheckBoxZakupkaClick
- 0001:0010F3F0       TNaklForm.BitBtnParentDelClick
- 0001:0010F680       TNaklForm.ComboBoxParentChange
- 0001:0010F858       TNaklForm.ButtonSaveSqlClick
- 0001:0010F8F4       TNaklForm.RadioButtonCheckClick
- 0001:0010FA8C       TNaklForm.TabSheet3Show
- 0001:0010FA98       TNaklForm.Button1Click
- 0001:0010FB14       TNaklForm.CheckBoxPreSumClick
- 0001:0010FCB8       TNaklForm.DBGrid1CellClick
- 0001:0010FFCC       TNaklForm.DBGrid1ColEnter
- 0001:001101E4       TNaklForm.RadioButtonSortNClick
- 0001:00110248       TNaklForm.PopUpClick
- 0001:0011071C       TNaklForm.ButtonDopOstatokClick
- 0001:00110980       TNaklForm.ButtonNo0Click
- 0001:00110DD8       TNaklForm.ButtonSortClick
- 0001:00110FEC       TNaklForm.EditPrihodTovarLocateChange
- 0001:001111CC       TNaklForm.DBGrid1KeyDown
- 0001:00111354       TNaklForm.DBGrid1KeyPress
- 0001:00111738       TNaklForm.CalcRasbor
- 0001:0011197C       TNaklForm.CalcSetRes
- 0001:00111A14       TNaklForm.EditCalcExit
- 0001:00111A98       TNaklForm.EditCalcKeyDown
- 0001:00111ACC       TNaklForm.ScWindowScale
- 0001:00111BE8       TNaklForm.CheckBoxOplataSrazuClick
- 0001:00111C6C       TNaklForm.MaskEditOplataSumExit
- 0001:00111CD8       Finalization
- 0001:00111D08       NaklUnit
- 0001:001120E0       TInstallForm.FormKindToNaklKind
- 0001:001120F8       TInstallForm.PodborerChange
- 0001:00112614       TInstallForm.FormCreate
- 0001:00112728       TInstallForm.LoadIni
- 0001:00112DA4       Finalization
- 0001:00112E9C       InstallUnit
- 0001:00113798       TMainForm.ExitFileClick
- 0001:001137A4       TMainForm.TovarMenuClick
- 0001:001137E0       TMainForm.NewNaklDeystClick
- 0001:00113ACC       TMainForm.ZhurnalClick
- 0001:00113B94       TMainForm.PrintSetupClick
- 0001:00113BA4       TMainForm.PrintToFileClick
- 0001:00113BC0       TMainForm.TableToTextClick
- 0001:00113E38       TMainForm.TextToTableClick
- 0001:00114100       TMainForm.SQLMenuClick
- 0001:0011413C       TMainForm.N8Click
- 0001:00114178       TMainForm.SpravClick
- 0001:00114314       TMainForm.FormClose
- 0001:00114544       TMainForm.FormActivate
- 0001:00114550       TMainForm.SetDostup
- 0001:00114808       TMainForm.PasswordEnter
- 0001:00114984       TMainForm.PasswordKeyDown
- 0001:00114998       TMainForm.SaldoZakupMenuClick
- 0001:001149D4       TMainForm.WindowScale
- 0001:00114A90       TMainForm.WindowScaleUpItemClick
- 0001:00114B08       TMainForm.WindowScaleDownItemClick
- 0001:00114B80       TMainForm.AdjustResolution
- 0001:00114C68       TMainForm.FormCreate
- 0001:00114C74       TMainForm.CopyBaseFromFtpClick
- 0001:00114DC0       TMainForm.CopyBaseToFtpClick
- 0001:00114E8C       TMainForm.Timer1Timer
- 0001:00114EEC       Finalization
- 0001:00114F1C       MainUnit
- 0001:00114F28       Finalization
- 0001:00115350       Trade
+ 0001:000F2FC0       TTovarForm.SetComboGrup
+ 0001:000F32D8       TTovarForm.FormCreate
+ 0001:000F3684       TTovarForm.FormActivate
+ 0001:000F39A4       TTovarForm.FormDeactivate
+ 0001:000F3A80       TTovarForm.DBGrid1CellClick
+ 0001:000F3B9C       TTovarForm.Button1Click
+ 0001:000F3C5C       TTovarForm.ComboBoxPodborChange
+ 0001:000F3DC8       TTovarForm.EditLocateChange
+ 0001:000F3EFC       TTovarForm.DBGrid1DrawColumnCell
+ 0001:000F4354       TTovarForm.ButtonPrepPrintClick
+ 0001:000F5C7C       TTovarForm.SpinEditPercentZakupkaChange
+ 0001:000F5CD4       TTovarForm.CheckBoxColumnClick
+ 0001:000F6958       TTovarForm.Button2Click
+ 0001:000F6A0C       TTovarForm.Showing
+ 0001:000F6A18       TTovarForm.DBGrid1KeyDown
+ 0001:000F6B08       TTovarForm.DBGrid1KeyPress
+ 0001:000F6C14       TTovarForm.DBGrid1DblClick
+ 0001:000F6D5C       TTovarForm.ShowFormClick
+ 0001:000F6EA4       TTovarForm.Button4Click
+ 0001:000F71CC       TTovarForm.ButtonMySqlClick
+ 0001:000F772C       TTovarForm.ButtonActivRoznClick
+ 0001:000F7800       TTovarForm.ScWindowScale
+ 0001:000F791C       TTovarForm.ButtonKursRubClick
+ 0001:000F7A44       TTovarForm.ButtonBaseRubClick
+ 0001:000F7D7C       TTovarForm.CheckExcelInstall
+ 0001:000F7DC4       TTovarForm.ButtonExcelSaveClick
+ 0001:000F954C       TTovarForm.ButtonTovarMaxDateClick
+ 0001:000F9708       Finalization
+ 0001:000F9738       TovarUnit
+ 0001:000F99C4       TSpravForm.FormClose
+ 0001:000F9A58       TSpravForm.FormCreate
+ 0001:000F9AE0       TSpravForm.Showing
+ 0001:000F9AEC       TSpravForm.FilterChange
+ 0001:000F9F60       TSpravForm.FormActivate
+ 0001:000FA204       TSpravForm.FormDeactivate
+ 0001:000FA228       TSpravForm.DBGrid1DblClick
+ 0001:000FA4B4       TSpravForm.ScWindowScale
+ 0001:000FA5D0       Finalization
+ 0001:000FA600       SpravUnit
+ 0001:000FC9A4       TDM.DataSetToText
+ 0001:000FCCD8       TDM.FormSqlCreateTable
+ 0001:000FD0C4       TDM.TextToDataSet
+ 0001:000FD354       TDM.TableActivGetText
+ 0001:000FD3E0       TDM.CopyTable
+ 0001:000FDA60       TDM.DataModuleDestroy
+ 0001:000FE15C       TDM.CopyToFtp
+ 0001:000FE6F4       TDM.CopyFromFtp
+ 0001:000FECDC       TDM.TableRecNaklCalcFields
+ 0001:000FF35C       TDM.TableSotrudnCalcFields
+ 0001:000FF448       TDM.TableRecNaklTovarCodValidate
+ 0001:000FF480       TDM.TableRecNaklAfterPost
+ 0001:000FF508       TDM.TableTovarAfterOpen
+ 0001:000FF514       TDM.TableRecNaklZenaSetText
+ 0001:000FF618       TDM.TableTovarBeforeInsert
+ 0001:000FF748       TDM.TableTovarNewRecord
+ 0001:000FF8F8       TDM.TableRecNaklBeforeInsert
+ 0001:000FFBAC       TDM.TableRecNaklNewRecord
+ 0001:000FFC68       TDM.TableRecNaklAfterDelete
+ 0001:000FFE4C       TDM.TableRecNaklBeforeDelete
+ 0001:000FFF2C       TDM.TableTovarZenaZakupkaSetText
+ 0001:000FFF8C       TDM.TableTovarZenaZakupkaChange
+ 0001:00100100       TDM.TableTovarZenaRoznChange
+ 0001:00100198       TDM.DataModuleCreate
+ 0001:00100814       TDM.TableZhurnalCalcFields
+ 0001:00100844       TDM.TableNaklCalcFields
+ 0001:00100874       TDM.TableTovarCalcFields
+ 0001:001009D0       TDM.TableRecNaklBeforePost
+ 0001:00100A14       TDM.TableTovarFilterRecord
+ 0001:00100B04       TDM.TableAgentNewRecord
+ 0001:00100BBC       TDM.Bde_PackTable
+ 0001:00100DCC       TDM.TableNaklAfterPost
+ 0001:00100DE8       TDM.TableTovarAfterPost
+ 0001:00100E04       TDM.TableGrupAfterPost
+ 0001:00100E20       TDM.TableEdIzmerAfterPost
+ 0001:00100E3C       TDM.TableProizvAfterPost
+ 0001:00100E58       TDM.TableZhurnalAfterPost
+ 0001:00100E74       TDM.Table1AfterPost
+ 0001:00100E90       TDM.TableSkladAfterPost
+ 0001:00100EAC       TDM.TableSotrudnAfterPost
+ 0001:00100EC8       TDM.TableUnitAfterPost
+ 0001:00100EE4       TDM.TableValutaAfterPost
+ 0001:00100F00       TDM.TablePereOzenkaAfterPost
+ 0001:00100F1C       TDM.TableParentAfterPost
+ 0001:00100F38       TDM.TableKursAfterPost
+ 0001:00100F54       TDM.TablePriceAfterPost
+ 0001:00100F70       TDM.TableTovarUpdateRecord
+ 0001:00100F78       Finalization
+ 0001:00100FA8       DMUnit
+ 0001:00102B50       TNaklForm.FormClose
+ 0001:00102E58       TNaklForm.SpinEditCreditChange
+ 0001:00102EA0       TNaklForm.DateTimePickerDateOplataPolnayChange
+ 0001:00102EF4       TNaklForm.ButtonCloseClick
+ 0001:00102F00       TNaklForm.FilterChange
+ 0001:00103198       TNaklForm.NaklModified
+ 0001:00103A50       TNaklForm.Save
+ 0001:00106028       TNaklForm.ButtonCancelClick
+ 0001:00106048       SetControl
+ 0001:001077E8       TNaklForm.SetNakl
+ 0001:00107FC0       TNaklForm.ZenaRecNaklSet
+ 0001:00108918       TNaklForm.ZakupkaSumSet
+ 0001:00108E6C       TNaklForm.CheckBoxNDSClick
+ 0001:00108F60       TNaklForm.ComboBoxPodborChange
+ 0001:0010906C       TNaklForm.DBGrid1EditButtonClick
+ 0001:001090BC       TNaklForm.FormActivate
+ 0001:001096A0       TNaklForm.ComboBoxParentItemsSet
+ 0001:00109854       TNaklForm.ComboBoxParentAdd
+ 0001:00109EC4       TNaklForm.DBGrid1ColExit
+ 0001:00109EF0       TNaklForm.SpinEditPercentChange
+ 0001:00109F48       TNaklForm.ButtonNClick
+ 0001:0010A124       TNaklForm.DBGrid1DrawColumnCell
+ 0001:0010A8C8       TNaklForm.FormDeactivate
+ 0001:0010AAA8       TNaklForm.DBLookupComboBoxUnitDropDown
+ 0001:0010AD20       TNaklForm.DBLookupComboBoxSkladDropDown
+ 0001:0010AF90       TNaklForm.DBLookupComboBoxSotrudnDropDown
+ 0001:0010B200       PrToFile
+ 0001:0010C3D4       TNaklForm.ButtonPrepPrintClick
+ 0001:0010CE44       TNaklForm.FormCreate
+ 0001:0010CE8C       TNaklForm.ButtonPereSchetZenaClick
+ 0001:0010D210       TNaklForm.SpinEditNDbClick
+ 0001:0010D250       TNaklForm.DBLookupComboBoxAgentFromClick
+ 0001:0010D2CC       TNaklForm.DBLookupComboBoxUnitFromClick
+ 0001:0010D420       TNaklForm.DBLookupComboBoxSkladFromClick
+ 0001:0010D434       TNaklForm.DBLookupComboBoxSotrudnFromClick
+ 0001:0010D448       TNaklForm.DBLookupComboBoxAgentToClick
+ 0001:0010D45C       TNaklForm.DBLookupComboBoxUnitToClick
+ 0001:0010D5BC       TNaklForm.DBLookupComboBoxSkladToClick
+ 0001:0010D5D0       TNaklForm.CheckBoxColumnClick
+ 0001:0010DB98       TNaklForm.CheckBoxRecFromParentClick
+ 0001:0010DB9C       TNaklForm.ButtonParentClick
+ 0001:0010DBF0       TNaklForm.GetNewN
+ 0001:0010DDD0       TNaklForm.ButtonNewNClick
+ 0001:0010DDF0       TNaklForm.ButtonFromTovarClick
+ 0001:0010DFAC       TNaklForm.ButtonDelAllClick
+ 0001:0010E080       TNaklForm.ButtonSetAllZensClick
+ 0001:0010E15C       TNaklForm.ButtonFromParentClick
+ 0001:0010F034       TNaklForm.Showing
+ 0001:0010F040       TNaklForm.DBLookupComboBoxAgentFromDropDown
+ 0001:0010F18C       TNaklForm.DBLookupComboBoxAgentToDropDown
+ 0001:0010F2D0       TNaklForm.CheckBoxZakupkaClick
+ 0001:0010F388       TNaklForm.BitBtnParentDelClick
+ 0001:0010F618       TNaklForm.ComboBoxParentChange
+ 0001:0010F7F0       TNaklForm.ButtonSaveSqlClick
+ 0001:0010F88C       TNaklForm.RadioButtonCheckClick
+ 0001:0010FA24       TNaklForm.TabSheet3Show
+ 0001:0010FA30       TNaklForm.Button1Click
+ 0001:0010FAAC       TNaklForm.CheckBoxPreSumClick
+ 0001:0010FC50       TNaklForm.DBGrid1CellClick
+ 0001:0010FF64       TNaklForm.DBGrid1ColEnter
+ 0001:0011017C       TNaklForm.RadioButtonSortNClick
+ 0001:001101E0       TNaklForm.PopUpClick
+ 0001:001106B4       TNaklForm.ButtonDopOstatokClick
+ 0001:00110918       TNaklForm.ButtonNo0Click
+ 0001:00110D70       TNaklForm.ButtonSortClick
+ 0001:00110F84       TNaklForm.EditPrihodTovarLocateChange
+ 0001:00111164       TNaklForm.DBGrid1KeyDown
+ 0001:001112EC       TNaklForm.DBGrid1KeyPress
+ 0001:001116D0       TNaklForm.CalcRasbor
+ 0001:00111914       TNaklForm.CalcSetRes
+ 0001:001119AC       TNaklForm.EditCalcExit
+ 0001:00111A30       TNaklForm.EditCalcKeyDown
+ 0001:00111A64       TNaklForm.ScWindowScale
+ 0001:00111B80       TNaklForm.CheckBoxOplataSrazuClick
+ 0001:00111C04       TNaklForm.MaskEditOplataSumExit
+ 0001:00111C70       Finalization
+ 0001:00111CA0       NaklUnit
+ 0001:00112078       TInstallForm.FormKindToNaklKind
+ 0001:00112090       TInstallForm.PodborerChange
+ 0001:001125AC       TInstallForm.FormCreate
+ 0001:001126C0       TInstallForm.LoadIni
+ 0001:00112D3C       Finalization
+ 0001:00112E34       InstallUnit
+ 0001:00113730       TMainForm.ExitFileClick
+ 0001:0011373C       TMainForm.TovarMenuClick
+ 0001:00113778       TMainForm.NewNaklDeystClick
+ 0001:00113A64       TMainForm.ZhurnalClick
+ 0001:00113B2C       TMainForm.PrintSetupClick
+ 0001:00113B3C       TMainForm.PrintToFileClick
+ 0001:00113B58       TMainForm.TableToTextClick
+ 0001:00113DD0       TMainForm.TextToTableClick
+ 0001:00114098       TMainForm.SQLMenuClick
+ 0001:001140D4       TMainForm.N8Click
+ 0001:00114110       TMainForm.SpravClick
+ 0001:001142AC       TMainForm.FormClose
+ 0001:001144DC       TMainForm.FormActivate
+ 0001:001144E8       TMainForm.SetDostup
+ 0001:001147A0       TMainForm.PasswordEnter
+ 0001:0011491C       TMainForm.PasswordKeyDown
+ 0001:00114930       TMainForm.SaldoZakupMenuClick
+ 0001:0011496C       TMainForm.WindowScale
+ 0001:00114A28       TMainForm.WindowScaleUpItemClick
+ 0001:00114AA0       TMainForm.WindowScaleDownItemClick
+ 0001:00114B18       TMainForm.AdjustResolution
+ 0001:00114C00       TMainForm.FormCreate
+ 0001:00114C0C       TMainForm.CopyBaseFromFtpClick
+ 0001:00114D58       TMainForm.CopyBaseToFtpClick
+ 0001:00114E24       TMainForm.Timer1Timer
+ 0001:00114E84       Finalization
+ 0001:00114EB4       MainUnit
+ 0001:00114EC0       Finalization
+ 0001:001152E8       Trade
  0002:00000000       ExitCode
  0002:00000004       ErrorAddr
  0002:00000008       FileMode
@@ -18619,829 +18619,829 @@ Line numbers for TovarUnit(TovarUnit.pas) segment .text
    290 0001:000F283E   291 0001:000F2870   292 0001:000F2889   294 0001:000F28BB
    295 0001:000F28C5   296 0001:000F2901   297 0001:000F2938   298 0001:000F2951
    300 0001:000F2988   301 0001:000F299E   302 0001:000F29DA   303 0001:000F2A11
-   304 0001:000F2A2A   308 0001:000F2A61   309 0001:000F2A95   310 0001:000F2AD3
-   311 0001:000F2B0C   312 0001:000F2B25   317 0001:000F2B5C   319 0001:000F2B7B
-   320 0001:000F2B97   322 0001:000F2BCF   323 0001:000F2C07   327 0001:000F2C3F
-   328 0001:000F2C59   330 0001:000F2C70   331 0001:000F2C86   332 0001:000F2D8E
-   335 0001:000F3114   336 0001:000F3136   337 0001:000F3144   338 0001:000F3152
-   340 0001:000F3160   341 0001:000F316A   342 0001:000F317C   344 0001:000F318B
-   347 0001:000F3195   348 0001:000F31C0   349 0001:000F31CA   350 0001:000F31D8
-   352 0001:000F31E5   353 0001:000F31EF   354 0001:000F3204   356 0001:000F3216
-   358 0001:000F3223   359 0001:000F3251   360 0001:000F325E   361 0001:000F326F
-   363 0001:000F327C   364 0001:000F3291   365 0001:000F32C0   366 0001:000F32D2
-   368 0001:000F32DF   369 0001:000F330D   370 0001:000F331A   371 0001:000F332B
-   372 0001:000F3338   373 0001:000F334A   375 0001:000F337E   380 0001:000F342C
-   381 0001:000F3455   383 0001:000F345C   384 0001:000F3469   386 0001:000F3476
-   387 0001:000F34A4   388 0001:000F34B1   389 0001:000F34C2   391 0001:000F34CF
-   392 0001:000F3501   393 0001:000F3513   395 0001:000F3520   397 0001:000F3557
-   398 0001:000F3585   399 0001:000F3592   400 0001:000F35A7   401 0001:000F35B7
-   402 0001:000F35C9   406 0001:000F3608   407 0001:000F3618   408 0001:000F3654
-   409 0001:000F3678   410 0001:000F36B5   411 0001:000F36D0   413 0001:000F36D7
-   414 0001:000F36F2   415 0001:000F3706   416 0001:000F370F   418 0001:000F371F
-   419 0001:000F3733   420 0001:000F3779   432 0001:000F37D8   434 0001:000F37FE
-   435 0001:000F3816   436 0001:000F3835   437 0001:000F3847   438 0001:000F3861
-   440 0001:000F387B   441 0001:000F38A7   443 0001:000F38D3   445 0001:000F38FF
-   446 0001:000F3916   447 0001:000F392D   448 0001:000F3944   450 0001:000F395B
-   451 0001:000F3972   453 0001:000F3989   454 0001:000F399B   456 0001:000F39AF
-   458 0001:000F39C1   459 0001:000F39CB   461 0001:000F39D8   462 0001:000F39FA
-   463 0001:000F3A32   464 0001:000F3A64   465 0001:000F3A93   468 0001:000F3AF8
-   469 0001:000F3B02   470 0001:000F3B1E   472 0001:000F3B3D   473 0001:000F3B4C
-   474 0001:000F3B5E   475 0001:000F3B70   476 0001:000F3B82   477 0001:000F3B94
-   478 0001:000F3BA6   479 0001:000F3BB5   480 0001:000F3BC4   486 0001:000F3BD4
-   487 0001:000F3BE6   488 0001:000F3C08   489 0001:000F3C1A   491 0001:000F3C54
-   492 0001:000F3C69   494 0001:000F3CA2   496 0001:000F3CCC   502 0001:000F3CF0
-   548 0001:000F3D11   549 0001:000F3D16   550 0001:000F3D41   551 0001:000F3D4E
-   547 0001:000F3D58   553 0001:000F3D83   557 0001:000F3DB0   559 0001:000F3DCA
-   561 0001:000F3DE4   562 0001:000F3DF6   565 0001:000F3E0B   566 0001:000F3E1D
-   567 0001:000F3E1F   573 0001:000F3EA1   574 0001:000F3EBF   575 0001:000F3ECE
-   576 0001:000F3EDE   566 0001:000F3EDF   580 0001:000F3F0A   583 0001:000F3F1C
-   584 0001:000F3F3B   585 0001:000F3F5E   586 0001:000F3FA7   588 0001:000F3FBA
-   593 0001:000F402F   599 0001:000F4050   600 0001:000F407C   602 0001:000F4088
-   605 0001:000F40EE   607 0001:000F4118   608 0001:000F4125   609 0001:000F4133
-   610 0001:000F413D   611 0001:000F418F   613 0001:000F4194   616 0001:000F41FA
-   618 0001:000F4258   619 0001:000F4298   620 0001:000F42DE   622 0001:000F4324
-   623 0001:000F432E   624 0001:000F438C   626 0001:000F438E   628 0001:000F43FF
-   639 0001:000F44A8   640 0001:000F44C9   641 0001:000F44E0   642 0001:000F44F0
-   643 0001:000F4506   644 0001:000F4518   645 0001:000F4522   646 0001:000F453E
-   647 0001:000F4550   648 0001:000F455D   649 0001:000F456A   650 0001:000F4575
-   652 0001:000F4584   656 0001:000F4597   658 0001:000F45B0   659 0001:000F45D1
-   660 0001:000F4605   661 0001:000F464E   662 0001:000F4697   663 0001:000F46E0
-   664 0001:000F4729   665 0001:000F4772   666 0001:000F47BB   667 0001:000F4815
-   668 0001:000F486F   669 0001:000F48C9   670 0001:000F4923   671 0001:000F497D
-   672 0001:000F49D7   673 0001:000F4A31   674 0001:000F4A8B   675 0001:000F4AD4
-   676 0001:000F4B1D   677 0001:000F4B66   678 0001:000F4BAF   681 0001:000F4BF1
-   682 0001:000F4C12   683 0001:000F4C49   684 0001:000F4C95   685 0001:000F4CE1
-   686 0001:000F4D2D   687 0001:000F4D7F   688 0001:000F4DD7   689 0001:000F4E2F
-   690 0001:000F4EBB   691 0001:000F4F47   692 0001:000F4FD3   693 0001:000F505F
-   694 0001:000F50EB   695 0001:000F5177   696 0001:000F51F6   697 0001:000F5275
-   698 0001:000F52F4   699 0001:000F5373   700 0001:000F53CB   702 0001:000F5423
-   704 0001:000F543D   705 0001:000F5462   707 0001:000F5473   709 0001:000F5484
-   653 0001:000F5493   712 0001:000F54B7   715 0001:000F54BF   716 0001:000F54D6
-   723 0001:000F54FB   724 0001:000F5505   725 0001:000F5517   726 0001:000F5523
-   727 0001:000F552D   728 0001:000F553A   730 0001:000F5547   731 0001:000F5554
-   732 0001:000F5561   733 0001:000F556C   734 0001:000F557A   736 0001:000F558E
-   737 0001:000F5626   738 0001:000F5672   739 0001:000F56C9   741 0001:000F5731
-   742 0001:000F5756   744 0001:000F5771   745 0001:000F5780   735 0001:000F5791
-   749 0001:000F57B5   752 0001:000F57BD   754 0001:000F57CB   756 0001:000F57DF
-   757 0001:000F5877   758 0001:000F58C3   759 0001:000F591A   762 0001:000F5982
-   763 0001:000F59A7   765 0001:000F59C2   766 0001:000F59D1   755 0001:000F59E2
-   770 0001:000F5A06   771 0001:000F5A0E   772 0001:000F5A21   773 0001:000F5A3F
-   775 0001:000F5A4B   776 0001:000F5AA5   779 0001:000F5DD0   780 0001:000F5DD7
-   781 0001:000F5DF3   782 0001:000F5E0A   783 0001:000F5E22   787 0001:000F5E28
-   788 0001:000F5E30   789 0001:000F5E49   790 0001:000F5E71   791 0001:000F5EBB
-   792 0001:000F5F05   793 0001:000F5F4F   794 0001:000F5F99   795 0001:000F5FE3
-   796 0001:000F602D   798 0001:000F6077   799 0001:000F60C1   800 0001:000F610B
-   801 0001:000F6155   803 0001:000F619F   804 0001:000F61E9   805 0001:000F6233
-   807 0001:000F627D   809 0001:000F62C7   810 0001:000F62DD   811 0001:000F6327
-   812 0001:000F6371   813 0001:000F63BB   814 0001:000F6405   815 0001:000F6441
-   818 0001:000F6494   819 0001:000F64D0   820 0001:000F650C   821 0001:000F6548
-   822 0001:000F6584   823 0001:000F65CE   826 0001:000F6618   827 0001:000F6662
-   828 0001:000F66AC   829 0001:000F66F6   830 0001:000F6740   831 0001:000F678A
-   832 0001:000F67D4   833 0001:000F681E   834 0001:000F6868   789 0001:000F6869
-   835 0001:000F6870   840 0001:000F6AAC   841 0001:000F6AC5   871 0001:000F6AD1
-   873 0001:000F6AE6   874 0001:000F6AF0   875 0001:000F6B09   878 0001:000F6B16
-   842 0001:000F6B20   880 0001:000F6B43   883 0001:000F6B60   884 0001:000F6B63
-   885 0001:000F6B68   890 0001:000F6B6C   891 0001:000F6B8A   892 0001:000F6BB8
-   893 0001:000F6BCD   894 0001:000F6BE7   895 0001:000F6BF5   896 0001:000F6C1A
-   898 0001:000F6C52   901 0001:000F6C5C   902 0001:000F6C7E   903 0001:000F6C91
-   907 0001:000F6CA9   908 0001:000F6CF4   909 0001:000F6D5F   912 0001:000F6D68
-   913 0001:000F6D6E   920 0001:000F6DF0   921 0001:000F6E03   922 0001:000F6E2A
-   924 0001:000F6E40   928 0001:000F6EB0   930 0001:000F6EB9   932 0001:000F6ECB
-   933 0001:000F6EE9   935 0001:000F6F07   937 0001:000F6F19   938 0001:000F6F34
-   942 0001:000F6F4F   943 0001:000F6F6D   944 0001:000F6F8B   945 0001:000F6FA9
-   947 0001:000F6FC7   950 0001:000F6FE2   951 0001:000F6FEB   952 0001:000F6FF4
-   960 0001:000F6FF8   962 0001:000F701A   963 0001:000F7029   965 0001:000F7039
-   966 0001:000F703D   967 0001:000F7053   968 0001:000F7092   969 0001:000F70A4
-   970 0001:000F70C1   971 0001:000F70D6   972 0001:000F70E6   973 0001:000F7105
-   974 0001:000F7127   978 0001:000F7149   979 0001:000F7153   980 0001:000F7167
-   984 0001:000F717B   986 0001:000F71AD   987 0001:000F71BC   988 0001:000F71F2
-   990 0001:000F7204   982 0001:000F7213   992 0001:000F722A   995 0001:000F723E
-   996 0001:000F72A0  1003 0001:000F7320  1004 0001:000F7341  1005 0001:000F734F
-  1006 0001:000F735E  1007 0001:000F736E  1008 0001:000F7388  1009 0001:000F73F0
-  1011 0001:000F73FE  1012 0001:000F7440  1013 0001:000F744E  1014 0001:000F7478
-  1015 0001:000F7488  1016 0001:000F749A  1017 0001:000F74B6  1018 0001:000F74C4
-  1020 0001:000F74D4  1033 0001:000F7637  1034 0001:000F7641  1035 0001:000F764F
-  1036 0001:000F7665  1038 0001:000F7684  1039 0001:000F7692  1042 0001:000F76E6
-  1047 0001:000F7880  1048 0001:000F788C  1049 0001:000F7897  1051 0001:000F78A7
-  1052 0001:000F78B6  1056 0001:000F78C2  1058 0001:000F78D7  1059 0001:000F78E1
-  1060 0001:000F78FA  1062 0001:000F7907  1054 0001:000F7911  1064 0001:000F791F
-  1066 0001:000F792E  1067 0001:000F793C  1073 0001:000F7954  1074 0001:000F795F
-  1076 0001:000F7976  1077 0001:000F79C2  1078 0001:000F79D0  1079 0001:000F79DA
-  1080 0001:000F79FC  1081 0001:000F7A1C  1082 0001:000F7A38  1084 0001:000F7A61
-  1089 0001:000F7A70  1091 0001:000F7A93  1092 0001:000F7AA2  1095 0001:000F7AB2
-  1099 0001:000F7AC1  1100 0001:000F7AC6  1102 0001:000F7B31  1104 0001:000F7B3E
-  1097 0001:000F7B48  1107 0001:000F7B5A  1109 0001:000F7B87  1117 0001:000F7B98
-  1119 0001:000F7BC8  1120 0001:000F7BD7  1123 0001:000F7BE7  1124 0001:000F7BF1
-  1127 0001:000F7C05  1129 0001:000F7C0A  1133 0001:000F7C71  1136 0001:000F7CB1
-  1137 0001:000F7CBE  1125 0001:000F7CC8  1139 0001:000F7CDA  1141 0001:000F7CE9
-  1142 0001:000F7CF6  1145 0001:000F7D0A  1147 0001:000F7D0F  1150 0001:000F7D52
-  1151 0001:000F7D62  1143 0001:000F7D6F  1153 0001:000F7D80  1155 0001:000F7D92
-  1156 0001:000F7D9F  1159 0001:000F7DB6  1161 0001:000F7DBB  1164 0001:000F7DFE
-  1167 0001:000F7E41  1168 0001:000F7E51  1157 0001:000F7E5E  1170 0001:000F7E73
-  1172 0001:000F7E85  1174 0001:000F7EBF  1180 0001:000F7ED0  1182 0001:000F7ED6
-  1183 0001:000F7EE4  1184 0001:000F7EE8  1186 0001:000F7EEC  1187 0001:000F7EEE
-  1193 0001:000F7F18  1194 0001:000F7F43  1196 0001:000F7F52  1197 0001:000F7F88
-  1198 0001:000F7FE4  1200 0001:000F7FF9  1204 0001:000F8011  1205 0001:000F8026
-  1206 0001:000F804E  1208 0001:000F80A2  1209 0001:000F80A9  1211 0001:000F80B3
-  1215 0001:000F80C6  1220 0001:000F80CC  1221 0001:000F80F3  1222 0001:000F8145
-  1224 0001:000F814F  1225 0001:000F8165  1226 0001:000F8192  1227 0001:000F81E4
-  1229 0001:000F81EE  1230 0001:000F8204  1231 0001:000F8231  1232 0001:000F8283
-  1234 0001:000F828D  1235 0001:000F82A3  1236 0001:000F82D0  1237 0001:000F8322
-  1239 0001:000F832C  1240 0001:000F8342  1241 0001:000F836F  1242 0001:000F83C1
-  1244 0001:000F83CB  1245 0001:000F83E1  1246 0001:000F840E  1247 0001:000F8460
-  1249 0001:000F846A  1250 0001:000F8480  1251 0001:000F84AD  1252 0001:000F84FF
-  1254 0001:000F8509  1255 0001:000F851F  1256 0001:000F8589  1257 0001:000F85DB
-  1259 0001:000F85E5  1260 0001:000F85FB  1261 0001:000F8665  1262 0001:000F86B7
-  1264 0001:000F86C1  1265 0001:000F86D7  1266 0001:000F8741  1267 0001:000F8793
-  1269 0001:000F879D  1270 0001:000F87B3  1271 0001:000F881D  1272 0001:000F886F
-  1274 0001:000F8879  1275 0001:000F888F  1276 0001:000F88F2  1277 0001:000F8944
-  1280 0001:000F894E  1281 0001:000F8964  1282 0001:000F89CE  1283 0001:000F8A20
-  1285 0001:000F8A2A  1286 0001:000F8A40  1287 0001:000F8AAA  1288 0001:000F8AFC
-  1290 0001:000F8B06  1291 0001:000F8B1C  1292 0001:000F8B70  1293 0001:000F8BC2
-  1295 0001:000F8BCC  1296 0001:000F8BE2  1297 0001:000F8C36  1298 0001:000F8C88
-  1300 0001:000F8C92  1301 0001:000F8CA8  1302 0001:000F8CFC  1303 0001:000F8D4E
-  1305 0001:000F8D58  1306 0001:000F8D6E  1307 0001:000F8DC2  1308 0001:000F8E14
-  1310 0001:000F8E1E  1311 0001:000F8E34  1312 0001:000F8E61  1313 0001:000F8EB3
-  1315 0001:000F8EBD  1316 0001:000F8ED3  1317 0001:000F8F00  1318 0001:000F8F52
-  1320 0001:000F8F5C  1321 0001:000F8F67  1213 0001:000F8F71  1325 0001:000F8F90
-  1327 0001:000F8F98  1328 0001:000F8FCA  1329 0001:000F8FDD  1331 0001:000F8FF8
-  1334 0001:000F931C  1338 0001:000F96A0  1339 0001:000F96C4  1340 0001:000F96D2
-  1341 0001:000F96E1  1344 0001:000F96F1  1345 0001:000F96FF  1347 0001:000F970D
-  1349 0001:000F971B  1352 0001:000F975E  1353 0001:000F9768  1354 0001:000F979E
-  1358 0001:000F97AB  1359 0001:000F97B9  1362 0001:000F97DC  1363 0001:000F97EA
-  1366 0001:000F981F  1368 0001:000F988C  1368 0001:000F9893
+   304 0001:000F2A2A   318 0001:000F2A61   320 0001:000F2A80   321 0001:000F2A9C
+   323 0001:000F2AD4   324 0001:000F2B0C   328 0001:000F2B44   329 0001:000F2B5E
+   331 0001:000F2B75   332 0001:000F2B8B   333 0001:000F2C93   336 0001:000F2FC0
+   337 0001:000F2FE2   338 0001:000F2FF0   339 0001:000F2FFE   341 0001:000F300C
+   342 0001:000F3016   343 0001:000F3028   345 0001:000F3037   348 0001:000F3041
+   349 0001:000F306C   350 0001:000F3076   351 0001:000F3084   353 0001:000F3091
+   354 0001:000F309B   355 0001:000F30B0   357 0001:000F30C2   359 0001:000F30CF
+   360 0001:000F30FD   361 0001:000F310A   362 0001:000F311B   364 0001:000F3128
+   365 0001:000F313D   366 0001:000F316C   367 0001:000F317E   369 0001:000F318B
+   370 0001:000F31B9   371 0001:000F31C6   372 0001:000F31D7   373 0001:000F31E4
+   374 0001:000F31F6   376 0001:000F322A   381 0001:000F32D8   382 0001:000F3301
+   384 0001:000F3308   385 0001:000F3315   387 0001:000F3322   388 0001:000F3350
+   389 0001:000F335D   390 0001:000F336E   392 0001:000F337B   393 0001:000F33AD
+   394 0001:000F33BF   396 0001:000F33CC   398 0001:000F3403   399 0001:000F3431
+   400 0001:000F343E   401 0001:000F3453   402 0001:000F3463   403 0001:000F3475
+   407 0001:000F34B4   408 0001:000F34C4   409 0001:000F3500   410 0001:000F3524
+   411 0001:000F3561   412 0001:000F357C   414 0001:000F3583   415 0001:000F359E
+   416 0001:000F35B2   417 0001:000F35BB   419 0001:000F35CB   420 0001:000F35DF
+   421 0001:000F3625   433 0001:000F3684   435 0001:000F36AA   436 0001:000F36C2
+   437 0001:000F36E1   438 0001:000F36F3   439 0001:000F370D   441 0001:000F3727
+   442 0001:000F3753   444 0001:000F377F   446 0001:000F37AB   447 0001:000F37C2
+   448 0001:000F37D9   449 0001:000F37F0   451 0001:000F3807   452 0001:000F381E
+   454 0001:000F3835   455 0001:000F3847   457 0001:000F385B   459 0001:000F386D
+   460 0001:000F3877   462 0001:000F3884   463 0001:000F38A6   464 0001:000F38DE
+   465 0001:000F3910   466 0001:000F393F   469 0001:000F39A4   470 0001:000F39AE
+   471 0001:000F39CA   473 0001:000F39E9   474 0001:000F39F8   475 0001:000F3A0A
+   476 0001:000F3A1C   477 0001:000F3A2E   478 0001:000F3A40   479 0001:000F3A52
+   480 0001:000F3A61   481 0001:000F3A70   487 0001:000F3A80   488 0001:000F3A92
+   489 0001:000F3AB4   490 0001:000F3AC6   492 0001:000F3B00   493 0001:000F3B15
+   495 0001:000F3B4E   497 0001:000F3B78   503 0001:000F3B9C   549 0001:000F3BBD
+   550 0001:000F3BC2   551 0001:000F3BED   552 0001:000F3BFA   548 0001:000F3C04
+   554 0001:000F3C2F   558 0001:000F3C5C   560 0001:000F3C76   562 0001:000F3C90
+   563 0001:000F3CA2   566 0001:000F3CB7   567 0001:000F3CC9   568 0001:000F3CCB
+   574 0001:000F3D4D   575 0001:000F3D6B   576 0001:000F3D7A   577 0001:000F3D8A
+   567 0001:000F3D8B   581 0001:000F3DB6   584 0001:000F3DC8   585 0001:000F3DE7
+   586 0001:000F3E0A   587 0001:000F3E53   589 0001:000F3E66   594 0001:000F3EDB
+   600 0001:000F3EFC   601 0001:000F3F28   603 0001:000F3F34   606 0001:000F3F9A
+   608 0001:000F3FC4   609 0001:000F3FD1   610 0001:000F3FDF   611 0001:000F3FE9
+   612 0001:000F403B   614 0001:000F4040   617 0001:000F40A6   619 0001:000F4104
+   620 0001:000F4144   621 0001:000F418A   623 0001:000F41D0   624 0001:000F41DA
+   625 0001:000F4238   627 0001:000F423A   629 0001:000F42AB   640 0001:000F4354
+   641 0001:000F4375   642 0001:000F438C   643 0001:000F439C   644 0001:000F43B2
+   645 0001:000F43C4   646 0001:000F43CE   647 0001:000F43EA   648 0001:000F43FC
+   649 0001:000F4409   650 0001:000F4416   651 0001:000F4421   653 0001:000F4430
+   657 0001:000F4443   659 0001:000F445C   660 0001:000F447D   661 0001:000F44B1
+   662 0001:000F44FA   663 0001:000F4543   664 0001:000F458C   665 0001:000F45D5
+   666 0001:000F461E   667 0001:000F4667   668 0001:000F46C1   669 0001:000F471B
+   670 0001:000F4775   671 0001:000F47CF   672 0001:000F4829   673 0001:000F4883
+   674 0001:000F48DD   675 0001:000F4937   676 0001:000F4980   677 0001:000F49C9
+   678 0001:000F4A12   679 0001:000F4A5B   682 0001:000F4A9D   683 0001:000F4ABE
+   684 0001:000F4AF5   685 0001:000F4B41   686 0001:000F4B8D   687 0001:000F4BD9
+   688 0001:000F4C2B   689 0001:000F4C83   690 0001:000F4CDB   691 0001:000F4D67
+   692 0001:000F4DF3   693 0001:000F4E7F   694 0001:000F4F0B   695 0001:000F4F97
+   696 0001:000F5023   697 0001:000F50A2   698 0001:000F5121   699 0001:000F51A0
+   700 0001:000F521F   701 0001:000F5277   703 0001:000F52CF   705 0001:000F52E9
+   706 0001:000F530E   708 0001:000F531F   710 0001:000F5330   654 0001:000F533F
+   713 0001:000F5363   716 0001:000F536B   717 0001:000F5382   724 0001:000F53A7
+   725 0001:000F53B1   726 0001:000F53C3   727 0001:000F53CF   728 0001:000F53D9
+   729 0001:000F53E6   731 0001:000F53F3   732 0001:000F5400   733 0001:000F540D
+   734 0001:000F5418   735 0001:000F5426   737 0001:000F543A   738 0001:000F54D2
+   739 0001:000F551E   740 0001:000F5575   742 0001:000F55DD   743 0001:000F5602
+   745 0001:000F561D   746 0001:000F562C   736 0001:000F563D   750 0001:000F5661
+   753 0001:000F5669   755 0001:000F5677   757 0001:000F568B   758 0001:000F5723
+   759 0001:000F576F   760 0001:000F57C6   763 0001:000F582E   764 0001:000F5853
+   766 0001:000F586E   767 0001:000F587D   756 0001:000F588E   771 0001:000F58B2
+   772 0001:000F58BA   773 0001:000F58CD   774 0001:000F58EB   776 0001:000F58F7
+   777 0001:000F5951   780 0001:000F5C7C   781 0001:000F5C83   782 0001:000F5C9F
+   783 0001:000F5CB6   784 0001:000F5CCE   788 0001:000F5CD4   789 0001:000F5CDC
+   790 0001:000F5CF5   791 0001:000F5D1D   792 0001:000F5D67   793 0001:000F5DB1
+   794 0001:000F5DFB   795 0001:000F5E45   796 0001:000F5E8F   797 0001:000F5ED9
+   799 0001:000F5F23   800 0001:000F5F6D   801 0001:000F5FB7   802 0001:000F6001
+   804 0001:000F604B   805 0001:000F6095   806 0001:000F60DF   808 0001:000F6129
+   810 0001:000F6173   811 0001:000F6189   812 0001:000F61D3   813 0001:000F621D
+   814 0001:000F6267   815 0001:000F62B1   816 0001:000F62ED   819 0001:000F6340
+   820 0001:000F637C   821 0001:000F63B8   822 0001:000F63F4   823 0001:000F6430
+   824 0001:000F647A   827 0001:000F64C4   828 0001:000F650E   829 0001:000F6558
+   830 0001:000F65A2   831 0001:000F65EC   832 0001:000F6636   833 0001:000F6680
+   834 0001:000F66CA   835 0001:000F6714   790 0001:000F6715   836 0001:000F671C
+   841 0001:000F6958   842 0001:000F6971   872 0001:000F697D   874 0001:000F6992
+   875 0001:000F699C   876 0001:000F69B5   879 0001:000F69C2   843 0001:000F69CC
+   881 0001:000F69EF   884 0001:000F6A0C   885 0001:000F6A0F   886 0001:000F6A14
+   891 0001:000F6A18   892 0001:000F6A36   893 0001:000F6A64   894 0001:000F6A79
+   895 0001:000F6A93   896 0001:000F6AA1   897 0001:000F6AC6   899 0001:000F6AFE
+   902 0001:000F6B08   903 0001:000F6B2A   904 0001:000F6B3D   908 0001:000F6B55
+   909 0001:000F6BA0   910 0001:000F6C0B   913 0001:000F6C14   914 0001:000F6C1A
+   921 0001:000F6C9C   922 0001:000F6CAF   923 0001:000F6CD6   925 0001:000F6CEC
+   929 0001:000F6D5C   931 0001:000F6D65   933 0001:000F6D77   934 0001:000F6D95
+   936 0001:000F6DB3   938 0001:000F6DC5   939 0001:000F6DE0   943 0001:000F6DFB
+   944 0001:000F6E19   945 0001:000F6E37   946 0001:000F6E55   948 0001:000F6E73
+   951 0001:000F6E8E   952 0001:000F6E97   953 0001:000F6EA0   961 0001:000F6EA4
+   963 0001:000F6EC6   964 0001:000F6ED5   966 0001:000F6EE5   967 0001:000F6EE9
+   968 0001:000F6EFF   969 0001:000F6F3E   970 0001:000F6F50   971 0001:000F6F6D
+   972 0001:000F6F82   973 0001:000F6F92   974 0001:000F6FB1   975 0001:000F6FD3
+   979 0001:000F6FF5   980 0001:000F6FFF   981 0001:000F7013   985 0001:000F7027
+   987 0001:000F7059   988 0001:000F7068   989 0001:000F709E   991 0001:000F70B0
+   983 0001:000F70BF   993 0001:000F70D6   996 0001:000F70EA   997 0001:000F714C
+  1004 0001:000F71CC  1005 0001:000F71ED  1006 0001:000F71FB  1007 0001:000F720A
+  1008 0001:000F721A  1009 0001:000F7234  1010 0001:000F729C  1012 0001:000F72AA
+  1013 0001:000F72EC  1014 0001:000F72FA  1015 0001:000F7324  1016 0001:000F7334
+  1017 0001:000F7346  1018 0001:000F7362  1019 0001:000F7370  1021 0001:000F7380
+  1034 0001:000F74E3  1035 0001:000F74ED  1036 0001:000F74FB  1037 0001:000F7511
+  1039 0001:000F7530  1040 0001:000F753E  1043 0001:000F7592  1048 0001:000F772C
+  1049 0001:000F7738  1050 0001:000F7743  1052 0001:000F7753  1053 0001:000F7762
+  1057 0001:000F776E  1059 0001:000F7783  1060 0001:000F778D  1061 0001:000F77A6
+  1063 0001:000F77B3  1055 0001:000F77BD  1065 0001:000F77CB  1067 0001:000F77DA
+  1068 0001:000F77E8  1074 0001:000F7800  1075 0001:000F780B  1077 0001:000F7822
+  1078 0001:000F786E  1079 0001:000F787C  1080 0001:000F7886  1081 0001:000F78A8
+  1082 0001:000F78C8  1083 0001:000F78E4  1085 0001:000F790D  1090 0001:000F791C
+  1092 0001:000F793F  1093 0001:000F794E  1096 0001:000F795E  1100 0001:000F796D
+  1101 0001:000F7972  1103 0001:000F79DD  1105 0001:000F79EA  1098 0001:000F79F4
+  1108 0001:000F7A06  1110 0001:000F7A33  1118 0001:000F7A44  1120 0001:000F7A74
+  1121 0001:000F7A83  1124 0001:000F7A93  1125 0001:000F7A9D  1128 0001:000F7AB1
+  1130 0001:000F7AB6  1134 0001:000F7B1D  1137 0001:000F7B5D  1138 0001:000F7B6A
+  1126 0001:000F7B74  1140 0001:000F7B86  1142 0001:000F7B95  1143 0001:000F7BA2
+  1146 0001:000F7BB6  1148 0001:000F7BBB  1151 0001:000F7BFE  1152 0001:000F7C0E
+  1144 0001:000F7C1B  1154 0001:000F7C2C  1156 0001:000F7C3E  1157 0001:000F7C4B
+  1160 0001:000F7C62  1162 0001:000F7C67  1165 0001:000F7CAA  1168 0001:000F7CED
+  1169 0001:000F7CFD  1158 0001:000F7D0A  1171 0001:000F7D1F  1173 0001:000F7D31
+  1175 0001:000F7D6B  1181 0001:000F7D7C  1183 0001:000F7D82  1184 0001:000F7D90
+  1185 0001:000F7D94  1187 0001:000F7D98  1188 0001:000F7D9A  1194 0001:000F7DC4
+  1195 0001:000F7DEF  1197 0001:000F7DFE  1198 0001:000F7E34  1199 0001:000F7E90
+  1201 0001:000F7EA5  1205 0001:000F7EBD  1206 0001:000F7ED2  1207 0001:000F7EFA
+  1209 0001:000F7F4E  1210 0001:000F7F55  1212 0001:000F7F5F  1216 0001:000F7F72
+  1221 0001:000F7F78  1222 0001:000F7F9F  1223 0001:000F7FF1  1225 0001:000F7FFB
+  1226 0001:000F8011  1227 0001:000F803E  1228 0001:000F8090  1230 0001:000F809A
+  1231 0001:000F80B0  1232 0001:000F80DD  1233 0001:000F812F  1235 0001:000F8139
+  1236 0001:000F814F  1237 0001:000F817C  1238 0001:000F81CE  1240 0001:000F81D8
+  1241 0001:000F81EE  1242 0001:000F821B  1243 0001:000F826D  1245 0001:000F8277
+  1246 0001:000F828D  1247 0001:000F82BA  1248 0001:000F830C  1250 0001:000F8316
+  1251 0001:000F832C  1252 0001:000F8359  1253 0001:000F83AB  1255 0001:000F83B5
+  1256 0001:000F83CB  1257 0001:000F8435  1258 0001:000F8487  1260 0001:000F8491
+  1261 0001:000F84A7  1262 0001:000F8511  1263 0001:000F8563  1265 0001:000F856D
+  1266 0001:000F8583  1267 0001:000F85ED  1268 0001:000F863F  1270 0001:000F8649
+  1271 0001:000F865F  1272 0001:000F86C9  1273 0001:000F871B  1275 0001:000F8725
+  1276 0001:000F873B  1277 0001:000F879E  1278 0001:000F87F0  1281 0001:000F87FA
+  1282 0001:000F8810  1283 0001:000F887A  1284 0001:000F88CC  1286 0001:000F88D6
+  1287 0001:000F88EC  1288 0001:000F8956  1289 0001:000F89A8  1291 0001:000F89B2
+  1292 0001:000F89C8  1293 0001:000F8A1C  1294 0001:000F8A6E  1296 0001:000F8A78
+  1297 0001:000F8A8E  1298 0001:000F8AE2  1299 0001:000F8B34  1301 0001:000F8B3E
+  1302 0001:000F8B54  1303 0001:000F8BA8  1304 0001:000F8BFA  1306 0001:000F8C04
+  1307 0001:000F8C1A  1308 0001:000F8C6E  1309 0001:000F8CC0  1311 0001:000F8CCA
+  1312 0001:000F8CE0  1313 0001:000F8D0D  1314 0001:000F8D5F  1316 0001:000F8D69
+  1317 0001:000F8D7F  1318 0001:000F8DAC  1319 0001:000F8DFE  1321 0001:000F8E08
+  1322 0001:000F8E13  1214 0001:000F8E1D  1326 0001:000F8E3C  1328 0001:000F8E44
+  1329 0001:000F8E76  1330 0001:000F8E89  1332 0001:000F8EA4  1335 0001:000F91C8
+  1339 0001:000F954C  1340 0001:000F9570  1341 0001:000F957E  1342 0001:000F958D
+  1345 0001:000F959D  1346 0001:000F95AB  1348 0001:000F95B9  1350 0001:000F95C7
+  1353 0001:000F960A  1354 0001:000F9614  1355 0001:000F964A  1359 0001:000F9657
+  1360 0001:000F9665  1363 0001:000F9688  1364 0001:000F9696  1367 0001:000F96CB
+  1369 0001:000F9738  1369 0001:000F973F
 
 Line numbers for SpravUnit(SpravUnit.pas) segment .text
 
-    43 0001:000F9B18    44 0001:000F9B32    45 0001:000F9B53    46 0001:000F9B77
-    47 0001:000F9B85    48 0001:000F9BA5    52 0001:000F9BAC    53 0001:000F9BB3
-    54 0001:000F9BCE    55 0001:000F9BDA    56 0001:000F9BE3    58 0001:000F9BF3
-    59 0001:000F9C01    60 0001:000F9C15    61 0001:000F9C1C    64 0001:000F9C34
-    65 0001:000F9C37    66 0001:000F9C3C    69 0001:000F9C40    70 0001:000F9C57
-    71 0001:000F9C7F    72 0001:000F9CA7    73 0001:000F9CCF    74 0001:000F9CF7
-    75 0001:000F9D1F    76 0001:000F9D47    77 0001:000F9D6F    78 0001:000F9D97
-    80 0001:000F9DBF    82 0001:000F9E01    83 0001:000F9E1C    85 0001:000F9E2E
-    86 0001:000F9E49    88 0001:000F9E66    92 0001:000F9E83    93 0001:000F9EAF
-    94 0001:000F9EDB    96 0001:000F9F1C    98 0001:000F9F50   101 0001:000FA0B4
-   103 0001:000FA0BE   104 0001:000FA0E6   105 0001:000FA10E   106 0001:000FA136
-   107 0001:000FA15E   108 0001:000FA186   109 0001:000FA1AE   110 0001:000FA1D6
-   111 0001:000FA1FE   112 0001:000FA226   115 0001:000FA23A   116 0001:000FA257
-   117 0001:000FA27B   119 0001:000FA28D   122 0001:000FA358   123 0001:000FA35E
-   124 0001:000FA376   127 0001:000FA37C   128 0001:000FA397   129 0001:000FA3AD
-   130 0001:000FA3C1   131 0001:000FA3F5   132 0001:000FA41A   133 0001:000FA477
-   134 0001:000FA4A1   135 0001:000FA4CC   137 0001:000FA4F2   138 0001:000FA511
-   139 0001:000FA525   140 0001:000FA539   141 0001:000FA545   142 0001:000FA55A
-   145 0001:000FA5A5   151 0001:000FA608   152 0001:000FA613   154 0001:000FA62A
-   155 0001:000FA676   156 0001:000FA684   157 0001:000FA68E   158 0001:000FA6B0
-   159 0001:000FA6D0   160 0001:000FA6EC   162 0001:000FA715   164 0001:000FA754
-   164 0001:000FA75B
+    43 0001:000F99C4    44 0001:000F99DE    45 0001:000F99FF    46 0001:000F9A23
+    47 0001:000F9A31    48 0001:000F9A51    52 0001:000F9A58    53 0001:000F9A5F
+    54 0001:000F9A7A    55 0001:000F9A86    56 0001:000F9A8F    58 0001:000F9A9F
+    59 0001:000F9AAD    60 0001:000F9AC1    61 0001:000F9AC8    64 0001:000F9AE0
+    65 0001:000F9AE3    66 0001:000F9AE8    69 0001:000F9AEC    70 0001:000F9B03
+    71 0001:000F9B2B    72 0001:000F9B53    73 0001:000F9B7B    74 0001:000F9BA3
+    75 0001:000F9BCB    76 0001:000F9BF3    77 0001:000F9C1B    78 0001:000F9C43
+    80 0001:000F9C6B    82 0001:000F9CAD    83 0001:000F9CC8    85 0001:000F9CDA
+    86 0001:000F9CF5    88 0001:000F9D12    92 0001:000F9D2F    93 0001:000F9D5B
+    94 0001:000F9D87    96 0001:000F9DC8    98 0001:000F9DFC   101 0001:000F9F60
+   103 0001:000F9F6A   104 0001:000F9F92   105 0001:000F9FBA   106 0001:000F9FE2
+   107 0001:000FA00A   108 0001:000FA032   109 0001:000FA05A   110 0001:000FA082
+   111 0001:000FA0AA   112 0001:000FA0D2   115 0001:000FA0E6   116 0001:000FA103
+   117 0001:000FA127   119 0001:000FA139   122 0001:000FA204   123 0001:000FA20A
+   124 0001:000FA222   127 0001:000FA228   128 0001:000FA243   129 0001:000FA259
+   130 0001:000FA26D   131 0001:000FA2A1   132 0001:000FA2C6   133 0001:000FA323
+   134 0001:000FA34D   135 0001:000FA378   137 0001:000FA39E   138 0001:000FA3BD
+   139 0001:000FA3D1   140 0001:000FA3E5   141 0001:000FA3F1   142 0001:000FA406
+   145 0001:000FA451   151 0001:000FA4B4   152 0001:000FA4BF   154 0001:000FA4D6
+   155 0001:000FA522   156 0001:000FA530   157 0001:000FA53A   158 0001:000FA55C
+   159 0001:000FA57C   160 0001:000FA598   162 0001:000FA5C1   164 0001:000FA600
+   164 0001:000FA607
 
 Line numbers for DMUnit(DMUnit.pas) segment .text
 
-   422 0001:000FCAF8   424 0001:000FCB36   425 0001:000FCB44   426 0001:000FCB53
-   428 0001:000FCB63   429 0001:000FCB71   431 0001:000FCB7D   432 0001:000FCB9F
-   433 0001:000FCBA3   434 0001:000FCBAF   435 0001:000FCBB7   437 0001:000FCBBB
-   438 0001:000FCBC3   439 0001:000FCBCB   440 0001:000FCBDB   441 0001:000FCBFA
-   442 0001:000FCC1B   443 0001:000FCC50   440 0001:000FCC76   444 0001:000FCC79
-   445 0001:000FCCB8   448 0001:000FCCD5   449 0001:000FCCDD   450 0001:000FCCF8
-   449 0001:000FCD2C   451 0001:000FCD2F   452 0001:000FCD6E   453 0001:000FCD86
-   447 0001:000FCD8E   456 0001:000FCDAB   457 0001:000FCDBB   458 0001:000FCDD0
-   460 0001:000FCE1A   468 0001:000FCE2C   470 0001:000FCE58   471 0001:000FCE66
-   472 0001:000FCE75   474 0001:000FCE85   475 0001:000FCE91   476 0001:000FCE99
-   479 0001:000FCE9D   480 0001:000FCEAA   483 0001:000FCEC2   484 0001:000FCED2
-   485 0001:000FCEF1   486 0001:000FCF16   487 0001:000FCF77   488 0001:000FCFB0
-   489 0001:000FCFBF   490 0001:000FCFCE   491 0001:000FCFDD   492 0001:000FCFEC
-   493 0001:000FCFFB   494 0001:000FD00A   495 0001:000FD019   497 0001:000FD026
-   484 0001:000FD027   499 0001:000FD02E   500 0001:000FD06D   501 0001:000FD0AC
-   502 0001:000FD0B9   505 0001:000FD0D1   506 0001:000FD0E6   508 0001:000FD128
-   517 0001:000FD218   519 0001:000FD24D   520 0001:000FD25B   521 0001:000FD26A
-   523 0001:000FD27A   524 0001:000FD288   525 0001:000FD298   526 0001:000FD29C
-   527 0001:000FD2AC   528 0001:000FD2B4   532 0001:000FD2BD   533 0001:000FD2DB
-   535 0001:000FD2E3   536 0001:000FD2F3   537 0001:000FD312   542 0001:000FD31C
-   544 0001:000FD346   545 0001:000FD362   546 0001:000FD37C   547 0001:000FD396
-   550 0001:000FD3BD   551 0001:000FD3D9   536 0001:000FD3DA   552 0001:000FD3E1
-   531 0001:000FD3EC   556 0001:000FD411   557 0001:000FD421   558 0001:000FD436
-   560 0001:000FD483   564 0001:000FD4A8   565 0001:000FD4C7   566 0001:000FD514
-   600 0001:000FD534   601 0001:000FD587   603 0001:000FD592   604 0001:000FD5AE
-   606 0001:000FD5CA   607 0001:000FD5D8   609 0001:000FD5EC   611 0001:000FD621
-   612 0001:000FD625   614 0001:000FD62D   615 0001:000FD631   617 0001:000FD63C
-   618 0001:000FD642   620 0001:000FD677   623 0001:000FD681   627 0001:000FD68D
-   630 0001:000FD6D8   631 0001:000FD6E9   632 0001:000FD712   634 0001:000FD721
-   637 0001:000FD72C   638 0001:000FD743   639 0001:000FD75A   640 0001:000FD768
-   641 0001:000FD773   642 0001:000FD77E   643 0001:000FD786   644 0001:000FD790
-   648 0001:000FD798   659 0001:000FD7FC   662 0001:000FD801   668 0001:000FD80E
-   675 0001:000FD888   676 0001:000FD890   680 0001:000FD8A0   682 0001:000FD8B4
-   684 0001:000FD8C2   689 0001:000FD90D   690 0001:000FD974   692 0001:000FD983
-   696 0001:000FD99D   712 0001:000FDA16   718 0001:000FDABB   723 0001:000FDBB4
-   724 0001:000FDBDC   725 0001:000FDBF4   727 0001:000FDBFC   728 0001:000FDC19
-   730 0001:000FDC21   731 0001:000FDC41   733 0001:000FDC4C   734 0001:000FDC6C
-   736 0001:000FDC77   737 0001:000FDC97   739 0001:000FDCA2   740 0001:000FDCC2
-   742 0001:000FDCCD   743 0001:000FDCED   745 0001:000FDCF8   746 0001:000FDD18
-   748 0001:000FDD23   749 0001:000FDD43   751 0001:000FDD4E   752 0001:000FDD6E
-   754 0001:000FDD79   755 0001:000FDD99   757 0001:000FDDA4   758 0001:000FDDD5
-   759 0001:000FDDE8   760 0001:000FDE08   762 0001:000FDE13   766 0001:000FDE20
-   767 0001:000FDE44   768 0001:000FDE53   769 0001:000FDE65   771 0001:000FDE8F
-   773 0001:000FDE9F   775 0001:000FDEAF   776 0001:000FDEBF   777 0001:000FDEE3
-   778 0001:000FDEF2   779 0001:000FDF04   781 0001:000FDF2E   782 0001:000FDF3E
-   783 0001:000FDF4A   789 0001:000FDF54   791 0001:000FDF64   792 0001:000FDF8B
-   793 0001:000FDFB2   794 0001:000FDFDC   795 0001:000FE006   796 0001:000FE030
-   797 0001:000FE05A   798 0001:000FE084   799 0001:000FE0AE   800 0001:000FE0D8
-   801 0001:000FE102   802 0001:000FE12C   804 0001:000FE156   805 0001:000FE180
-   806 0001:000FE1AA   809 0001:000FE1D6   814 0001:000FE203   815 0001:000FE20D
-   816 0001:000FE221   817 0001:000FE235   819 0001:000FE25E   829 0001:000FE2B0
-   832 0001:000FE2E5   833 0001:000FE300   834 0001:000FE31B   835 0001:000FE334
-   838 0001:000FE344   840 0001:000FE34F   841 0001:000FE35D   843 0001:000FE389
-   844 0001:000FE38B   848 0001:000FE3B3   849 0001:000FE3C1   850 0001:000FE3D0
-   851 0001:000FE3DE   853 0001:000FE40C   854 0001:000FE40E   857 0001:000FE431
-   858 0001:000FE447   860 0001:000FE455   861 0001:000FE468   863 0001:000FE46F
-   865 0001:000FE484   868 0001:000FE4E5   869 0001:000FE511   870 0001:000FE513
-   871 0001:000FE517   872 0001:000FE536   874 0001:000FE556   875 0001:000FE56A
-   876 0001:000FE56E   877 0001:000FE58F   878 0001:000FE5A8   880 0001:000FE5B6
-   881 0001:000FE5C5   884 0001:000FE5D3   885 0001:000FE5EA   887 0001:000FE601
-   871 0001:000FE602   888 0001:000FE609   889 0001:000FE60E   890 0001:000FE622
-   891 0001:000FE626   894 0001:000FE686   897 0001:000FE699   899 0001:000FE6C2
-   900 0001:000FE6C4   904 0001:000FE704   907 0001:000FE757   917 0001:000FE848
-   918 0001:000FE87C   920 0001:000FE89C   921 0001:000FE8AF   922 0001:000FE8CA
-   923 0001:000FE8E3   926 0001:000FE8F3   928 0001:000FE8FE   929 0001:000FE90C
-   931 0001:000FE938   932 0001:000FE93A   936 0001:000FE962   937 0001:000FE970
-   938 0001:000FE97F   939 0001:000FE98D   941 0001:000FE9BB   942 0001:000FE9BD
-   945 0001:000FE9E0   946 0001:000FE9F6   948 0001:000FEA04   949 0001:000FEA17
-   951 0001:000FEA1E   953 0001:000FEA33   956 0001:000FEA94   957 0001:000FEAC0
-   958 0001:000FEAC2   959 0001:000FEAC6   960 0001:000FEAE5   962 0001:000FEB05
-   963 0001:000FEB19   964 0001:000FEB1D   965 0001:000FEB3E   966 0001:000FEB57
-   968 0001:000FEB65   969 0001:000FEB74   972 0001:000FEB82   973 0001:000FEB99
-   975 0001:000FEBB0   959 0001:000FEBB1   976 0001:000FEBB8   977 0001:000FEBBD
-   978 0001:000FEC0C   979 0001:000FEC10   982 0001:000FEC72   985 0001:000FEC85
-   987 0001:000FECAE   988 0001:000FECB0   992 0001:000FECF0   995 0001:000FED43
-   999 0001:000FEE30  1001 0001:000FEE51  1003 0001:000FEE80  1005 0001:000FEE90
-  1007 0001:000FEEC3  1009 0001:000FEED5  1010 0001:000FEF30  1011 0001:000FEF9D
-  1013 0001:000FF010  1014 0001:000FF04B  1016 0001:000FF084  1018 0001:000FF096
-  1019 0001:000FF0E2  1020 0001:000FF113  1021 0001:000FF128  1022 0001:000FF15F
-  1023 0001:000FF19D  1024 0001:000FF1AF  1026 0001:000FF1C1  1032 0001:000FF1D1
-  1033 0001:000FF1E5  1035 0001:000FF23B  1037 0001:000FF273  1038 0001:000FF2C1
-  1039 0001:000FF315  1040 0001:000FF32B  1041 0001:000FF341  1042 0001:000FF38D
-  1044 0001:000FF443  1047 0001:000FF4B0  1048 0001:000FF4CA  1051 0001:000FF565
-  1054 0001:000FF59C  1055 0001:000FF59F  1056 0001:000FF5BD  1057 0001:000FF5D1
-  1060 0001:000FF5D4  1061 0001:000FF5DA  1062 0001:000FF60C  1063 0001:000FF646
-  1064 0001:000FF658  1068 0001:000FF65C  1069 0001:000FF664  1073 0001:000FF668
-  1074 0001:000FF674  1075 0001:000FF6A4  1076 0001:000FF6C7  1077 0001:000FF71C
-  1078 0001:000FF738  1079 0001:000FF75E  1082 0001:000FF76C  1083 0001:000FF782
-  1084 0001:000FF79F  1085 0001:000FF7BC  1086 0001:000FF7D9  1087 0001:000FF7F6
-  1088 0001:000FF83B  1091 0001:000FF89C  1092 0001:000FF8A2  1093 0001:000FF8CC
-  1095 0001:000FF8EC  1096 0001:000FF916  1098 0001:000FF936  1099 0001:000FF960
-  1101 0001:000FF980  1102 0001:000FF9AA  1104 0001:000FF9CA  1105 0001:000FF9EA
-  1110 0001:000FFA4C  1111 0001:000FFA71  1112 0001:000FFA80  1113 0001:000FFA90
-  1116 0001:000FFA9D  1117 0001:000FFAE9  1120 0001:000FFB0E  1121 0001:000FFB28
-  1123 0001:000FFB68  1124 0001:000FFB79  1125 0001:000FFBA9  1129 0001:000FFBE1
-  1133 0001:000FFBFF  1135 0001:000FFC1C  1136 0001:000FFC21  1137 0001:000FFC5E
-  1138 0001:000FFC6E  1134 0001:000FFC7B  1140 0001:000FFC8C  1143 0001:000FFCA9
-  1145 0001:000FFCB6  1147 0001:000FFCEE  1150 0001:000FFD00  1151 0001:000FFD03
-  1152 0001:000FFD18  1153 0001:000FFD47  1154 0001:000FFD9F  1157 0001:000FFDBC
-  1158 0001:000FFDDA  1160 0001:000FFE14  1163 0001:000FFE23  1164 0001:000FFE30
-  1165 0001:000FFE6D  1166 0001:000FFE7D  1161 0001:000FFE8A  1168 0001:000FFEB3
-  1169 0001:000FFEF8  1171 0001:000FFF05  1172 0001:000FFF39  1174 0001:000FFF88
-  1177 0001:000FFFA0  1178 0001:000FFFA4  1179 0001:000FFFC0  1181 0001:000FFFE3
-  1182 0001:0010001A  1183 0001:0010002A  1184 0001:0010005A  1186 0001:00100071
-  1190 0001:00100080  1191 0001:0010008C  1192 0001:001000D2  1195 0001:001000E0
-  1196 0001:001000E9  1197 0001:00100102  1198 0001:00100164  1199 0001:0010017D
-  1200 0001:001001C5  1201 0001:001001DE  1202 0001:00100240  1205 0001:00100254
-  1206 0001:0010025D  1207 0001:00100276  1208 0001:001002DB  1212 0001:001002EC
-  1213 0001:00100310  1214 0001:0010031A  1216 0001:00100328  1217 0001:0010033E
-  1219 0001:0010036D  1224 0001:0010036F  1225 0001:00100392  1226 0001:0010039C
-  1227 0001:001003A6  1228 0001:001003B2  1232 0001:001003C3  1233 0001:001003D3
-  1235 0001:001003E1  1236 0001:00100404  1237 0001:00100426  1238 0001:0010043C
-  1240 0001:0010044C  1241 0001:0010046E  1243 0001:001004AA  1244 0001:001004B4
-  1246 0001:001004C2  1248 0001:001004D5  1249 0001:001004F9  1250 0001:00100508
-  1251 0001:0010051A  1253 0001:00100544  1255 0001:00100554  1256 0001:0010057B
-  1257 0001:00100594  1258 0001:001005AD  1259 0001:001005C6  1260 0001:001005E8
-  1261 0001:001005F2  1263 0001:00100626  1264 0001:00100630  1266 0001:00100669
-  1267 0001:00100673  1268 0001:0010067D  1269 0001:00100689  1273 0001:0010069F
-  1274 0001:001006AF  1275 0001:001006BD  1276 0001:001006C8  1277 0001:001006D6
-  1279 0001:001006E4  1280 0001:001006F2  1281 0001:00100700  1282 0001:0010070E
-  1284 0001:0010071C  1286 0001:00100727  1287 0001:00100735  1288 0001:00100743
-  1289 0001:00100751  1292 0001:0010077A  1295 0001:0010077C  1296 0001:001007B0
-  1297 0001:001007BA  1298 0001:001007C4  1299 0001:001007D0  1306 0001:00100803
-  1310 0001:00100968  1311 0001:0010096E  1312 0001:00100993  1315 0001:00100998
-  1316 0001:0010099E  1317 0001:001009C3  1320 0001:001009C8  1321 0001:001009D1
-  1322 0001:001009F0  1324 0001:00100A07  1325 0001:00100A1D  1326 0001:00100A5E
-  1327 0001:00100A74  1328 0001:00100AB5  1329 0001:00100ACB  1331 0001:00100B0C
-  1334 0001:00100B24  1335 0001:00100B25  1336 0001:00100B65  1342 0001:00100B68
-  1345 0001:00100B6C  1346 0001:00100B6F  1347 0001:00100BAA  1349 0001:00100BE5
-  1402 0001:00100C24  1403 0001:00100C4C  1405 0001:00100C61  1406 0001:00100C64
-  1407 0001:00100C6F  1408 0001:00100C7C  1409 0001:00100C8A  1410 0001:00100CA4
-  1412 0001:00100CD0  1413 0001:00100CE2  1414 0001:00100CF3  1415 0001:00100D04
-  1416 0001:00100D0D  1417 0001:00100D26  1418 0001:00100D2E  1419 0001:00100D3B
-  1421 0001:00100D5C  1423 0001:00100D84  1424 0001:00100D91  1427 0001:00100DC3
-  1428 0001:00100DD1  1431 0001:00100E06  1435 0001:00100E34  1436 0001:00100E3A
-  1437 0001:00100E4C  1440 0001:00100E50  1441 0001:00100E56  1442 0001:00100E68
-  1445 0001:00100E6C  1446 0001:00100E72  1447 0001:00100E84  1450 0001:00100E88
-  1451 0001:00100E8E  1452 0001:00100EA0  1455 0001:00100EA4  1456 0001:00100EAA
-  1457 0001:00100EBC  1460 0001:00100EC0  1461 0001:00100EC6  1462 0001:00100ED8
-  1465 0001:00100EDC  1466 0001:00100EE2  1467 0001:00100EF4  1470 0001:00100EF8
-  1471 0001:00100EFE  1472 0001:00100F10  1475 0001:00100F14  1476 0001:00100F1A
-  1477 0001:00100F2C  1480 0001:00100F30  1481 0001:00100F36  1482 0001:00100F48
-  1485 0001:00100F4C  1486 0001:00100F52  1487 0001:00100F64  1490 0001:00100F68
-  1491 0001:00100F6E  1492 0001:00100F80  1495 0001:00100F84  1496 0001:00100F8A
-  1497 0001:00100F9C  1500 0001:00100FA0  1501 0001:00100FA6  1502 0001:00100FB8
-  1505 0001:00100FBC  1506 0001:00100FC2  1507 0001:00100FD4  1511 0001:00100FD8
-  1515 0001:00100FDB  1527 0001:00100FE0  1527 0001:0010100C  1517 0001:00101010
-  1524 0001:0010101A
+   422 0001:000FC9A4   424 0001:000FC9E2   425 0001:000FC9F0   426 0001:000FC9FF
+   428 0001:000FCA0F   429 0001:000FCA1D   431 0001:000FCA29   432 0001:000FCA4B
+   433 0001:000FCA4F   434 0001:000FCA5B   435 0001:000FCA63   437 0001:000FCA67
+   438 0001:000FCA6F   439 0001:000FCA77   440 0001:000FCA87   441 0001:000FCAA6
+   442 0001:000FCAC7   443 0001:000FCAFC   440 0001:000FCB22   444 0001:000FCB25
+   445 0001:000FCB64   448 0001:000FCB81   449 0001:000FCB89   450 0001:000FCBA4
+   449 0001:000FCBD8   451 0001:000FCBDB   452 0001:000FCC1A   453 0001:000FCC32
+   447 0001:000FCC3A   456 0001:000FCC57   457 0001:000FCC67   458 0001:000FCC7C
+   460 0001:000FCCC6   468 0001:000FCCD8   470 0001:000FCD04   471 0001:000FCD12
+   472 0001:000FCD21   474 0001:000FCD31   475 0001:000FCD3D   476 0001:000FCD45
+   479 0001:000FCD49   480 0001:000FCD56   483 0001:000FCD6E   484 0001:000FCD7E
+   485 0001:000FCD9D   486 0001:000FCDC2   487 0001:000FCE23   488 0001:000FCE5C
+   489 0001:000FCE6B   490 0001:000FCE7A   491 0001:000FCE89   492 0001:000FCE98
+   493 0001:000FCEA7   494 0001:000FCEB6   495 0001:000FCEC5   497 0001:000FCED2
+   484 0001:000FCED3   499 0001:000FCEDA   500 0001:000FCF19   501 0001:000FCF58
+   502 0001:000FCF65   505 0001:000FCF7D   506 0001:000FCF92   508 0001:000FCFD4
+   517 0001:000FD0C4   519 0001:000FD0F9   520 0001:000FD107   521 0001:000FD116
+   523 0001:000FD126   524 0001:000FD134   525 0001:000FD144   526 0001:000FD148
+   527 0001:000FD158   528 0001:000FD160   532 0001:000FD169   533 0001:000FD187
+   535 0001:000FD18F   536 0001:000FD19F   537 0001:000FD1BE   542 0001:000FD1C8
+   544 0001:000FD1F2   545 0001:000FD20E   546 0001:000FD228   547 0001:000FD242
+   550 0001:000FD269   551 0001:000FD285   536 0001:000FD286   552 0001:000FD28D
+   531 0001:000FD298   556 0001:000FD2BD   557 0001:000FD2CD   558 0001:000FD2E2
+   560 0001:000FD32F   564 0001:000FD354   565 0001:000FD373   566 0001:000FD3C0
+   600 0001:000FD3E0   601 0001:000FD433   603 0001:000FD43E   604 0001:000FD45A
+   606 0001:000FD476   607 0001:000FD484   609 0001:000FD498   611 0001:000FD4CD
+   612 0001:000FD4D1   614 0001:000FD4D9   615 0001:000FD4DD   617 0001:000FD4E8
+   618 0001:000FD4EE   620 0001:000FD523   623 0001:000FD52D   627 0001:000FD539
+   630 0001:000FD584   631 0001:000FD595   632 0001:000FD5BE   634 0001:000FD5CD
+   637 0001:000FD5D8   638 0001:000FD5EF   639 0001:000FD606   640 0001:000FD614
+   641 0001:000FD61F   642 0001:000FD62A   643 0001:000FD632   644 0001:000FD63C
+   648 0001:000FD644   659 0001:000FD6A8   662 0001:000FD6AD   668 0001:000FD6BA
+   675 0001:000FD734   676 0001:000FD73C   680 0001:000FD74C   682 0001:000FD760
+   684 0001:000FD76E   689 0001:000FD7B9   690 0001:000FD820   692 0001:000FD82F
+   696 0001:000FD849   712 0001:000FD8C2   718 0001:000FD967   723 0001:000FDA60
+   724 0001:000FDA88   725 0001:000FDAA0   727 0001:000FDAA8   728 0001:000FDAC5
+   730 0001:000FDACD   731 0001:000FDAED   733 0001:000FDAF8   734 0001:000FDB18
+   736 0001:000FDB23   737 0001:000FDB43   739 0001:000FDB4E   740 0001:000FDB6E
+   742 0001:000FDB79   743 0001:000FDB99   745 0001:000FDBA4   746 0001:000FDBC4
+   748 0001:000FDBCF   749 0001:000FDBEF   751 0001:000FDBFA   752 0001:000FDC1A
+   754 0001:000FDC25   755 0001:000FDC45   757 0001:000FDC50   758 0001:000FDC81
+   759 0001:000FDC94   760 0001:000FDCB4   762 0001:000FDCBF   766 0001:000FDCCC
+   767 0001:000FDCF0   768 0001:000FDCFF   769 0001:000FDD11   771 0001:000FDD3B
+   773 0001:000FDD4B   775 0001:000FDD5B   776 0001:000FDD6B   777 0001:000FDD8F
+   778 0001:000FDD9E   779 0001:000FDDB0   781 0001:000FDDDA   782 0001:000FDDEA
+   783 0001:000FDDF6   789 0001:000FDE00   791 0001:000FDE10   792 0001:000FDE37
+   793 0001:000FDE5E   794 0001:000FDE88   795 0001:000FDEB2   796 0001:000FDEDC
+   797 0001:000FDF06   798 0001:000FDF30   799 0001:000FDF5A   800 0001:000FDF84
+   801 0001:000FDFAE   802 0001:000FDFD8   804 0001:000FE002   805 0001:000FE02C
+   806 0001:000FE056   809 0001:000FE082   814 0001:000FE0AF   815 0001:000FE0B9
+   816 0001:000FE0CD   817 0001:000FE0E1   819 0001:000FE10A   829 0001:000FE15C
+   832 0001:000FE191   833 0001:000FE1AC   834 0001:000FE1C7   835 0001:000FE1E0
+   838 0001:000FE1F0   840 0001:000FE1FB   841 0001:000FE209   843 0001:000FE235
+   844 0001:000FE237   848 0001:000FE25F   849 0001:000FE26D   850 0001:000FE27C
+   851 0001:000FE28A   853 0001:000FE2B8   854 0001:000FE2BA   857 0001:000FE2DD
+   858 0001:000FE2F3   860 0001:000FE301   861 0001:000FE314   863 0001:000FE31B
+   865 0001:000FE330   868 0001:000FE391   869 0001:000FE3BD   870 0001:000FE3BF
+   871 0001:000FE3C3   872 0001:000FE3E2   874 0001:000FE402   875 0001:000FE416
+   876 0001:000FE41A   877 0001:000FE43B   878 0001:000FE454   880 0001:000FE462
+   881 0001:000FE471   884 0001:000FE47F   885 0001:000FE496   887 0001:000FE4AD
+   871 0001:000FE4AE   888 0001:000FE4B5   889 0001:000FE4BA   890 0001:000FE4CE
+   891 0001:000FE4D2   894 0001:000FE532   897 0001:000FE545   899 0001:000FE56E
+   900 0001:000FE570   904 0001:000FE5B0   907 0001:000FE603   917 0001:000FE6F4
+   918 0001:000FE728   920 0001:000FE748   921 0001:000FE75B   922 0001:000FE776
+   923 0001:000FE78F   926 0001:000FE79F   928 0001:000FE7AA   929 0001:000FE7B8
+   931 0001:000FE7E4   932 0001:000FE7E6   936 0001:000FE80E   937 0001:000FE81C
+   938 0001:000FE82B   939 0001:000FE839   941 0001:000FE867   942 0001:000FE869
+   945 0001:000FE88C   946 0001:000FE8A2   948 0001:000FE8B0   949 0001:000FE8C3
+   951 0001:000FE8CA   953 0001:000FE8DF   956 0001:000FE940   957 0001:000FE96C
+   958 0001:000FE96E   959 0001:000FE972   960 0001:000FE991   962 0001:000FE9B1
+   963 0001:000FE9C5   964 0001:000FE9C9   965 0001:000FE9EA   966 0001:000FEA03
+   968 0001:000FEA11   969 0001:000FEA20   972 0001:000FEA2E   973 0001:000FEA45
+   975 0001:000FEA5C   959 0001:000FEA5D   976 0001:000FEA64   977 0001:000FEA69
+   978 0001:000FEAB8   979 0001:000FEABC   982 0001:000FEB1E   985 0001:000FEB31
+   987 0001:000FEB5A   988 0001:000FEB5C   992 0001:000FEB9C   995 0001:000FEBEF
+   999 0001:000FECDC  1001 0001:000FECFD  1003 0001:000FED2C  1005 0001:000FED3C
+  1007 0001:000FED6F  1009 0001:000FED81  1010 0001:000FEDDC  1011 0001:000FEE49
+  1013 0001:000FEEBC  1014 0001:000FEEF7  1016 0001:000FEF30  1018 0001:000FEF42
+  1019 0001:000FEF8E  1020 0001:000FEFBF  1021 0001:000FEFD4  1022 0001:000FF00B
+  1023 0001:000FF049  1024 0001:000FF05B  1026 0001:000FF06D  1032 0001:000FF07D
+  1033 0001:000FF091  1035 0001:000FF0E7  1037 0001:000FF11F  1038 0001:000FF16D
+  1039 0001:000FF1C1  1040 0001:000FF1D7  1041 0001:000FF1ED  1042 0001:000FF239
+  1044 0001:000FF2EF  1047 0001:000FF35C  1048 0001:000FF376  1051 0001:000FF411
+  1054 0001:000FF448  1055 0001:000FF44B  1056 0001:000FF469  1057 0001:000FF47D
+  1060 0001:000FF480  1061 0001:000FF486  1062 0001:000FF4B8  1063 0001:000FF4F2
+  1064 0001:000FF504  1068 0001:000FF508  1069 0001:000FF510  1073 0001:000FF514
+  1074 0001:000FF520  1075 0001:000FF550  1076 0001:000FF573  1077 0001:000FF5C8
+  1078 0001:000FF5E4  1079 0001:000FF60A  1082 0001:000FF618  1083 0001:000FF62E
+  1084 0001:000FF64B  1085 0001:000FF668  1086 0001:000FF685  1087 0001:000FF6A2
+  1088 0001:000FF6E7  1091 0001:000FF748  1092 0001:000FF74E  1093 0001:000FF778
+  1095 0001:000FF798  1096 0001:000FF7C2  1098 0001:000FF7E2  1099 0001:000FF80C
+  1101 0001:000FF82C  1102 0001:000FF856  1104 0001:000FF876  1105 0001:000FF896
+  1110 0001:000FF8F8  1111 0001:000FF91D  1112 0001:000FF92C  1113 0001:000FF93C
+  1116 0001:000FF949  1117 0001:000FF995  1120 0001:000FF9BA  1121 0001:000FF9D4
+  1123 0001:000FFA14  1124 0001:000FFA25  1125 0001:000FFA55  1129 0001:000FFA8D
+  1133 0001:000FFAAB  1135 0001:000FFAC8  1136 0001:000FFACD  1137 0001:000FFB0A
+  1138 0001:000FFB1A  1134 0001:000FFB27  1140 0001:000FFB38  1143 0001:000FFB55
+  1145 0001:000FFB62  1147 0001:000FFB9A  1150 0001:000FFBAC  1151 0001:000FFBAF
+  1152 0001:000FFBC4  1153 0001:000FFBF3  1154 0001:000FFC4B  1157 0001:000FFC68
+  1158 0001:000FFC86  1160 0001:000FFCC0  1163 0001:000FFCCF  1164 0001:000FFCDC
+  1165 0001:000FFD19  1166 0001:000FFD29  1161 0001:000FFD36  1168 0001:000FFD5F
+  1169 0001:000FFDA4  1171 0001:000FFDB1  1172 0001:000FFDE5  1174 0001:000FFE34
+  1177 0001:000FFE4C  1178 0001:000FFE50  1179 0001:000FFE6C  1181 0001:000FFE8F
+  1182 0001:000FFEC6  1183 0001:000FFED6  1184 0001:000FFF06  1186 0001:000FFF1D
+  1190 0001:000FFF2C  1191 0001:000FFF38  1192 0001:000FFF7E  1195 0001:000FFF8C
+  1196 0001:000FFF95  1197 0001:000FFFAE  1198 0001:00100010  1199 0001:00100029
+  1200 0001:00100071  1201 0001:0010008A  1202 0001:001000EC  1205 0001:00100100
+  1206 0001:00100109  1207 0001:00100122  1208 0001:00100187  1212 0001:00100198
+  1213 0001:001001BC  1214 0001:001001C6  1216 0001:001001D4  1217 0001:001001EA
+  1219 0001:00100219  1224 0001:0010021B  1225 0001:0010023E  1226 0001:00100248
+  1227 0001:00100252  1228 0001:0010025E  1232 0001:0010026F  1233 0001:0010027F
+  1235 0001:0010028D  1236 0001:001002B0  1237 0001:001002D2  1238 0001:001002E8
+  1240 0001:001002F8  1241 0001:0010031A  1243 0001:00100356  1244 0001:00100360
+  1246 0001:0010036E  1248 0001:00100381  1249 0001:001003A5  1250 0001:001003B4
+  1251 0001:001003C6  1253 0001:001003F0  1255 0001:00100400  1256 0001:00100427
+  1257 0001:00100440  1258 0001:00100459  1259 0001:00100472  1260 0001:00100494
+  1261 0001:0010049E  1263 0001:001004D2  1264 0001:001004DC  1266 0001:00100515
+  1267 0001:0010051F  1268 0001:00100529  1269 0001:00100535  1273 0001:0010054B
+  1274 0001:0010055B  1275 0001:00100569  1276 0001:00100574  1277 0001:00100582
+  1279 0001:00100590  1280 0001:0010059E  1281 0001:001005AC  1282 0001:001005BA
+  1284 0001:001005C8  1286 0001:001005D3  1287 0001:001005E1  1288 0001:001005EF
+  1289 0001:001005FD  1292 0001:00100626  1295 0001:00100628  1296 0001:0010065C
+  1297 0001:00100666  1298 0001:00100670  1299 0001:0010067C  1306 0001:001006AF
+  1310 0001:00100814  1311 0001:0010081A  1312 0001:0010083F  1315 0001:00100844
+  1316 0001:0010084A  1317 0001:0010086F  1320 0001:00100874  1321 0001:0010087D
+  1322 0001:0010089C  1324 0001:001008B3  1325 0001:001008C9  1326 0001:0010090A
+  1327 0001:00100920  1328 0001:00100961  1329 0001:00100977  1331 0001:001009B8
+  1334 0001:001009D0  1335 0001:001009D1  1336 0001:00100A11  1341 0001:00100A14
+  1343 0001:00100A3B  1344 0001:00100A54  1346 0001:00100AAD  1347 0001:00100AEA
+  1350 0001:00100B04  1351 0001:00100B07  1352 0001:00100B42  1354 0001:00100B7D
+  1407 0001:00100BBC  1408 0001:00100BE4  1410 0001:00100BF9  1411 0001:00100BFC
+  1412 0001:00100C07  1413 0001:00100C14  1414 0001:00100C22  1415 0001:00100C3C
+  1417 0001:00100C68  1418 0001:00100C7A  1419 0001:00100C8B  1420 0001:00100C9C
+  1421 0001:00100CA5  1422 0001:00100CBE  1423 0001:00100CC6  1424 0001:00100CD3
+  1426 0001:00100CF4  1428 0001:00100D1C  1429 0001:00100D29  1432 0001:00100D5B
+  1433 0001:00100D69  1436 0001:00100D9E  1440 0001:00100DCC  1441 0001:00100DD2
+  1442 0001:00100DE4  1445 0001:00100DE8  1446 0001:00100DEE  1447 0001:00100E00
+  1450 0001:00100E04  1451 0001:00100E0A  1452 0001:00100E1C  1455 0001:00100E20
+  1456 0001:00100E26  1457 0001:00100E38  1460 0001:00100E3C  1461 0001:00100E42
+  1462 0001:00100E54  1465 0001:00100E58  1466 0001:00100E5E  1467 0001:00100E70
+  1470 0001:00100E74  1471 0001:00100E7A  1472 0001:00100E8C  1475 0001:00100E90
+  1476 0001:00100E96  1477 0001:00100EA8  1480 0001:00100EAC  1481 0001:00100EB2
+  1482 0001:00100EC4  1485 0001:00100EC8  1486 0001:00100ECE  1487 0001:00100EE0
+  1490 0001:00100EE4  1491 0001:00100EEA  1492 0001:00100EFC  1495 0001:00100F00
+  1496 0001:00100F06  1497 0001:00100F18  1500 0001:00100F1C  1501 0001:00100F22
+  1502 0001:00100F34  1505 0001:00100F38  1506 0001:00100F3E  1507 0001:00100F50
+  1510 0001:00100F54  1511 0001:00100F5A  1512 0001:00100F6C  1516 0001:00100F70
+  1520 0001:00100F73  1532 0001:00100F78  1532 0001:00100FA4  1522 0001:00100FA8
+  1529 0001:00100FB2
 
 Line numbers for NaklUnit(NaklUnit.pas) segment .text
 
-   375 0001:00102BB8   376 0001:00102BD9   377 0001:00102BE4   379 0001:00102BF4
-   380 0001:00102C06   382 0001:00102C15   383 0001:00102C27   385 0001:00102C36
-   388 0001:00102C44   389 0001:00102C5A   390 0001:00102C61   392 0001:00102C76
-   393 0001:00102C7D   394 0001:00102C93   395 0001:00102C98   398 0001:00102C9B
-   399 0001:00102CA4   400 0001:00102CC0   401 0001:00102CC9   402 0001:00102CE0
-   405 0001:00102D01   408 0001:00102D3D   409 0001:00102D67   410 0001:00102D89
-   412 0001:00102DB9   413 0001:00102DD8   415 0001:00102DFC   416 0001:00102E1D
-   417 0001:00102E21   422 0001:00102E45   423 0001:00102E57   425 0001:00102E66
-   426 0001:00102E78   428 0001:00102E87   429 0001:00102EB7   432 0001:00102EC0
-   433 0001:00102EC9   434 0001:00102F00   437 0001:00102F08   438 0001:00102F11
-   439 0001:00102F4E   440 0001:00102F55   443 0001:00102F5C   444 0001:00102F5F
-   445 0001:00102F64   450 0001:00102F68   479 0001:00102F8B   480 0001:00102F99
-   481 0001:00102FCD   484 0001:00103014   488 0001:00103051   489 0001:0010305F
-   490 0001:00103076   500 0001:001030A9   502 0001:001030DB   504 0001:001030DD
-   514 0001:00103149   520 0001:00103200   521 0001:00103229   522 0001:00103258
-   524 0001:0010326A   525 0001:0010329C   527 0001:001032AF   528 0001:001032E1
-   530 0001:001032F4   531 0001:00103326   533 0001:00103339   534 0001:0010336B
-   536 0001:0010337E   537 0001:001033B0   539 0001:001033C3   540 0001:001033F5
-   542 0001:00103408   543 0001:0010343A   545 0001:0010344D   577 0001:001039B0
-   586 0001:00103AB8   587 0001:00103ADB   588 0001:00103B0C   594 0001:00103B7C
-   595 0001:00103B8A   597 0001:00103B98   598 0001:00103BA7   600 0001:00103BB7
-   601 0001:00103BC9   602 0001:00103BD8   604 0001:00103BEA   605 0001:00103BFA
-   606 0001:00103C04   607 0001:00103C1A   611 0001:00103CB3   617 0001:00103CC3
-   618 0001:00103CD6   619 0001:00103CE8   620 0001:00103D19   623 0001:00103D42
-   624 0001:00103D76   625 0001:00103DAA   627 0001:00103DDE   629 0001:00103DFB
-   633 0001:00103E2F   634 0001:00103E4B   635 0001:00103E55   636 0001:00103E68
-   637 0001:00103E96   641 0001:00103EA5   635 0001:00103EA6   642 0001:00103EA9
-   648 0001:00103EEA   650 0001:00103F0B   651 0001:00103F40   652 0001:00103F75
-   653 0001:00103FAA   654 0001:00103FDF   657 0001:00104014   662 0001:00104046
-   663 0001:0010407C   664 0001:001040B5   665 0001:001040EE   667 0001:00104127
-   668 0001:00104161   669 0001:0010419B   670 0001:001041D5   671 0001:0010420F
-   672 0001:00104249   673 0001:00104283   674 0001:001042BD   675 0001:001042F7
-   677 0001:00104331   680 0001:00104346   682 0001:00104374   683 0001:00104376
-   690 0001:001043B7   691 0001:001043BD   696 0001:001043D1   698 0001:001043DF
-   701 0001:001043F4   708 0001:001043F9   711 0001:0010440C   712 0001:00104445
-   714 0001:0010445C   715 0001:0010446E   718 0001:00104477   721 0001:001044A1
-   722 0001:001044AF   723 0001:001044C8   724 0001:00104518   727 0001:0010458A
-   728 0001:00104599   729 0001:001045D8   730 0001:00104600   734 0001:00104612
-   735 0001:0010462B   736 0001:00104681   739 0001:001046F3   740 0001:00104702
-   741 0001:00104741   742 0001:00104769   746 0001:0010477B   747 0001:00104794
-   748 0001:001047EA   751 0001:0010485C   752 0001:0010486B   753 0001:001048AA
-   754 0001:001048D2   758 0001:001048E4   759 0001:001048FD   760 0001:00104953
-   763 0001:001049C5   764 0001:001049D4   765 0001:00104A13   766 0001:00104A3B
-   771 0001:00104A68   772 0001:00104A6A   785 0001:00104A98   790 0001:00104B19
-   791 0001:00104B69   792 0001:00104B70   793 0001:00104B79   794 0001:00104B82
-   795 0001:00104B8B   796 0001:00104B92   798 0001:00104B99   803 0001:00104C2A
-   804 0001:00104C38   805 0001:00104C47   806 0001:00104C89   807 0001:00104CCC
-   808 0001:00104CE9   809 0001:00104D07   811 0001:00104D34   812 0001:00104D36
-   822 0001:00104D64   716 0001:00104D76   827 0001:00104D90   829 0001:00104D9E
-   830 0001:00104DB0   832 0001:00104DD2   833 0001:00104E2C   834 0001:00104E4E
-   835 0001:00104E6F   838 0001:00104E89   841 0001:00104EAA   842 0001:00104EBD
-   843 0001:00104EC5   846 0001:00104F07   849 0001:00104F37   850 0001:00104F39
-   859 0001:00104F67   860 0001:00104F75   863 0001:00104F88   864 0001:00104F9A
-   865 0001:00104FC7   866 0001:00104FF4   868 0001:0010502A   869 0001:00105064
-   870 0001:0010509E   871 0001:001050D4   872 0001:0010510E   873 0001:00105148
-   875 0001:00105190   876 0001:001051D8   877 0001:00105220   878 0001:00105268
-   880 0001:001052B0   881 0001:001052F8   882 0001:00105340   883 0001:00105388
-   885 0001:001053D0   887 0001:00105408   888 0001:0010541B   889 0001:0010545A
-   890 0001:0010548D   892 0001:001054BD   893 0001:0010550D   894 0001:00105522
-   897 0001:00105550   898 0001:00105552   910 0001:0010559C   911 0001:001055A6
-   912 0001:001055B6   913 0001:001055C8   914 0001:001055D7   918 0001:001055F1
-   919 0001:001055FF   920 0001:00105612   921 0001:00105624   922 0001:00105655
-   924 0001:0010567E   925 0001:001056B2   927 0001:00105701   928 0001:00105703
-   936 0001:00105731   939 0001:00105739   942 0001:00105741   943 0001:00105759
-   946 0001:0010575F   947 0001:00105857   950 0001:00106090   951 0001:00106096
-   952 0001:001060A6   953 0001:001060AD   960 0001:001060B0   961 0001:001060DC
-   965 0001:001060FF   966 0001:00106130   967 0001:00106161   968 0001:00106192
-   969 0001:001061C3   971 0001:001061D5   974 0001:001061F4   975 0001:0010620D
-   976 0001:0010621E   978 0001:0010622D   979 0001:00106246   981 0001:00106260
-   982 0001:0010626D   983 0001:00106289   985 0001:001062A8   986 0001:001062CB
-   987 0001:00106302   988 0001:00106339   989 0001:00106370   990 0001:001063A7
-   991 0001:001063DE   992 0001:00106415   993 0001:0010644C   994 0001:00106483
-   996 0001:00106493  1007 0001:001064EC  1008 0001:001064FE  1009 0001:00106510
-  1011 0001:00106522  1012 0001:00106531  1013 0001:00106540  1022 0001:00106554
-  1023 0001:00106566  1024 0001:00106578  1026 0001:0010658A  1027 0001:00106599
-  1028 0001:001065A8  1032 0001:001065BC  1033 0001:001065CB  1034 0001:001065DA
-  1040 0001:001065EE  1041 0001:001065FD  1042 0001:0010660C  1046 0001:00106620
-  1047 0001:0010662F  1048 0001:0010663E  1056 0001:00106652  1057 0001:00106664
-  1058 0001:00106676  1059 0001:00106685  1060 0001:00106694  1068 0001:001066A8
-  1069 0001:001066B0  1070 0001:001066BF  1071 0001:001066D6  1072 0001:001066E5
-  1073 0001:001066F4  1074 0001:00106703  1075 0001:00106712  1076 0001:00106721
-  1078 0001:00106730  1079 0001:0010673F  1080 0001:0010674E  1081 0001:0010675D
-  1082 0001:0010676C  1083 0001:0010677B  1084 0001:0010678A  1085 0001:00106799
-  1086 0001:001067A8  1087 0001:001067B7  1088 0001:001067C6  1089 0001:001067D5
-  1090 0001:001067E4  1091 0001:001067F3  1092 0001:00106802  1093 0001:00106811
-  1094 0001:00106820  1095 0001:0010682F  1096 0001:0010683E  1097 0001:0010684D
-  1098 0001:0010685C  1099 0001:0010686B  1100 0001:0010687A  1101 0001:00106889
-  1102 0001:00106898  1103 0001:001068A7  1104 0001:001068BB  1106 0001:001068CD
-  1107 0001:001068DC  1108 0001:001068EB  1109 0001:001068FA  1110 0001:00106909
-  1111 0001:00106918  1112 0001:00106927  1113 0001:00106936  1114 0001:00106945
-  1116 0001:00106954  1118 0001:001069B9  1119 0001:001069CB  1122 0001:001069E2
-  1123 0001:001069F4  1124 0001:00106A06  1125 0001:00106A33  1131 0001:00106A4A
-  1132 0001:00106A5C  1133 0001:00106A6E  1134 0001:00106A97  1138 0001:00106AA9
-  1139 0001:00106AB8  1140 0001:00106AC7  1143 0001:00106ADB  1144 0001:00106AED
-  1145 0001:00106AFF  1146 0001:00106B11  1148 0001:00106B23  1149 0001:00106B4C
-  1153 0001:00106B5E  1154 0001:00106B6D  1155 0001:00106B7C  1159 0001:00106B90
-  1160 0001:00106BB9  1164 0001:00106BCB  1165 0001:00106BDA  1166 0001:00106BE9
-  1171 0001:00106BFD  1172 0001:00106C0C  1173 0001:00106C1B  1176 0001:00106C2F
-  1177 0001:00106C3E  1178 0001:00106C4D  1181 0001:00106C61  1182 0001:00106C73
-  1183 0001:00106C85  1184 0001:00106C97  1186 0001:00106CA9  1187 0001:00106CD2
-  1191 0001:00106CE4  1192 0001:00106CF3  1193 0001:00106D02  1199 0001:00106D11
-  1203 0001:00106D30  1204 0001:00106D5B  1205 0001:00106D86  1206 0001:00106DB1
-  1208 0001:00106DEC  1209 0001:00106E17  1212 0001:00106E31  1214 0001:00106E5A
-  1216 0001:00106E80  1217 0001:00106EA6  1218 0001:00106EBA  1219 0001:00106ECE
-  1220 0001:00106EE2  1224 0001:00106EF4  1225 0001:00106F13  1227 0001:00106F1A
-  1228 0001:00106F4E  1229 0001:00106F82  1230 0001:00106FB6  1232 0001:00106FEA
-  1233 0001:0010701E  1234 0001:00107052  1235 0001:00107086  1240 0001:001070BF
-  1243 0001:001070DE  1245 0001:001070FD  1246 0001:00107130  1247 0001:00107163
-  1248 0001:00107196  1250 0001:001071C9  1251 0001:001071FC  1252 0001:0010722F
-  1253 0001:00107262  1255 0001:00107295  1256 0001:001072C0  1257 0001:001072D9
-  1258 0001:00107304  1261 0001:0010731E  1263 0001:00107330  1266 0001:00107356
-  1268 0001:00107385  1269 0001:001073AF  1270 0001:001073D9  1271 0001:00107403
-  1272 0001:0010742D  1274 0001:00107457  1275 0001:0010746B  1277 0001:001074C1
-  1278 0001:001074C9  1284 0001:001074DD  1287 0001:001074F1  1290 0001:00107505
-  1293 0001:00107519  1296 0001:0010752D  1299 0001:00107541  1303 0001:00107553
-  1304 0001:0010756C  1305 0001:001075C8  1308 0001:0010764F  1310 0001:00107850
-  1312 0001:0010787F  1313 0001:0010788B  1314 0001:001078A3  1316 0001:001078AD
-  1317 0001:001078B1  1319 0001:001078BA  1320 0001:001078C8  1326 0001:001078DB
-  1328 0001:001078E9  1329 0001:001078FB  1330 0001:00107910  1332 0001:00107935
-  1334 0001:0010793C  1336 0001:0010795E  1337 0001:00107960  1344 0001:001079A1
-  1345 0001:001079A5  1352 0001:001079BE  1354 0001:001079F1  1359 0001:001079F6
-  1360 0001:00107A1B  1361 0001:00107A22  1364 0001:00107A2B  1367 0001:00107A70
-  1370 0001:00107A7A  1372 0001:00107A88  1373 0001:00107A9A  1374 0001:00107AAF
-  1376 0001:00107AD4  1383 0001:00107ADB  1385 0001:00107AFA  1386 0001:00107AFC
-  1393 0001:00107B3D  1394 0001:00107B41  1400 0001:00107B57  1403 0001:00107B5B
-  1405 0001:00107B7B  1406 0001:00107B85  1408 0001:00107BAA  1409 0001:00107BE4
-  1411 0001:00107C1E  1413 0001:00107C30  1414 0001:00107C45  1415 0001:00107C58
-  1418 0001:00107C75  1419 0001:00107C8E  1420 0001:00107CA4  1421 0001:00107CB4
-  1423 0001:00107CDC  1424 0001:00107D0A  1428 0001:00107D3C  1430 0001:00107D60
-  1431 0001:00107D7B  1432 0001:00107D90  1433 0001:00107D99  1435 0001:00107DAC
-  1438 0001:00107DC0  1439 0001:00107DC8  1440 0001:00107DE0  1443 0001:00107DEB
-  1446 0001:00107DFE  1448 0001:00107E48  1454 0001:00108028  1455 0001:00108049
-  1457 0001:00108068  1458 0001:00108090  1460 0001:0010809D  1461 0001:001080A4
-  1462 0001:001080CC  1463 0001:0010810A  1465 0001:00108148  1466 0001:00108186
-  1467 0001:001081C4  1469 0001:001081CB  1470 0001:001081DD  1471 0001:00108236
-  1472 0001:0010824F  1473 0001:00108261  1474 0001:001082BA  1477 0001:001082D3
-  1478 0001:001082E5  1479 0001:0010832C  1480 0001:0010833E  1481 0001:00108385
-  1482 0001:00108397  1483 0001:001083DE  1484 0001:001083F0  1485 0001:00108437
-  1486 0001:00108449  1488 0001:00108490  1489 0001:001084A2  1490 0001:001084CA
-  1492 0001:001084EE  1493 0001:00108516  1495 0001:00108524  1496 0001:00108557
-  1498 0001:00108572  1500 0001:0010858B  1501 0001:0010859D  1502 0001:001085E4
-  1503 0001:001085F6  1504 0001:0010863D  1505 0001:0010864F  1506 0001:00108696
-  1507 0001:001086A8  1508 0001:001086EF  1509 0001:00108701  1510 0001:00108729
-  1512 0001:0010874D  1513 0001:00108775  1515 0001:00108783  1516 0001:001087B6
-  1518 0001:001087D1  1521 0001:001087EA  1523 0001:00108805  1524 0001:00108817
-  1525 0001:0010889A  1529 0001:00108980  1530 0001:001089A2  1533 0001:001089B8
-  1535 0001:001089E0  1537 0001:00108A0E  1539 0001:00108A6C  1541 0001:00108ACA
-  1533 0001:00108ACB  1542 0001:00108AD2  1543 0001:00108AF9  1544 0001:00108B20
-  1545 0001:00108B62  1546 0001:00108B78  1549 0001:00108BC7  1550 0001:00108BD4
-  1551 0001:00108BDB  1552 0001:00108BE4  1554 0001:00108C05  1556 0001:00108C24
-  1557 0001:00108C4A  1559 0001:00108C51  1560 0001:00108C8F  1561 0001:00108CCD
-  1563 0001:00108D0B  1564 0001:00108D1D  1566 0001:00108DC2  1569 0001:00108ED4
-  1572 0001:00108EF0  1573 0001:00108F02  1574 0001:00108F62  1575 0001:00108F9A
-  1579 0001:00108FC8  1580 0001:00108FE4  1581 0001:00108FF1  1582 0001:00109008
-  1584 0001:0010901E  1585 0001:00109030  1586 0001:00109035  1587 0001:0010905F
-  1584 0001:0010907B  1590 0001:00109080  1591 0001:0010909C  1593 0001:001090CC
-  1596 0001:001090D4  1597 0001:001090D7  1600 0001:001090F7  1601 0001:00109122
-  1606 0001:00109124  1608 0001:0010914B  1609 0001:00109163  1610 0001:00109182
-  1611 0001:00109194  1612 0001:001091AB  1613 0001:001091C2  1615 0001:001091D9
-  1616 0001:001091F0  1617 0001:00109207  1618 0001:0010921E  1619 0001:00109235
-  1620 0001:00109250  1621 0001:0010926B  1622 0001:00109286  1624 0001:001092A1
-  1626 0001:001092CC  1629 0001:00109338  1633 0001:00109389  1634 0001:001093BF
-  1635 0001:001093F5  1636 0001:0010942B  1638 0001:00109461  1639 0001:00109497
-  1640 0001:001094CD  1641 0001:00109509  1645 0001:00109545  1646 0001:00109557
-  1649 0001:001095EA  1654 0001:00109708  1655 0001:00109727  1656 0001:0010973D
-  1657 0001:0010974E  1658 0001:0010977E  1660 0001:00109795  1663 0001:001097A5
-  1664 0001:001097C4  1661 0001:001097D6  1667 0001:001097EC  1668 0001:00109804
-  1671 0001:0010981C  1673 0001:0010987B  1680 0001:001098BC  1682 0001:001098E2
-  1683 0001:001098F8  1685 0001:00109909  1686 0001:0010993C  1688 0001:0010994C
-  1689 0001:00109977  1691 0001:00109984  1693 0001:001099C4  1695 0001:00109A10
-  1696 0001:00109A1D  1697 0001:00109A41  1698 0001:00109A79  1699 0001:00109A94
-  1701 0001:00109AB9  1702 0001:00109AF2  1703 0001:00109B43  1704 0001:00109B7C
-  1706 0001:00109BC8  1708 0001:00109BD5  1709 0001:00109BE2  1710 0001:00109C22
-  1711 0001:00109C3D  1712 0001:00109C5F  1717 0001:00109C91  1719 0001:00109CA5
-  1721 0001:00109CBD  1722 0001:00109CFD  1723 0001:00109E28  1727 0001:00109F2C
-  1728 0001:00109F2F  1729 0001:00109F53  1732 0001:00109F58  1733 0001:00109F5F
-  1734 0001:00109F7B  1735 0001:00109F92  1736 0001:00109FAA  1741 0001:00109FB0
-  1742 0001:00109FD4  1743 0001:00109FE3  1745 0001:00109FF3  1748 0001:0010A000
-  1750 0001:0010A01D  1751 0001:0010A052  1752 0001:0010A057  1756 0001:0010A066
-  1757 0001:0010A06B  1758 0001:0010A087  1760 0001:0010A097  1761 0001:0010A0A4
-  1753 0001:0010A0AE  1763 0001:0010A0BF  1765 0001:0010A0CC  1767 0001:0010A0E9
-  1768 0001:0010A0F9  1769 0001:0010A13F  1771 0001:0010A169  1777 0001:0010A18C
-  1778 0001:0010A1B8  1780 0001:0010A1C7  1784 0001:0010A217  1786 0001:0010A241
-  1787 0001:0010A24E  1788 0001:0010A25C  1789 0001:0010A265  1790 0001:0010A2B1
-  1793 0001:0010A2B6  1795 0001:0010A2DA  1797 0001:0010A307  1798 0001:0010A314
-  1799 0001:0010A322  1800 0001:0010A32B  1801 0001:0010A377  1804 0001:0010A37C
-  1807 0001:0010A3A0  1809 0001:0010A3B5  1811 0001:0010A3C3  1812 0001:0010A3FA
-  1816 0001:0010A446  1818 0001:0010A4B8  1819 0001:0010A4C5  1821 0001:0010A4D3
-  1822 0001:0010A519  1823 0001:0010A55F  1826 0001:0010A5A5  1827 0001:0010A5AE
-  1828 0001:0010A606  1831 0001:0010A60B  1834 0001:0010A62F  1836 0001:0010A644
-  1837 0001:0010A6B6  1838 0001:0010A6C3  1840 0001:0010A6D1  1841 0001:0010A717
-  1842 0001:0010A75D  1845 0001:0010A7A3  1846 0001:0010A7AC  1847 0001:0010A804
-  1850 0001:0010A806  1853 0001:0010A8C2  1856 0001:0010A930  1858 0001:0010A937
-  1860 0001:0010A959  1862 0001:0010A97E  1863 0001:0010A9A3  1865 0001:0010A9C3
-  1866 0001:0010A9D5  1869 0001:0010A9EA  1871 0001:0010AA03  1872 0001:0010AA3B
-  1877 0001:0010AA75  1878 0001:0010AA81  1882 0001:0010AA8D  1883 0001:0010AAA4
-  1884 0001:0010AABB  1885 0001:0010AAD2  1888 0001:0010AAE9  1892 0001:0010AB10
-  1893 0001:0010AB34  1894 0001:0010AB4B  1895 0001:0010AB53  1897 0001:0010AB8D
-  1898 0001:0010AB95  1900 0001:0010ABCF  1902 0001:0010ABE1  1903 0001:0010ABFE
-  1904 0001:0010AC4C  1905 0001:0010AC8E  1908 0001:0010ACA7  1912 0001:0010ACC0
-  1916 0001:0010AD0C  1920 0001:0010AD88  1921 0001:0010ADAC  1922 0001:0010ADB4
-  1924 0001:0010ADEE  1925 0001:0010ADF6  1927 0001:0010AE30  1928 0001:0010AE44
-  1930 0001:0010AE56  1931 0001:0010AE73  1932 0001:0010AEC1  1933 0001:0010AF03
-  1936 0001:0010AF1C  1940 0001:0010AF35  1945 0001:0010AF81  1949 0001:0010AFF8
-  1950 0001:0010B01C  1951 0001:0010B024  1953 0001:0010B05E  1954 0001:0010B066
-  1956 0001:0010B0A0  1957 0001:0010B0B4  1959 0001:0010B0C6  1960 0001:0010B0E3
-  1961 0001:0010B131  1962 0001:0010B173  1965 0001:0010B18C  1969 0001:0010B1A5
-  1974 0001:0010B1F1  1990 0001:0010B268  1991 0001:0010B295  1992 0001:0010B2A7
-  1994 0001:0010B2B7  1995 0001:0010B2C5  1996 0001:0010B2DB  1998 0001:0010B302
-  1999 0001:0010B317  2001 0001:0010B335  2002 0001:0010B34A  2005 0001:0010B3DE
-  2006 0001:0010B3F1  2013 0001:0010B493  2014 0001:0010B4B2  2015 0001:0010B4C1
-  2017 0001:0010B502  2018 0001:0010B553  2020 0001:0010B5A4  2023 0001:0010B5EF
-  2025 0001:0010B621  2026 0001:0010B62E  2027 0001:0010B65E  2029 0001:0010B691
-  2030 0001:0010B69C  2031 0001:0010B6B4  2026 0001:0010B6B7  2032 0001:0010B6BC
-  2033 0001:0010B6E1  2034 0001:0010B6EE  2038 0001:0010B70B  2039 0001:0010B766
-  2040 0001:0010B7C1  2042 0001:0010B81C  2043 0001:0010B831  2044 0001:0010B841
-  2045 0001:0010B851  2047 0001:0010B85F  2063 0001:0010B871  2064 0001:0010B8B7
-  2065 0001:0010B8FF  2066 0001:0010B947  2068 0001:0010B98F  2071 0001:0010BA00
-  2072 0001:0010BA4E  2074 0001:0010BAC6  2075 0001:0010BAE2  2076 0001:0010BAFA
-  2078 0001:0010BB43  2086 0001:0010BBA3  2087 0001:0010BBBF  2088 0001:0010BBD7
-  2090 0001:0010BC20  2092 0001:0010BC80  2093 0001:0010BC9C  2094 0001:0010BCB4
-  2096 0001:0010BCFD  2099 0001:0010BD5D  2100 0001:0010BDD5  2101 0001:0010BE41
-  2103 0001:0010BEAD  2104 0001:0010BEE2  2106 0001:0010BEFE  2107 0001:0010BF29
-  2109 0001:0010BF3D  2111 0001:0010BF51  2048 0001:0010BF5E  2113 0001:0010BF73
-  2114 0001:0010BF7E  2115 0001:0010BFD5  2116 0001:0010C03A  2117 0001:0010C059
-  2118 0001:0010C085  2121 0001:0010C0A7  2122 0001:0010C0BC  2124 0001:0010C1C2
-  2126 0001:0010C43C  2127 0001:0010C462  2128 0001:0010C488  2129 0001:0010C4AC
-  2130 0001:0010C4DB  2132 0001:0010C4EB  2135 0001:0010C505  2137 0001:0010C546
-  2138 0001:0010C562  2140 0001:0010C598  2142 0001:0010C5B8  2143 0001:0010C5EE
-  2146 0001:0010C5FB  2148 0001:0010C612  2152 0001:0010C67E  2153 0001:0010C693
-  2155 0001:0010C6CF  2157 0001:0010C6D6  2161 0001:0010C742  2162 0001:0010C757
-  2164 0001:0010C793  2169 0001:0010C79A  2170 0001:0010C7B1  2177 0001:0010C7D5
-  2178 0001:0010C7DF  2179 0001:0010C7F1  2180 0001:0010C7FD  2181 0001:0010C807
-  2182 0001:0010C814  2184 0001:0010C821  2185 0001:0010C82D  2186 0001:0010C839
-  2187 0001:0010C843  2188 0001:0010C851  2190 0001:0010C868  2191 0001:0010C8F7
-  2192 0001:0010C93C  2193 0001:0010C990  2195 0001:0010C9F5  2196 0001:0010CA18
-  2198 0001:0010CA32  2199 0001:0010CA44  2189 0001:0010CA54  2203 0001:0010CA7B
-  2206 0001:0010CA83  2208 0001:0010CA91  2210 0001:0010CAA8  2211 0001:0010CB37
-  2212 0001:0010CB7C  2213 0001:0010CBD0  2216 0001:0010CC35  2217 0001:0010CC58
-  2219 0001:0010CC72  2220 0001:0010CC84  2209 0001:0010CC94  2224 0001:0010CCBB
-  2225 0001:0010CCC3  2226 0001:0010CD0F  2229 0001:0010CEAC  2230 0001:0010CEB0
-  2231 0001:0010CECE  2236 0001:0010CEEA  2237 0001:0010CEEF  2241 0001:0010CEF4
-  2242 0001:0010CF21  2247 0001:0010CF91  2248 0001:0010CFA0  2249 0001:0010CFB0
-  2251 0001:0010CFC2  2252 0001:0010CFC7  2253 0001:0010CFD9  2254 0001:0010D01D
-  2255 0001:0010D02F  2256 0001:0010D072  2257 0001:0010D084  2259 0001:0010D0C7
-  2260 0001:0010D0D9  2261 0001:0010D11D  2262 0001:0010D12F  2263 0001:0010D172
-  2264 0001:0010D184  2266 0001:0010D1C7  2267 0001:0010D1D7  2250 0001:0010D1E4
-  2269 0001:0010D1F9  2270 0001:0010D209  2271 0001:0010D210  2272 0001:0010D220
-  2273 0001:0010D230  2276 0001:0010D262  2279 0001:0010D278  2280 0001:0010D27E
-  2281 0001:0010D2A5  2282 0001:0010D2B3  2285 0001:0010D2B8  2286 0001:0010D2C2
-  2287 0001:0010D2F3  2288 0001:0010D303  2290 0001:0010D30C  2291 0001:0010D320
-  2292 0001:0010D32E  2295 0001:0010D334  2296 0001:0010D33A  2300 0001:0010D35B
-  2301 0001:0010D38D  2311 0001:0010D39F  2312 0001:0010D3CD  2324 0001:0010D3DF
-  2325 0001:0010D40D  2332 0001:0010D41D  2333 0001:0010D42A  2337 0001:0010D440
-  2338 0001:0010D44D  2341 0001:0010D463  2342 0001:0010D471  2345 0001:0010D488
-  2346 0001:0010D48B  2347 0001:0010D499  2350 0001:0010D49C  2351 0001:0010D49F
-  2352 0001:0010D4AD  2355 0001:0010D4B0  2356 0001:0010D4B3  2357 0001:0010D4C1
-  2360 0001:0010D4C4  2362 0001:0010D4CA  2368 0001:0010D4E5  2369 0001:0010D4F5
-  2370 0001:0010D505  2371 0001:0010D515  2372 0001:0010D546  2386 0001:0010D568
-  2387 0001:0010D599  2393 0001:0010D5B9  2394 0001:0010D5C6  2397 0001:0010D5DC
-  2398 0001:0010D5E9  2401 0001:0010D5FF  2402 0001:0010D60D  2405 0001:0010D624
-  2406 0001:0010D627  2407 0001:0010D635  2411 0001:0010D638  2412 0001:0010D640
-  2413 0001:0010D659  2414 0001:0010D681  2415 0001:0010D6CB  2417 0001:0010D715
-  2418 0001:0010D75F  2419 0001:0010D7A9  2420 0001:0010D7F3  2422 0001:0010D83D
-  2423 0001:0010D887  2424 0001:0010D8D1  2425 0001:0010D91B  2426 0001:0010D965
-  2427 0001:0010D9AF  2428 0001:0010D9F9  2430 0001:0010DA43  2432 0001:0010DA8D
-  2433 0001:0010DAAF  2434 0001:0010DAF3  2413 0001:0010DAF4  2436 0001:0010DAFB
-  2442 0001:0010DC00  2446 0001:0010DC04  2447 0001:0010DC0A  2448 0001:0010DC18
-  2449 0001:0010DC2B  2450 0001:0010DC47  2451 0001:0010DC53  2457 0001:0010DC58
-  2485 0001:0010DC77  2486 0001:0010DC7D  2488 0001:0010DC84  2490 0001:0010DCAC
-  2491 0001:0010DCC9  2493 0001:0010DCE6  2494 0001:0010DD03  2495 0001:0010DD20
-  2497 0001:0010DD27  2499 0001:0010DD3E  2501 0001:0010DD73  2502 0001:0010DDA9
-  2505 0001:0010DE38  2506 0001:0010DE3E  2507 0001:0010DE52  2513 0001:0010DE58
-  2514 0001:0010DE74  2515 0001:0010DE7F  2517 0001:0010DE8F  2518 0001:0010DE9C
-  2519 0001:0010DEAC  2520 0001:0010DEC3  2521 0001:0010DED2  2524 0001:0010DEDC
-  2528 0001:0010DEFB  2529 0001:0010DF08  2530 0001:0010DF15  2532 0001:0010DF45
-  2534 0001:0010DF55  2526 0001:0010DF5F  2537 0001:0010DF6D  2538 0001:0010DF7C
-  2539 0001:0010DF8C  2541 0001:0010DF99  2542 0001:0010DFB6  2544 0001:0010DFC3
-  2545 0001:0010DFEE  2549 0001:0010E014  2550 0001:0010E01F  2551 0001:0010E02A
-  2553 0001:0010E03A  2556 0001:0010E047  2557 0001:0010E064  2559 0001:0010E075
-  2562 0001:0010E084  2560 0001:0010E089  2564 0001:0010E09A  2565 0001:0010E0B7
-  2566 0001:0010E0C8  2567 0001:0010E0D5  2568 0001:0010E0E3  2572 0001:0010E0E8
-  2573 0001:0010E0F6  2574 0001:0010E101  2576 0001:0010E111  2579 0001:0010E11E
-  2581 0001:0010E13B  2584 0001:0010E14A  2585 0001:0010E14F  2586 0001:0010E156
-  2587 0001:0010E166  2582 0001:0010E173  2590 0001:0010E184  2591 0001:0010E1A1
-  2593 0001:0010E1AE  2594 0001:0010E1BC  2601 0001:0010E1C4  2602 0001:0010E1ED
-  2604 0001:0010E1F4  2605 0001:0010E203  2607 0001:0010E213  2608 0001:0010E220
-  2610 0001:0010E22A  2611 0001:0010E237  2613 0001:0010E241  2614 0001:0010E257
-  2616 0001:0010E29D  2617 0001:0010E2C6  2618 0001:0010E2EF  2621 0001:0010E318
-  2622 0001:0010E340  2623 0001:0010E368  2624 0001:0010E390  2625 0001:0010E3B8
-  2627 0001:0010E3E0  2629 0001:0010E407  2630 0001:0010E42D  2631 0001:0010E43F
-  2632 0001:0010E451  2633 0001:0010E463  2636 0001:0010E473  2637 0001:0010E4A6
-  2638 0001:0010E4D9  2639 0001:0010E50C  2641 0001:0010E53F  2642 0001:0010E572
-  2643 0001:0010E5A5  2644 0001:0010E5D8  2646 0001:0010E60B  2649 0001:0010E618
-  2651 0001:0010E625  2652 0001:0010E65B  2653 0001:0010E691  2654 0001:0010E6C7
-  2655 0001:0010E6FD  2656 0001:0010E733  2657 0001:0010E769  2658 0001:0010E79F
-  2659 0001:0010E7D5  2670 0001:0010E7E5  2672 0001:0010E802  2673 0001:0010E80F
-  2674 0001:0010E83B  2675 0001:0010E848  2676 0001:0010E86C  2680 0001:0010E879
-  2681 0001:0010E886  2682 0001:0010E8C8  2685 0001:0010E8D5  2688 0001:0010E8E7
-  2692 0001:0010E8FD  2694 0001:0010E90A  2696 0001:0010E920  2698 0001:0010E936
-  2699 0001:0010E95A  2700 0001:0010E992  2701 0001:0010E9B6  2702 0001:0010E9EE
-  2703 0001:0010EA12  2704 0001:0010EA4A  2705 0001:0010EA6E  2707 0001:0010EAA6
-  2710 0001:0010EABF  2711 0001:0010EADF  2712 0001:0010EB12  2713 0001:0010EB45
-  2715 0001:0010EB7D  2717 0001:0010EB9A  2722 0001:0010EBA5  2725 0001:0010EC1A
-  2726 0001:0010EC27  2728 0001:0010EC3D  2729 0001:0010EC61  2730 0001:0010EC99
-  2731 0001:0010ECBD  2732 0001:0010ECF5  2733 0001:0010ED19  2734 0001:0010ED51
-  2735 0001:0010ED75  2737 0001:0010EDAD  2738 0001:0010EDC6  2741 0001:0010EDD6
-  2686 0001:0010EDE3  2755 0001:0010EDF8  2757 0001:0010EE15  2759 0001:0010EE22
-  2760 0001:0010EE2F  2762 0001:0010EE39  2763 0001:0010EE46  2765 0001:0010EE50
-  2766 0001:0010EE60  2768 0001:0010EEA4  2771 0001:0010F09C  2772 0001:0010F09F
-  2773 0001:0010F0A4  2776 0001:0010F0A8  2777 0001:0010F0BF  2779 0001:0010F0ED
-  2781 0001:0010F0F6  2782 0001:0010F110  2784 0001:0010F149  2785 0001:0010F189
-  2788 0001:0010F1F4  2789 0001:0010F209  2790 0001:0010F212  2792 0001:0010F22C
-  2793 0001:0010F236  2794 0001:0010F27A  2795 0001:0010F28E  2796 0001:0010F2CE
-  2801 0001:0010F338  2802 0001:0010F33E  2803 0001:0010F369  2804 0001:0010F394
-  2805 0001:0010F3BF  2806 0001:0010F3EA  2811 0001:0010F3F0  2812 0001:0010F413
-  2816 0001:0010F449  2817 0001:0010F46F  2818 0001:0010F49C  2819 0001:0010F4A6
-  2821 0001:0010F50D  2822 0001:0010F51F  2825 0001:0010F526  2826 0001:0010F560
-  2827 0001:0010F5DC  2832 0001:0010F680  2833 0001:0010F6A2  2834 0001:0010F6BA
-  2835 0001:0010F6E0  2837 0001:0010F70D  2838 0001:0010F717  2839 0001:0010F782
-  2841 0001:0010F79E  2842 0001:0010F825  2845 0001:0010F858  2846 0001:0010F86E
-  2848 0001:0010F881  2849 0001:0010F890  2852 0001:0010F8DA  2855 0001:0010F8F4
-  2856 0001:0010F90D  2858 0001:0010F91F  2859 0001:0010F930  2861 0001:0010F94B
-  2863 0001:0010F961  2864 0001:0010F972  2865 0001:0010F98D  2866 0001:0010F9A8
-  2867 0001:0010F9CF  2868 0001:0010F9EA  2872 0001:0010FA33  2875 0001:0010FA8C
-  2876 0001:0010FA8F  2877 0001:0010FA94  2881 0001:0010FA98  2882 0001:0010FA9F
-  2883 0001:0010FAAE  2884 0001:0010FABE  2885 0001:0010FACC  2886 0001:0010FADA
-  2888 0001:0010FAF5  2890 0001:0010FB0D  2893 0001:0010FB14  2894 0001:0010FB30
-  2895 0001:0010FB46  2896 0001:0010FB4C  2897 0001:0010FB72  2898 0001:0010FB92
-  2899 0001:0010FBB2  2900 0001:0010FBB9  2901 0001:0010FBC0  2909 0001:0010FBF3
-  2910 0001:0010FC05  2913 0001:0010FC14  2914 0001:0010FC21  2916 0001:0010FC58
-  2921 0001:0010FCB8  2922 0001:0010FCD6  2924 0001:0010FCEF  2926 0001:0010FD2A
-  2927 0001:0010FD48  2929 0001:0010FD67  2930 0001:0010FD9F  2932 0001:0010FDD7
-  2933 0001:0010FDEE  2935 0001:0010FE42  2936 0001:0010FE54  2937 0001:0010FE75
-  2939 0001:0010FE97  2943 0001:0010FEAE  2946 0001:0010FF05  2949 0001:0010FF46
-  2954 0001:0010FFCC  2955 0001:0010FFEF  2957 0001:0011000D  2958 0001:00110031
-  2960 0001:0011007C  2965 0001:00110094  2966 0001:00110096  2967 0001:001100C0
-  2968 0001:00110109  2965 0001:00110133  2973 0001:00110174  2976 0001:001101E4
-  2977 0001:001101EA  2978 0001:00110216  2980 0001:0011022A  2983 0001:00110248
-  2984 0001:00110274  2985 0001:00110283  2989 0001:00110324  2990 0001:0011032E
-  2991 0001:00110363  2993 0001:00110370  2994 0001:0011037F  2998 0001:00110420
-  2999 0001:0011042A  3000 0001:0011045F  3002 0001:0011046C  3003 0001:0011047B
-  3007 0001:0011051C  3008 0001:00110526  3009 0001:0011055B  3011 0001:00110568
-  3012 0001:00110577  3016 0001:00110618  3017 0001:00110622  3018 0001:00110657
-  3021 0001:00110694  3025 0001:0011071C  3026 0001:0011072A  3027 0001:00110739
-  3029 0001:00110749  3032 0001:00110756  3034 0001:00110773  3036 0001:0011078E
-  3037 0001:00110797  3039 0001:001107C7  3041 0001:001107F5  3042 0001:00110800
-  3043 0001:0011080B  3047 0001:0011081B  3048 0001:00110828  3049 0001:00110835
-  3050 0001:00110866  3052 0001:00110882  3054 0001:00110892  3045 0001:0011089D
-  3056 0001:001108B0  3058 0001:001108BB  3060 0001:001108C8  3061 0001:001108E5
-  3063 0001:001108F2  3065 0001:00110902  3071 0001:00110980  3072 0001:001109A8
-  3073 0001:001109B7  3075 0001:001109C7  3078 0001:001109D4  3081 0001:001109F1
-  3082 0001:00110A1C  3083 0001:00110A2F  3086 0001:00110A47  3087 0001:00110ADF
-  3089 0001:00110AEF  3090 0001:00110B2A  3091 0001:00110B5E  3092 0001:00110B92
-  3095 0001:00110BC6  3096 0001:00110BD1  3097 0001:00110BDC  3101 0001:00110BEC
-  3102 0001:00110BF9  3103 0001:00110C06  3104 0001:00110C37  3106 0001:00110C53
-  3108 0001:00110C63  3099 0001:00110C6E  3110 0001:00110C81  3112 0001:00110C8C
-  3114 0001:00110C99  3115 0001:00110CB6  3117 0001:00110CC3  3119 0001:00110D11
-  3124 0001:00110DD8  3125 0001:00110DF5  3126 0001:00110E04  3128 0001:00110E14
-  3131 0001:00110E26  3133 0001:00110E43  3135 0001:00110E5E  3136 0001:00110E69
-  3137 0001:00110E74  3139 0001:00110E7F  3142 0001:00110E8B  3144 0001:00110ECF
-  3145 0001:00110EE1  3146 0001:00110F03  3148 0001:00110F18  3149 0001:00110F23
-  3140 0001:00110F2E  3151 0001:00110F41  3153 0001:00110F4C  3155 0001:00110F5E
-  3156 0001:00110F7B  3158 0001:00110F8D  3160 0001:00110FBA  3164 0001:00110FEC
-  3177 0001:0011100D  3179 0001:00111030  3180 0001:00111079  3182 0001:0011108C
-  3183 0001:001110A6  3185 0001:001110C1  3187 0001:001110CC  3189 0001:00111105
-  3192 0001:0011118B  3197 0001:001111CC  3198 0001:001111EF  3201 0001:001111F8
-  3202 0001:0011122B  3204 0001:00111253  3206 0001:00111271  3208 0001:001112B0
-  3209 0001:001112CA  3210 0001:001112D8  3211 0001:001112FD  3213 0001:00111335
-  3217 0001:00111354  3218 0001:0011137C  3220 0001:001113B2  3224 0001:001113CA
-  3225 0001:001113F0  3226 0001:00111415  3227 0001:00111446  3232 0001:001114CD
-  3235 0001:001114DD  3236 0001:00111503  3237 0001:00111528  3239 0001:00111559
-  3244 0001:0011156D  3248 0001:00111595  3250 0001:001115B6  3251 0001:001115C5
-  3252 0001:0011160E  3253 0001:0011161C  3256 0001:00111640  3259 0001:0011164A
-  3265 0001:001116C7  3271 0001:00111738  3272 0001:0011175B  3273 0001:0011178F
-  3274 0001:001117FE  3275 0001:00111849  3276 0001:0011188B  3277 0001:0011189B
-  3278 0001:001118AB  3279 0001:001118BB  3280 0001:001118C9  3272 0001:001118CC
-  3281 0001:001118D4  3282 0001:001118E2  3283 0001:001118F4  3285 0001:00111915
-  3287 0001:00111973  3290 0001:0011197C  3291 0001:0011197E  3292 0001:00111996
-  3293 0001:001119AC  3294 0001:001119C2  3295 0001:001119DE  3297 0001:00111A0A
-  3301 0001:00111A14  3302 0001:00111A1A  3303 0001:00111A21  3305 0001:00111A2A
-  3306 0001:00111A31  3307 0001:00111A3E  3308 0001:00111A51  3309 0001:00111A7E
-  3311 0001:00111A94  3315 0001:00111A98  3316 0001:00111A9E  3318 0001:00111AB6
-  3320 0001:00111AC4  3326 0001:00111ACC  3327 0001:00111AD7  3329 0001:00111AEE
-  3330 0001:00111B3A  3331 0001:00111B48  3332 0001:00111B52  3333 0001:00111B74
-  3334 0001:00111B94  3335 0001:00111BB0  3337 0001:00111BD9  3341 0001:00111BE8
-  3342 0001:00111BFE  3343 0001:00111C10  3344 0001:00111C2C  3347 0001:00111C66
-  3350 0001:00111C6C  3351 0001:00111C82  3352 0001:00111CC3  3354 0001:00111D08
-  3354 0001:00111D0F
+   375 0001:00102B50   376 0001:00102B71   377 0001:00102B7C   379 0001:00102B8C
+   380 0001:00102B9E   382 0001:00102BAD   383 0001:00102BBF   385 0001:00102BCE
+   388 0001:00102BDC   389 0001:00102BF2   390 0001:00102BF9   392 0001:00102C0E
+   393 0001:00102C15   394 0001:00102C2B   395 0001:00102C30   398 0001:00102C33
+   399 0001:00102C3C   400 0001:00102C58   401 0001:00102C61   402 0001:00102C78
+   405 0001:00102C99   408 0001:00102CD5   409 0001:00102CFF   410 0001:00102D21
+   412 0001:00102D51   413 0001:00102D70   415 0001:00102D94   416 0001:00102DB5
+   417 0001:00102DB9   422 0001:00102DDD   423 0001:00102DEF   425 0001:00102DFE
+   426 0001:00102E10   428 0001:00102E1F   429 0001:00102E4F   432 0001:00102E58
+   433 0001:00102E61   434 0001:00102E98   437 0001:00102EA0   438 0001:00102EA9
+   439 0001:00102EE6   440 0001:00102EED   443 0001:00102EF4   444 0001:00102EF7
+   445 0001:00102EFC   450 0001:00102F00   479 0001:00102F23   480 0001:00102F31
+   481 0001:00102F65   484 0001:00102FAC   488 0001:00102FE9   489 0001:00102FF7
+   490 0001:0010300E   500 0001:00103041   502 0001:00103073   504 0001:00103075
+   514 0001:001030E1   520 0001:00103198   521 0001:001031C1   522 0001:001031F0
+   524 0001:00103202   525 0001:00103234   527 0001:00103247   528 0001:00103279
+   530 0001:0010328C   531 0001:001032BE   533 0001:001032D1   534 0001:00103303
+   536 0001:00103316   537 0001:00103348   539 0001:0010335B   540 0001:0010338D
+   542 0001:001033A0   543 0001:001033D2   545 0001:001033E5   577 0001:00103948
+   586 0001:00103A50   587 0001:00103A73   588 0001:00103AA4   594 0001:00103B14
+   595 0001:00103B22   597 0001:00103B30   598 0001:00103B3F   600 0001:00103B4F
+   601 0001:00103B61   602 0001:00103B70   604 0001:00103B82   605 0001:00103B92
+   606 0001:00103B9C   607 0001:00103BB2   611 0001:00103C4B   617 0001:00103C5B
+   618 0001:00103C6E   619 0001:00103C80   620 0001:00103CB1   623 0001:00103CDA
+   624 0001:00103D0E   625 0001:00103D42   627 0001:00103D76   629 0001:00103D93
+   633 0001:00103DC7   634 0001:00103DE3   635 0001:00103DED   636 0001:00103E00
+   637 0001:00103E2E   641 0001:00103E3D   635 0001:00103E3E   642 0001:00103E41
+   648 0001:00103E82   650 0001:00103EA3   651 0001:00103ED8   652 0001:00103F0D
+   653 0001:00103F42   654 0001:00103F77   657 0001:00103FAC   662 0001:00103FDE
+   663 0001:00104014   664 0001:0010404D   665 0001:00104086   667 0001:001040BF
+   668 0001:001040F9   669 0001:00104133   670 0001:0010416D   671 0001:001041A7
+   672 0001:001041E1   673 0001:0010421B   674 0001:00104255   675 0001:0010428F
+   677 0001:001042C9   680 0001:001042DE   682 0001:0010430C   683 0001:0010430E
+   690 0001:0010434F   691 0001:00104355   696 0001:00104369   698 0001:00104377
+   701 0001:0010438C   708 0001:00104391   711 0001:001043A4   712 0001:001043DD
+   714 0001:001043F4   715 0001:00104406   718 0001:0010440F   721 0001:00104439
+   722 0001:00104447   723 0001:00104460   724 0001:001044B0   727 0001:00104522
+   728 0001:00104531   729 0001:00104570   730 0001:00104598   734 0001:001045AA
+   735 0001:001045C3   736 0001:00104619   739 0001:0010468B   740 0001:0010469A
+   741 0001:001046D9   742 0001:00104701   746 0001:00104713   747 0001:0010472C
+   748 0001:00104782   751 0001:001047F4   752 0001:00104803   753 0001:00104842
+   754 0001:0010486A   758 0001:0010487C   759 0001:00104895   760 0001:001048EB
+   763 0001:0010495D   764 0001:0010496C   765 0001:001049AB   766 0001:001049D3
+   771 0001:00104A00   772 0001:00104A02   785 0001:00104A30   790 0001:00104AB1
+   791 0001:00104B01   792 0001:00104B08   793 0001:00104B11   794 0001:00104B1A
+   795 0001:00104B23   796 0001:00104B2A   798 0001:00104B31   803 0001:00104BC2
+   804 0001:00104BD0   805 0001:00104BDF   806 0001:00104C21   807 0001:00104C64
+   808 0001:00104C81   809 0001:00104C9F   811 0001:00104CCC   812 0001:00104CCE
+   822 0001:00104CFC   716 0001:00104D0E   827 0001:00104D28   829 0001:00104D36
+   830 0001:00104D48   832 0001:00104D6A   833 0001:00104DC4   834 0001:00104DE6
+   835 0001:00104E07   838 0001:00104E21   841 0001:00104E42   842 0001:00104E55
+   843 0001:00104E5D   846 0001:00104E9F   849 0001:00104ECF   850 0001:00104ED1
+   859 0001:00104EFF   860 0001:00104F0D   863 0001:00104F20   864 0001:00104F32
+   865 0001:00104F5F   866 0001:00104F8C   868 0001:00104FC2   869 0001:00104FFC
+   870 0001:00105036   871 0001:0010506C   872 0001:001050A6   873 0001:001050E0
+   875 0001:00105128   876 0001:00105170   877 0001:001051B8   878 0001:00105200
+   880 0001:00105248   881 0001:00105290   882 0001:001052D8   883 0001:00105320
+   885 0001:00105368   887 0001:001053A0   888 0001:001053B3   889 0001:001053F2
+   890 0001:00105425   892 0001:00105455   893 0001:001054A5   894 0001:001054BA
+   897 0001:001054E8   898 0001:001054EA   910 0001:00105534   911 0001:0010553E
+   912 0001:0010554E   913 0001:00105560   914 0001:0010556F   918 0001:00105589
+   919 0001:00105597   920 0001:001055AA   921 0001:001055BC   922 0001:001055ED
+   924 0001:00105616   925 0001:0010564A   927 0001:00105699   928 0001:0010569B
+   936 0001:001056C9   939 0001:001056D1   942 0001:001056D9   943 0001:001056F1
+   946 0001:001056F7   947 0001:001057EF   950 0001:00106028   951 0001:0010602E
+   952 0001:0010603E   953 0001:00106045   960 0001:00106048   961 0001:00106074
+   965 0001:00106097   966 0001:001060C8   967 0001:001060F9   968 0001:0010612A
+   969 0001:0010615B   971 0001:0010616D   974 0001:0010618C   975 0001:001061A5
+   976 0001:001061B6   978 0001:001061C5   979 0001:001061DE   981 0001:001061F8
+   982 0001:00106205   983 0001:00106221   985 0001:00106240   986 0001:00106263
+   987 0001:0010629A   988 0001:001062D1   989 0001:00106308   990 0001:0010633F
+   991 0001:00106376   992 0001:001063AD   993 0001:001063E4   994 0001:0010641B
+   996 0001:0010642B  1007 0001:00106484  1008 0001:00106496  1009 0001:001064A8
+  1011 0001:001064BA  1012 0001:001064C9  1013 0001:001064D8  1022 0001:001064EC
+  1023 0001:001064FE  1024 0001:00106510  1026 0001:00106522  1027 0001:00106531
+  1028 0001:00106540  1032 0001:00106554  1033 0001:00106563  1034 0001:00106572
+  1040 0001:00106586  1041 0001:00106595  1042 0001:001065A4  1046 0001:001065B8
+  1047 0001:001065C7  1048 0001:001065D6  1056 0001:001065EA  1057 0001:001065FC
+  1058 0001:0010660E  1059 0001:0010661D  1060 0001:0010662C  1068 0001:00106640
+  1069 0001:00106648  1070 0001:00106657  1071 0001:0010666E  1072 0001:0010667D
+  1073 0001:0010668C  1074 0001:0010669B  1075 0001:001066AA  1076 0001:001066B9
+  1078 0001:001066C8  1079 0001:001066D7  1080 0001:001066E6  1081 0001:001066F5
+  1082 0001:00106704  1083 0001:00106713  1084 0001:00106722  1085 0001:00106731
+  1086 0001:00106740  1087 0001:0010674F  1088 0001:0010675E  1089 0001:0010676D
+  1090 0001:0010677C  1091 0001:0010678B  1092 0001:0010679A  1093 0001:001067A9
+  1094 0001:001067B8  1095 0001:001067C7  1096 0001:001067D6  1097 0001:001067E5
+  1098 0001:001067F4  1099 0001:00106803  1100 0001:00106812  1101 0001:00106821
+  1102 0001:00106830  1103 0001:0010683F  1104 0001:00106853  1106 0001:00106865
+  1107 0001:00106874  1108 0001:00106883  1109 0001:00106892  1110 0001:001068A1
+  1111 0001:001068B0  1112 0001:001068BF  1113 0001:001068CE  1114 0001:001068DD
+  1116 0001:001068EC  1118 0001:00106951  1119 0001:00106963  1122 0001:0010697A
+  1123 0001:0010698C  1124 0001:0010699E  1125 0001:001069CB  1131 0001:001069E2
+  1132 0001:001069F4  1133 0001:00106A06  1134 0001:00106A2F  1138 0001:00106A41
+  1139 0001:00106A50  1140 0001:00106A5F  1143 0001:00106A73  1144 0001:00106A85
+  1145 0001:00106A97  1146 0001:00106AA9  1148 0001:00106ABB  1149 0001:00106AE4
+  1153 0001:00106AF6  1154 0001:00106B05  1155 0001:00106B14  1159 0001:00106B28
+  1160 0001:00106B51  1164 0001:00106B63  1165 0001:00106B72  1166 0001:00106B81
+  1171 0001:00106B95  1172 0001:00106BA4  1173 0001:00106BB3  1176 0001:00106BC7
+  1177 0001:00106BD6  1178 0001:00106BE5  1181 0001:00106BF9  1182 0001:00106C0B
+  1183 0001:00106C1D  1184 0001:00106C2F  1186 0001:00106C41  1187 0001:00106C6A
+  1191 0001:00106C7C  1192 0001:00106C8B  1193 0001:00106C9A  1199 0001:00106CA9
+  1203 0001:00106CC8  1204 0001:00106CF3  1205 0001:00106D1E  1206 0001:00106D49
+  1208 0001:00106D84  1209 0001:00106DAF  1212 0001:00106DC9  1214 0001:00106DF2
+  1216 0001:00106E18  1217 0001:00106E3E  1218 0001:00106E52  1219 0001:00106E66
+  1220 0001:00106E7A  1224 0001:00106E8C  1225 0001:00106EAB  1227 0001:00106EB2
+  1228 0001:00106EE6  1229 0001:00106F1A  1230 0001:00106F4E  1232 0001:00106F82
+  1233 0001:00106FB6  1234 0001:00106FEA  1235 0001:0010701E  1240 0001:00107057
+  1243 0001:00107076  1245 0001:00107095  1246 0001:001070C8  1247 0001:001070FB
+  1248 0001:0010712E  1250 0001:00107161  1251 0001:00107194  1252 0001:001071C7
+  1253 0001:001071FA  1255 0001:0010722D  1256 0001:00107258  1257 0001:00107271
+  1258 0001:0010729C  1261 0001:001072B6  1263 0001:001072C8  1266 0001:001072EE
+  1268 0001:0010731D  1269 0001:00107347  1270 0001:00107371  1271 0001:0010739B
+  1272 0001:001073C5  1274 0001:001073EF  1275 0001:00107403  1277 0001:00107459
+  1278 0001:00107461  1284 0001:00107475  1287 0001:00107489  1290 0001:0010749D
+  1293 0001:001074B1  1296 0001:001074C5  1299 0001:001074D9  1303 0001:001074EB
+  1304 0001:00107504  1305 0001:00107560  1308 0001:001075E7  1310 0001:001077E8
+  1312 0001:00107817  1313 0001:00107823  1314 0001:0010783B  1316 0001:00107845
+  1317 0001:00107849  1319 0001:00107852  1320 0001:00107860  1326 0001:00107873
+  1328 0001:00107881  1329 0001:00107893  1330 0001:001078A8  1332 0001:001078CD
+  1334 0001:001078D4  1336 0001:001078F6  1337 0001:001078F8  1344 0001:00107939
+  1345 0001:0010793D  1352 0001:00107956  1354 0001:00107989  1359 0001:0010798E
+  1360 0001:001079B3  1361 0001:001079BA  1364 0001:001079C3  1367 0001:00107A08
+  1370 0001:00107A12  1372 0001:00107A20  1373 0001:00107A32  1374 0001:00107A47
+  1376 0001:00107A6C  1383 0001:00107A73  1385 0001:00107A92  1386 0001:00107A94
+  1393 0001:00107AD5  1394 0001:00107AD9  1400 0001:00107AEF  1403 0001:00107AF3
+  1405 0001:00107B13  1406 0001:00107B1D  1408 0001:00107B42  1409 0001:00107B7C
+  1411 0001:00107BB6  1413 0001:00107BC8  1414 0001:00107BDD  1415 0001:00107BF0
+  1418 0001:00107C0D  1419 0001:00107C26  1420 0001:00107C3C  1421 0001:00107C4C
+  1423 0001:00107C74  1424 0001:00107CA2  1428 0001:00107CD4  1430 0001:00107CF8
+  1431 0001:00107D13  1432 0001:00107D28  1433 0001:00107D31  1435 0001:00107D44
+  1438 0001:00107D58  1439 0001:00107D60  1440 0001:00107D78  1443 0001:00107D83
+  1446 0001:00107D96  1448 0001:00107DE0  1454 0001:00107FC0  1455 0001:00107FE1
+  1457 0001:00108000  1458 0001:00108028  1460 0001:00108035  1461 0001:0010803C
+  1462 0001:00108064  1463 0001:001080A2  1465 0001:001080E0  1466 0001:0010811E
+  1467 0001:0010815C  1469 0001:00108163  1470 0001:00108175  1471 0001:001081CE
+  1472 0001:001081E7  1473 0001:001081F9  1474 0001:00108252  1477 0001:0010826B
+  1478 0001:0010827D  1479 0001:001082C4  1480 0001:001082D6  1481 0001:0010831D
+  1482 0001:0010832F  1483 0001:00108376  1484 0001:00108388  1485 0001:001083CF
+  1486 0001:001083E1  1488 0001:00108428  1489 0001:0010843A  1490 0001:00108462
+  1492 0001:00108486  1493 0001:001084AE  1495 0001:001084BC  1496 0001:001084EF
+  1498 0001:0010850A  1500 0001:00108523  1501 0001:00108535  1502 0001:0010857C
+  1503 0001:0010858E  1504 0001:001085D5  1505 0001:001085E7  1506 0001:0010862E
+  1507 0001:00108640  1508 0001:00108687  1509 0001:00108699  1510 0001:001086C1
+  1512 0001:001086E5  1513 0001:0010870D  1515 0001:0010871B  1516 0001:0010874E
+  1518 0001:00108769  1521 0001:00108782  1523 0001:0010879D  1524 0001:001087AF
+  1525 0001:00108832  1529 0001:00108918  1530 0001:0010893A  1533 0001:00108950
+  1535 0001:00108978  1537 0001:001089A6  1539 0001:00108A04  1541 0001:00108A62
+  1533 0001:00108A63  1542 0001:00108A6A  1543 0001:00108A91  1544 0001:00108AB8
+  1545 0001:00108AFA  1546 0001:00108B10  1549 0001:00108B5F  1550 0001:00108B6C
+  1551 0001:00108B73  1552 0001:00108B7C  1554 0001:00108B9D  1556 0001:00108BBC
+  1557 0001:00108BE2  1559 0001:00108BE9  1560 0001:00108C27  1561 0001:00108C65
+  1563 0001:00108CA3  1564 0001:00108CB5  1566 0001:00108D5A  1569 0001:00108E6C
+  1572 0001:00108E88  1573 0001:00108E9A  1574 0001:00108EFA  1575 0001:00108F32
+  1579 0001:00108F60  1580 0001:00108F7C  1581 0001:00108F89  1582 0001:00108FA0
+  1584 0001:00108FB6  1585 0001:00108FC8  1586 0001:00108FCD  1587 0001:00108FF7
+  1584 0001:00109013  1590 0001:00109018  1591 0001:00109034  1593 0001:00109064
+  1596 0001:0010906C  1597 0001:0010906F  1600 0001:0010908F  1601 0001:001090BA
+  1606 0001:001090BC  1608 0001:001090E3  1609 0001:001090FB  1610 0001:0010911A
+  1611 0001:0010912C  1612 0001:00109143  1613 0001:0010915A  1615 0001:00109171
+  1616 0001:00109188  1617 0001:0010919F  1618 0001:001091B6  1619 0001:001091CD
+  1620 0001:001091E8  1621 0001:00109203  1622 0001:0010921E  1624 0001:00109239
+  1626 0001:00109264  1629 0001:001092D0  1633 0001:00109321  1634 0001:00109357
+  1635 0001:0010938D  1636 0001:001093C3  1638 0001:001093F9  1639 0001:0010942F
+  1640 0001:00109465  1641 0001:001094A1  1645 0001:001094DD  1646 0001:001094EF
+  1649 0001:00109582  1654 0001:001096A0  1655 0001:001096BF  1656 0001:001096D5
+  1657 0001:001096E6  1658 0001:00109716  1660 0001:0010972D  1663 0001:0010973D
+  1664 0001:0010975C  1661 0001:0010976E  1667 0001:00109784  1668 0001:0010979C
+  1671 0001:001097B4  1673 0001:00109813  1680 0001:00109854  1682 0001:0010987A
+  1683 0001:00109890  1685 0001:001098A1  1686 0001:001098D4  1688 0001:001098E4
+  1689 0001:0010990F  1691 0001:0010991C  1693 0001:0010995C  1695 0001:001099A8
+  1696 0001:001099B5  1697 0001:001099D9  1698 0001:00109A11  1699 0001:00109A2C
+  1701 0001:00109A51  1702 0001:00109A8A  1703 0001:00109ADB  1704 0001:00109B14
+  1706 0001:00109B60  1708 0001:00109B6D  1709 0001:00109B7A  1710 0001:00109BBA
+  1711 0001:00109BD5  1712 0001:00109BF7  1717 0001:00109C29  1719 0001:00109C3D
+  1721 0001:00109C55  1722 0001:00109C95  1723 0001:00109DC0  1727 0001:00109EC4
+  1728 0001:00109EC7  1729 0001:00109EEB  1732 0001:00109EF0  1733 0001:00109EF7
+  1734 0001:00109F13  1735 0001:00109F2A  1736 0001:00109F42  1741 0001:00109F48
+  1742 0001:00109F6C  1743 0001:00109F7B  1745 0001:00109F8B  1748 0001:00109F98
+  1750 0001:00109FB5  1751 0001:00109FEA  1752 0001:00109FEF  1756 0001:00109FFE
+  1757 0001:0010A003  1758 0001:0010A01F  1760 0001:0010A02F  1761 0001:0010A03C
+  1753 0001:0010A046  1763 0001:0010A057  1765 0001:0010A064  1767 0001:0010A081
+  1768 0001:0010A091  1769 0001:0010A0D7  1771 0001:0010A101  1777 0001:0010A124
+  1778 0001:0010A150  1780 0001:0010A15F  1784 0001:0010A1AF  1786 0001:0010A1D9
+  1787 0001:0010A1E6  1788 0001:0010A1F4  1789 0001:0010A1FD  1790 0001:0010A249
+  1793 0001:0010A24E  1795 0001:0010A272  1797 0001:0010A29F  1798 0001:0010A2AC
+  1799 0001:0010A2BA  1800 0001:0010A2C3  1801 0001:0010A30F  1804 0001:0010A314
+  1807 0001:0010A338  1809 0001:0010A34D  1811 0001:0010A35B  1812 0001:0010A392
+  1816 0001:0010A3DE  1818 0001:0010A450  1819 0001:0010A45D  1821 0001:0010A46B
+  1822 0001:0010A4B1  1823 0001:0010A4F7  1826 0001:0010A53D  1827 0001:0010A546
+  1828 0001:0010A59E  1831 0001:0010A5A3  1834 0001:0010A5C7  1836 0001:0010A5DC
+  1837 0001:0010A64E  1838 0001:0010A65B  1840 0001:0010A669  1841 0001:0010A6AF
+  1842 0001:0010A6F5  1845 0001:0010A73B  1846 0001:0010A744  1847 0001:0010A79C
+  1850 0001:0010A79E  1853 0001:0010A85A  1856 0001:0010A8C8  1858 0001:0010A8CF
+  1860 0001:0010A8F1  1862 0001:0010A916  1863 0001:0010A93B  1865 0001:0010A95B
+  1866 0001:0010A96D  1869 0001:0010A982  1871 0001:0010A99B  1872 0001:0010A9D3
+  1877 0001:0010AA0D  1878 0001:0010AA19  1882 0001:0010AA25  1883 0001:0010AA3C
+  1884 0001:0010AA53  1885 0001:0010AA6A  1888 0001:0010AA81  1892 0001:0010AAA8
+  1893 0001:0010AACC  1894 0001:0010AAE3  1895 0001:0010AAEB  1897 0001:0010AB25
+  1898 0001:0010AB2D  1900 0001:0010AB67  1902 0001:0010AB79  1903 0001:0010AB96
+  1904 0001:0010ABE4  1905 0001:0010AC26  1908 0001:0010AC3F  1912 0001:0010AC58
+  1916 0001:0010ACA4  1920 0001:0010AD20  1921 0001:0010AD44  1922 0001:0010AD4C
+  1924 0001:0010AD86  1925 0001:0010AD8E  1927 0001:0010ADC8  1928 0001:0010ADDC
+  1930 0001:0010ADEE  1931 0001:0010AE0B  1932 0001:0010AE59  1933 0001:0010AE9B
+  1936 0001:0010AEB4  1940 0001:0010AECD  1945 0001:0010AF19  1949 0001:0010AF90
+  1950 0001:0010AFB4  1951 0001:0010AFBC  1953 0001:0010AFF6  1954 0001:0010AFFE
+  1956 0001:0010B038  1957 0001:0010B04C  1959 0001:0010B05E  1960 0001:0010B07B
+  1961 0001:0010B0C9  1962 0001:0010B10B  1965 0001:0010B124  1969 0001:0010B13D
+  1974 0001:0010B189  1990 0001:0010B200  1991 0001:0010B22D  1992 0001:0010B23F
+  1994 0001:0010B24F  1995 0001:0010B25D  1996 0001:0010B273  1998 0001:0010B29A
+  1999 0001:0010B2AF  2001 0001:0010B2CD  2002 0001:0010B2E2  2005 0001:0010B376
+  2006 0001:0010B389  2013 0001:0010B42B  2014 0001:0010B44A  2015 0001:0010B459
+  2017 0001:0010B49A  2018 0001:0010B4EB  2020 0001:0010B53C  2023 0001:0010B587
+  2025 0001:0010B5B9  2026 0001:0010B5C6  2027 0001:0010B5F6  2029 0001:0010B629
+  2030 0001:0010B634  2031 0001:0010B64C  2026 0001:0010B64F  2032 0001:0010B654
+  2033 0001:0010B679  2034 0001:0010B686  2038 0001:0010B6A3  2039 0001:0010B6FE
+  2040 0001:0010B759  2042 0001:0010B7B4  2043 0001:0010B7C9  2044 0001:0010B7D9
+  2045 0001:0010B7E9  2047 0001:0010B7F7  2063 0001:0010B809  2064 0001:0010B84F
+  2065 0001:0010B897  2066 0001:0010B8DF  2068 0001:0010B927  2071 0001:0010B998
+  2072 0001:0010B9E6  2074 0001:0010BA5E  2075 0001:0010BA7A  2076 0001:0010BA92
+  2078 0001:0010BADB  2086 0001:0010BB3B  2087 0001:0010BB57  2088 0001:0010BB6F
+  2090 0001:0010BBB8  2092 0001:0010BC18  2093 0001:0010BC34  2094 0001:0010BC4C
+  2096 0001:0010BC95  2099 0001:0010BCF5  2100 0001:0010BD6D  2101 0001:0010BDD9
+  2103 0001:0010BE45  2104 0001:0010BE7A  2106 0001:0010BE96  2107 0001:0010BEC1
+  2109 0001:0010BED5  2111 0001:0010BEE9  2048 0001:0010BEF6  2113 0001:0010BF0B
+  2114 0001:0010BF16  2115 0001:0010BF6D  2116 0001:0010BFD2  2117 0001:0010BFF1
+  2118 0001:0010C01D  2121 0001:0010C03F  2122 0001:0010C054  2124 0001:0010C15A
+  2126 0001:0010C3D4  2127 0001:0010C3FA  2128 0001:0010C420  2129 0001:0010C444
+  2130 0001:0010C473  2132 0001:0010C483  2135 0001:0010C49D  2137 0001:0010C4DE
+  2138 0001:0010C4FA  2140 0001:0010C530  2142 0001:0010C550  2143 0001:0010C586
+  2146 0001:0010C593  2148 0001:0010C5AA  2152 0001:0010C616  2153 0001:0010C62B
+  2155 0001:0010C667  2157 0001:0010C66E  2161 0001:0010C6DA  2162 0001:0010C6EF
+  2164 0001:0010C72B  2169 0001:0010C732  2170 0001:0010C749  2177 0001:0010C76D
+  2178 0001:0010C777  2179 0001:0010C789  2180 0001:0010C795  2181 0001:0010C79F
+  2182 0001:0010C7AC  2184 0001:0010C7B9  2185 0001:0010C7C5  2186 0001:0010C7D1
+  2187 0001:0010C7DB  2188 0001:0010C7E9  2190 0001:0010C800  2191 0001:0010C88F
+  2192 0001:0010C8D4  2193 0001:0010C928  2195 0001:0010C98D  2196 0001:0010C9B0
+  2198 0001:0010C9CA  2199 0001:0010C9DC  2189 0001:0010C9EC  2203 0001:0010CA13
+  2206 0001:0010CA1B  2208 0001:0010CA29  2210 0001:0010CA40  2211 0001:0010CACF
+  2212 0001:0010CB14  2213 0001:0010CB68  2216 0001:0010CBCD  2217 0001:0010CBF0
+  2219 0001:0010CC0A  2220 0001:0010CC1C  2209 0001:0010CC2C  2224 0001:0010CC53
+  2225 0001:0010CC5B  2226 0001:0010CCA7  2229 0001:0010CE44  2230 0001:0010CE48
+  2231 0001:0010CE66  2236 0001:0010CE82  2237 0001:0010CE87  2241 0001:0010CE8C
+  2242 0001:0010CEB9  2247 0001:0010CF29  2248 0001:0010CF38  2249 0001:0010CF48
+  2251 0001:0010CF5A  2252 0001:0010CF5F  2253 0001:0010CF71  2254 0001:0010CFB5
+  2255 0001:0010CFC7  2256 0001:0010D00A  2257 0001:0010D01C  2259 0001:0010D05F
+  2260 0001:0010D071  2261 0001:0010D0B5  2262 0001:0010D0C7  2263 0001:0010D10A
+  2264 0001:0010D11C  2266 0001:0010D15F  2267 0001:0010D16F  2250 0001:0010D17C
+  2269 0001:0010D191  2270 0001:0010D1A1  2271 0001:0010D1A8  2272 0001:0010D1B8
+  2273 0001:0010D1C8  2276 0001:0010D1FA  2279 0001:0010D210  2280 0001:0010D216
+  2281 0001:0010D23D  2282 0001:0010D24B  2285 0001:0010D250  2286 0001:0010D25A
+  2287 0001:0010D28B  2288 0001:0010D29B  2290 0001:0010D2A4  2291 0001:0010D2B8
+  2292 0001:0010D2C6  2295 0001:0010D2CC  2296 0001:0010D2D2  2300 0001:0010D2F3
+  2301 0001:0010D325  2311 0001:0010D337  2312 0001:0010D365  2324 0001:0010D377
+  2325 0001:0010D3A5  2332 0001:0010D3B5  2333 0001:0010D3C2  2337 0001:0010D3D8
+  2338 0001:0010D3E5  2341 0001:0010D3FB  2342 0001:0010D409  2345 0001:0010D420
+  2346 0001:0010D423  2347 0001:0010D431  2350 0001:0010D434  2351 0001:0010D437
+  2352 0001:0010D445  2355 0001:0010D448  2356 0001:0010D44B  2357 0001:0010D459
+  2360 0001:0010D45C  2362 0001:0010D462  2368 0001:0010D47D  2369 0001:0010D48D
+  2370 0001:0010D49D  2371 0001:0010D4AD  2372 0001:0010D4DE  2386 0001:0010D500
+  2387 0001:0010D531  2393 0001:0010D551  2394 0001:0010D55E  2397 0001:0010D574
+  2398 0001:0010D581  2401 0001:0010D597  2402 0001:0010D5A5  2405 0001:0010D5BC
+  2406 0001:0010D5BF  2407 0001:0010D5CD  2411 0001:0010D5D0  2412 0001:0010D5D8
+  2413 0001:0010D5F1  2414 0001:0010D619  2415 0001:0010D663  2417 0001:0010D6AD
+  2418 0001:0010D6F7  2419 0001:0010D741  2420 0001:0010D78B  2422 0001:0010D7D5
+  2423 0001:0010D81F  2424 0001:0010D869  2425 0001:0010D8B3  2426 0001:0010D8FD
+  2427 0001:0010D947  2428 0001:0010D991  2430 0001:0010D9DB  2432 0001:0010DA25
+  2433 0001:0010DA47  2434 0001:0010DA8B  2413 0001:0010DA8C  2436 0001:0010DA93
+  2442 0001:0010DB98  2446 0001:0010DB9C  2447 0001:0010DBA2  2448 0001:0010DBB0
+  2449 0001:0010DBC3  2450 0001:0010DBDF  2451 0001:0010DBEB  2457 0001:0010DBF0
+  2485 0001:0010DC0F  2486 0001:0010DC15  2488 0001:0010DC1C  2490 0001:0010DC44
+  2491 0001:0010DC61  2493 0001:0010DC7E  2494 0001:0010DC9B  2495 0001:0010DCB8
+  2497 0001:0010DCBF  2499 0001:0010DCD6  2501 0001:0010DD0B  2502 0001:0010DD41
+  2505 0001:0010DDD0  2506 0001:0010DDD6  2507 0001:0010DDEA  2513 0001:0010DDF0
+  2514 0001:0010DE0C  2515 0001:0010DE17  2517 0001:0010DE27  2518 0001:0010DE34
+  2519 0001:0010DE44  2520 0001:0010DE5B  2521 0001:0010DE6A  2524 0001:0010DE74
+  2528 0001:0010DE93  2529 0001:0010DEA0  2530 0001:0010DEAD  2532 0001:0010DEDD
+  2534 0001:0010DEED  2526 0001:0010DEF7  2537 0001:0010DF05  2538 0001:0010DF14
+  2539 0001:0010DF24  2541 0001:0010DF31  2542 0001:0010DF4E  2544 0001:0010DF5B
+  2545 0001:0010DF86  2549 0001:0010DFAC  2550 0001:0010DFB7  2551 0001:0010DFC2
+  2553 0001:0010DFD2  2556 0001:0010DFDF  2557 0001:0010DFFC  2559 0001:0010E00D
+  2562 0001:0010E01C  2560 0001:0010E021  2564 0001:0010E032  2565 0001:0010E04F
+  2566 0001:0010E060  2567 0001:0010E06D  2568 0001:0010E07B  2572 0001:0010E080
+  2573 0001:0010E08E  2574 0001:0010E099  2576 0001:0010E0A9  2579 0001:0010E0B6
+  2581 0001:0010E0D3  2584 0001:0010E0E2  2585 0001:0010E0E7  2586 0001:0010E0EE
+  2587 0001:0010E0FE  2582 0001:0010E10B  2590 0001:0010E11C  2591 0001:0010E139
+  2593 0001:0010E146  2594 0001:0010E154  2601 0001:0010E15C  2602 0001:0010E185
+  2604 0001:0010E18C  2605 0001:0010E19B  2607 0001:0010E1AB  2608 0001:0010E1B8
+  2610 0001:0010E1C2  2611 0001:0010E1CF  2613 0001:0010E1D9  2614 0001:0010E1EF
+  2616 0001:0010E235  2617 0001:0010E25E  2618 0001:0010E287  2621 0001:0010E2B0
+  2622 0001:0010E2D8  2623 0001:0010E300  2624 0001:0010E328  2625 0001:0010E350
+  2627 0001:0010E378  2629 0001:0010E39F  2630 0001:0010E3C5  2631 0001:0010E3D7
+  2632 0001:0010E3E9  2633 0001:0010E3FB  2636 0001:0010E40B  2637 0001:0010E43E
+  2638 0001:0010E471  2639 0001:0010E4A4  2641 0001:0010E4D7  2642 0001:0010E50A
+  2643 0001:0010E53D  2644 0001:0010E570  2646 0001:0010E5A3  2649 0001:0010E5B0
+  2651 0001:0010E5BD  2652 0001:0010E5F3  2653 0001:0010E629  2654 0001:0010E65F
+  2655 0001:0010E695  2656 0001:0010E6CB  2657 0001:0010E701  2658 0001:0010E737
+  2659 0001:0010E76D  2670 0001:0010E77D  2672 0001:0010E79A  2673 0001:0010E7A7
+  2674 0001:0010E7D3  2675 0001:0010E7E0  2676 0001:0010E804  2680 0001:0010E811
+  2681 0001:0010E81E  2682 0001:0010E860  2685 0001:0010E86D  2688 0001:0010E87F
+  2692 0001:0010E895  2694 0001:0010E8A2  2696 0001:0010E8B8  2698 0001:0010E8CE
+  2699 0001:0010E8F2  2700 0001:0010E92A  2701 0001:0010E94E  2702 0001:0010E986
+  2703 0001:0010E9AA  2704 0001:0010E9E2  2705 0001:0010EA06  2707 0001:0010EA3E
+  2710 0001:0010EA57  2711 0001:0010EA77  2712 0001:0010EAAA  2713 0001:0010EADD
+  2715 0001:0010EB15  2717 0001:0010EB32  2722 0001:0010EB3D  2725 0001:0010EBB2
+  2726 0001:0010EBBF  2728 0001:0010EBD5  2729 0001:0010EBF9  2730 0001:0010EC31
+  2731 0001:0010EC55  2732 0001:0010EC8D  2733 0001:0010ECB1  2734 0001:0010ECE9
+  2735 0001:0010ED0D  2737 0001:0010ED45  2738 0001:0010ED5E  2741 0001:0010ED6E
+  2686 0001:0010ED7B  2755 0001:0010ED90  2757 0001:0010EDAD  2759 0001:0010EDBA
+  2760 0001:0010EDC7  2762 0001:0010EDD1  2763 0001:0010EDDE  2765 0001:0010EDE8
+  2766 0001:0010EDF8  2768 0001:0010EE3C  2771 0001:0010F034  2772 0001:0010F037
+  2773 0001:0010F03C  2776 0001:0010F040  2777 0001:0010F057  2779 0001:0010F085
+  2781 0001:0010F08E  2782 0001:0010F0A8  2784 0001:0010F0E1  2785 0001:0010F121
+  2788 0001:0010F18C  2789 0001:0010F1A1  2790 0001:0010F1AA  2792 0001:0010F1C4
+  2793 0001:0010F1CE  2794 0001:0010F212  2795 0001:0010F226  2796 0001:0010F266
+  2801 0001:0010F2D0  2802 0001:0010F2D6  2803 0001:0010F301  2804 0001:0010F32C
+  2805 0001:0010F357  2806 0001:0010F382  2811 0001:0010F388  2812 0001:0010F3AB
+  2816 0001:0010F3E1  2817 0001:0010F407  2818 0001:0010F434  2819 0001:0010F43E
+  2821 0001:0010F4A5  2822 0001:0010F4B7  2825 0001:0010F4BE  2826 0001:0010F4F8
+  2827 0001:0010F574  2832 0001:0010F618  2833 0001:0010F63A  2834 0001:0010F652
+  2835 0001:0010F678  2837 0001:0010F6A5  2838 0001:0010F6AF  2839 0001:0010F71A
+  2841 0001:0010F736  2842 0001:0010F7BD  2845 0001:0010F7F0  2846 0001:0010F806
+  2848 0001:0010F819  2849 0001:0010F828  2852 0001:0010F872  2855 0001:0010F88C
+  2856 0001:0010F8A5  2858 0001:0010F8B7  2859 0001:0010F8C8  2861 0001:0010F8E3
+  2863 0001:0010F8F9  2864 0001:0010F90A  2865 0001:0010F925  2866 0001:0010F940
+  2867 0001:0010F967  2868 0001:0010F982  2872 0001:0010F9CB  2875 0001:0010FA24
+  2876 0001:0010FA27  2877 0001:0010FA2C  2881 0001:0010FA30  2882 0001:0010FA37
+  2883 0001:0010FA46  2884 0001:0010FA56  2885 0001:0010FA64  2886 0001:0010FA72
+  2888 0001:0010FA8D  2890 0001:0010FAA5  2893 0001:0010FAAC  2894 0001:0010FAC8
+  2895 0001:0010FADE  2896 0001:0010FAE4  2897 0001:0010FB0A  2898 0001:0010FB2A
+  2899 0001:0010FB4A  2900 0001:0010FB51  2901 0001:0010FB58  2909 0001:0010FB8B
+  2910 0001:0010FB9D  2913 0001:0010FBAC  2914 0001:0010FBB9  2916 0001:0010FBF0
+  2921 0001:0010FC50  2922 0001:0010FC6E  2924 0001:0010FC87  2926 0001:0010FCC2
+  2927 0001:0010FCE0  2929 0001:0010FCFF  2930 0001:0010FD37  2932 0001:0010FD6F
+  2933 0001:0010FD86  2935 0001:0010FDDA  2936 0001:0010FDEC  2937 0001:0010FE0D
+  2939 0001:0010FE2F  2943 0001:0010FE46  2946 0001:0010FE9D  2949 0001:0010FEDE
+  2954 0001:0010FF64  2955 0001:0010FF87  2957 0001:0010FFA5  2958 0001:0010FFC9
+  2960 0001:00110014  2965 0001:0011002C  2966 0001:0011002E  2967 0001:00110058
+  2968 0001:001100A1  2965 0001:001100CB  2973 0001:0011010C  2976 0001:0011017C
+  2977 0001:00110182  2978 0001:001101AE  2980 0001:001101C2  2983 0001:001101E0
+  2984 0001:0011020C  2985 0001:0011021B  2989 0001:001102BC  2990 0001:001102C6
+  2991 0001:001102FB  2993 0001:00110308  2994 0001:00110317  2998 0001:001103B8
+  2999 0001:001103C2  3000 0001:001103F7  3002 0001:00110404  3003 0001:00110413
+  3007 0001:001104B4  3008 0001:001104BE  3009 0001:001104F3  3011 0001:00110500
+  3012 0001:0011050F  3016 0001:001105B0  3017 0001:001105BA  3018 0001:001105EF
+  3021 0001:0011062C  3025 0001:001106B4  3026 0001:001106C2  3027 0001:001106D1
+  3029 0001:001106E1  3032 0001:001106EE  3034 0001:0011070B  3036 0001:00110726
+  3037 0001:0011072F  3039 0001:0011075F  3041 0001:0011078D  3042 0001:00110798
+  3043 0001:001107A3  3047 0001:001107B3  3048 0001:001107C0  3049 0001:001107CD
+  3050 0001:001107FE  3052 0001:0011081A  3054 0001:0011082A  3045 0001:00110835
+  3056 0001:00110848  3058 0001:00110853  3060 0001:00110860  3061 0001:0011087D
+  3063 0001:0011088A  3065 0001:0011089A  3071 0001:00110918  3072 0001:00110940
+  3073 0001:0011094F  3075 0001:0011095F  3078 0001:0011096C  3081 0001:00110989
+  3082 0001:001109B4  3083 0001:001109C7  3086 0001:001109DF  3087 0001:00110A77
+  3089 0001:00110A87  3090 0001:00110AC2  3091 0001:00110AF6  3092 0001:00110B2A
+  3095 0001:00110B5E  3096 0001:00110B69  3097 0001:00110B74  3101 0001:00110B84
+  3102 0001:00110B91  3103 0001:00110B9E  3104 0001:00110BCF  3106 0001:00110BEB
+  3108 0001:00110BFB  3099 0001:00110C06  3110 0001:00110C19  3112 0001:00110C24
+  3114 0001:00110C31  3115 0001:00110C4E  3117 0001:00110C5B  3119 0001:00110CA9
+  3124 0001:00110D70  3125 0001:00110D8D  3126 0001:00110D9C  3128 0001:00110DAC
+  3131 0001:00110DBE  3133 0001:00110DDB  3135 0001:00110DF6  3136 0001:00110E01
+  3137 0001:00110E0C  3139 0001:00110E17  3142 0001:00110E23  3144 0001:00110E67
+  3145 0001:00110E79  3146 0001:00110E9B  3148 0001:00110EB0  3149 0001:00110EBB
+  3140 0001:00110EC6  3151 0001:00110ED9  3153 0001:00110EE4  3155 0001:00110EF6
+  3156 0001:00110F13  3158 0001:00110F25  3160 0001:00110F52  3164 0001:00110F84
+  3177 0001:00110FA5  3179 0001:00110FC8  3180 0001:00111011  3182 0001:00111024
+  3183 0001:0011103E  3185 0001:00111059  3187 0001:00111064  3189 0001:0011109D
+  3192 0001:00111123  3197 0001:00111164  3198 0001:00111187  3201 0001:00111190
+  3202 0001:001111C3  3204 0001:001111EB  3206 0001:00111209  3208 0001:00111248
+  3209 0001:00111262  3210 0001:00111270  3211 0001:00111295  3213 0001:001112CD
+  3217 0001:001112EC  3218 0001:00111314  3220 0001:0011134A  3224 0001:00111362
+  3225 0001:00111388  3226 0001:001113AD  3227 0001:001113DE  3232 0001:00111465
+  3235 0001:00111475  3236 0001:0011149B  3237 0001:001114C0  3239 0001:001114F1
+  3244 0001:00111505  3248 0001:0011152D  3250 0001:0011154E  3251 0001:0011155D
+  3252 0001:001115A6  3253 0001:001115B4  3256 0001:001115D8  3259 0001:001115E2
+  3265 0001:0011165F  3271 0001:001116D0  3272 0001:001116F3  3273 0001:00111727
+  3274 0001:00111796  3275 0001:001117E1  3276 0001:00111823  3277 0001:00111833
+  3278 0001:00111843  3279 0001:00111853  3280 0001:00111861  3272 0001:00111864
+  3281 0001:0011186C  3282 0001:0011187A  3283 0001:0011188C  3285 0001:001118AD
+  3287 0001:0011190B  3290 0001:00111914  3291 0001:00111916  3292 0001:0011192E
+  3293 0001:00111944  3294 0001:0011195A  3295 0001:00111976  3297 0001:001119A2
+  3301 0001:001119AC  3302 0001:001119B2  3303 0001:001119B9  3305 0001:001119C2
+  3306 0001:001119C9  3307 0001:001119D6  3308 0001:001119E9  3309 0001:00111A16
+  3311 0001:00111A2C  3315 0001:00111A30  3316 0001:00111A36  3318 0001:00111A4E
+  3320 0001:00111A5C  3326 0001:00111A64  3327 0001:00111A6F  3329 0001:00111A86
+  3330 0001:00111AD2  3331 0001:00111AE0  3332 0001:00111AEA  3333 0001:00111B0C
+  3334 0001:00111B2C  3335 0001:00111B48  3337 0001:00111B71  3341 0001:00111B80
+  3342 0001:00111B96  3343 0001:00111BA8  3344 0001:00111BC4  3347 0001:00111BFE
+  3350 0001:00111C04  3351 0001:00111C1A  3352 0001:00111C5B  3354 0001:00111CA0
+  3354 0001:00111CA7
 
 Line numbers for InstallUnit(InstallUnit.pas) segment .text
 
-   156 0001:001120E0   157 0001:001120F5   162 0001:001120F8   163 0001:0011211C
-   164 0001:00112125   166 0001:0011212E   168 0001:00112136   170 0001:00112141
-   171 0001:00112155   172 0001:00112167   173 0001:0011216B   175 0001:0011217B
-   176 0001:00112195   177 0001:001121B5   173 0001:001121BB   179 0001:001121BF
-   180 0001:001121E2   181 0001:001121FF   185 0001:0011221B   187 0001:00112225
-   188 0001:00112235   189 0001:0011223E   191 0001:00112243   192 0001:00112262
-   193 0001:00112271   194 0001:00112287   195 0001:0011229C   199 0001:001122AD
-   200 0001:001122CC   201 0001:001122DB   202 0001:001122EB   187 0001:001122F2
-   204 0001:001122FB   205 0001:00112318   206 0001:00112352   207 0001:00112385
-   209 0001:0011239F   210 0001:001123B3   214 0001:001123CA   215 0001:001123DA
-   216 0001:001123E3   218 0001:001123EC   219 0001:0011240B   221 0001:0011241A
-   223 0001:0011241F   224 0001:00112435   225 0001:0011244A   229 0001:0011245B
-   230 0001:00112471   231 0001:00112486   232 0001:00112495   237 0001:001124AB
-   238 0001:001124CA   240 0001:001124D9   214 0001:001124E0   242 0001:001124E9
-   243 0001:00112506   244 0001:00112540   245 0001:00112573   247 0001:0011258D
-   248 0001:001125A1   253 0001:001125D5   257 0001:00112614   258 0001:0011261E
-   259 0001:00112623   260 0001:0011262A   262 0001:0011262C   263 0001:0011262F
-   264 0001:00112634   266 0001:00112639   267 0001:00112640   268 0001:00112647
-   269 0001:0011264E   270 0001:00112655   271 0001:0011265C   273 0001:00112663
-   274 0001:00112668   275 0001:0011266D   278 0001:00112676   280 0001:0011267B
-   281 0001:00112680   282 0001:00112689   283 0001:0011268E   286 0001:00112697
-   288 0001:0011269C   289 0001:001126A1   292 0001:001126AA   294 0001:001126B4
-   295 0001:001126B9   296 0001:001126C2   297 0001:001126C7   300 0001:001126D0
-   301 0001:001126D5   302 0001:001126DA   305 0001:001126DF   306 0001:001126F7
-   307 0001:001126FC   308 0001:00112700   309 0001:00112704   310 0001:00112708
-   311 0001:0011270C   312 0001:00112710   313 0001:00112714   259 0001:00112718
-   315 0001:00112721   323 0001:00112728   324 0001:0011274A   326 0001:00112762
-   328 0001:00112783   331 0001:001127D4   332 0001:001127EA   333 0001:001127F8
-   334 0001:00112818   336 0001:00112841   339 0001:00112850   341 0001:0011289F
-   343 0001:001128A9   344 0001:001128C6   346 0001:001128DF   347 0001:00112913
-   348 0001:00112947   349 0001:0011297B   351 0001:001129AF   353 0001:001129E3
-   354 0001:00112A17   356 0001:00112A4B   357 0001:00112A7F   360 0001:00112AB3
-   361 0001:00112AD6   362 0001:00112AF9   363 0001:00112B1C   393 0001:00112B4C
-   396 0001:00112B94   398 0001:00112E9C   398 0001:00112EA3
+   156 0001:00112078   157 0001:0011208D   162 0001:00112090   163 0001:001120B4
+   164 0001:001120BD   166 0001:001120C6   168 0001:001120CE   170 0001:001120D9
+   171 0001:001120ED   172 0001:001120FF   173 0001:00112103   175 0001:00112113
+   176 0001:0011212D   177 0001:0011214D   173 0001:00112153   179 0001:00112157
+   180 0001:0011217A   181 0001:00112197   185 0001:001121B3   187 0001:001121BD
+   188 0001:001121CD   189 0001:001121D6   191 0001:001121DB   192 0001:001121FA
+   193 0001:00112209   194 0001:0011221F   195 0001:00112234   199 0001:00112245
+   200 0001:00112264   201 0001:00112273   202 0001:00112283   187 0001:0011228A
+   204 0001:00112293   205 0001:001122B0   206 0001:001122EA   207 0001:0011231D
+   209 0001:00112337   210 0001:0011234B   214 0001:00112362   215 0001:00112372
+   216 0001:0011237B   218 0001:00112384   219 0001:001123A3   221 0001:001123B2
+   223 0001:001123B7   224 0001:001123CD   225 0001:001123E2   229 0001:001123F3
+   230 0001:00112409   231 0001:0011241E   232 0001:0011242D   237 0001:00112443
+   238 0001:00112462   240 0001:00112471   214 0001:00112478   242 0001:00112481
+   243 0001:0011249E   244 0001:001124D8   245 0001:0011250B   247 0001:00112525
+   248 0001:00112539   253 0001:0011256D   257 0001:001125AC   258 0001:001125B6
+   259 0001:001125BB   260 0001:001125C2   262 0001:001125C4   263 0001:001125C7
+   264 0001:001125CC   266 0001:001125D1   267 0001:001125D8   268 0001:001125DF
+   269 0001:001125E6   270 0001:001125ED   271 0001:001125F4   273 0001:001125FB
+   274 0001:00112600   275 0001:00112605   278 0001:0011260E   280 0001:00112613
+   281 0001:00112618   282 0001:00112621   283 0001:00112626   286 0001:0011262F
+   288 0001:00112634   289 0001:00112639   292 0001:00112642   294 0001:0011264C
+   295 0001:00112651   296 0001:0011265A   297 0001:0011265F   300 0001:00112668
+   301 0001:0011266D   302 0001:00112672   305 0001:00112677   306 0001:0011268F
+   307 0001:00112694   308 0001:00112698   309 0001:0011269C   310 0001:001126A0
+   311 0001:001126A4   312 0001:001126A8   313 0001:001126AC   259 0001:001126B0
+   315 0001:001126B9   323 0001:001126C0   324 0001:001126E2   326 0001:001126FA
+   328 0001:0011271B   331 0001:0011276C   332 0001:00112782   333 0001:00112790
+   334 0001:001127B0   336 0001:001127D9   339 0001:001127E8   341 0001:00112837
+   343 0001:00112841   344 0001:0011285E   346 0001:00112877   347 0001:001128AB
+   348 0001:001128DF   349 0001:00112913   351 0001:00112947   353 0001:0011297B
+   354 0001:001129AF   356 0001:001129E3   357 0001:00112A17   360 0001:00112A4B
+   361 0001:00112A6E   362 0001:00112A91   363 0001:00112AB4   393 0001:00112AE4
+   396 0001:00112B2C   398 0001:00112E34   398 0001:00112E3B
 
 Line numbers for MainUnit(MainUnit.pas) segment .text
 
-   133 0001:00113798   134 0001:0011379B   135 0001:001137A0   138 0001:001137A4
-   140 0001:001137A7   141 0001:001137BB   143 0001:001137CD   144 0001:001137D9
-   150 0001:001137E0   151 0001:00113800   152 0001:0011380F   153 0001:0011381E
-   154 0001:0011382D   155 0001:0011383C   156 0001:0011384B   157 0001:0011385A
-   158 0001:00113869   159 0001:00113878   161 0001:00113887   162 0001:0011388B
-   163 0001:00113895   166 0001:001138AB   167 0001:001138AF   168 0001:001138B2
-   162 0001:001138B6   170 0001:001138BB   172 0001:001138CC   178 0001:00113916
-   179 0001:00113939   180 0001:00113958   182 0001:00113983   184 0001:00113992
-   185 0001:001139B1   189 0001:001139FF   192 0001:00113ACC   193 0001:00113ADC
-   194 0001:00113AED   195 0001:00113AFE   196 0001:00113B0F   197 0001:00113B20
-   198 0001:00113B31   199 0001:00113B42   200 0001:00113B53   201 0001:00113B64
-   203 0001:00113B75   205 0001:00113B86   206 0001:00113B8D   209 0001:00113B94
-   210 0001:00113B97   211 0001:00113BA2   214 0001:00113BA4   215 0001:00113BA7
-   216 0001:00113BBC   221 0001:00113BC0   222 0001:00113BE1   223 0001:00113BEE
-   224 0001:00113C01   225 0001:00113C14   226 0001:00113C42   227 0001:00113C70
-   228 0001:00113C90   229 0001:00113CB7   234 0001:00113D0E   238 0001:00113D84
-   243 0001:00113E38   244 0001:00113E58   245 0001:00113E65   246 0001:00113E78
-   247 0001:00113E8B   249 0001:00113EA4   250 0001:00113EB4   252 0001:00113EDB
-   253 0001:00113EF0   255 0001:00113F1E   261 0001:00113F8A   265 0001:00114005
-   268 0001:00114100   269 0001:00114103   270 0001:0011412B   271 0001:00114137
-   274 0001:0011413C   275 0001:0011413F   276 0001:00114167   278 0001:00114173
-   281 0001:00114178   282 0001:00114188   284 0001:001141AC   285 0001:001141CB
-   286 0001:001141ED   287 0001:0011420F   291 0001:00114231   292 0001:00114253
-   293 0001:00114275   294 0001:00114297   295 0001:001142B9   297 0001:001142DB
-   298 0001:001142F7   300 0001:00114306   301 0001:0011430D   305 0001:00114314
-   306 0001:0011431A   307 0001:00114328   308 0001:00114336   307 0001:00114348
-   309 0001:0011434C   311 0001:00114372   312 0001:0011437F   313 0001:00114386
-   314 0001:001143A8   317 0001:001143AF   319 0001:001143D7   320 0001:00114416
-   321 0001:0011445B   325 0001:001144AD   326 0001:001144BF   328 0001:001144D9
-   331 0001:00114544   332 0001:00114547   334 0001:0011454C   338 0001:00114550
-   339 0001:0011455D   340 0001:00114574   341 0001:0011458B   342 0001:001145A2
-   344 0001:001145B9   346 0001:001145D0   347 0001:001145E7   348 0001:001145FE
-   350 0001:00114615   351 0001:0011462C   352 0001:00114643   353 0001:0011465A
-   354 0001:00114671   355 0001:00114688   356 0001:0011469F   358 0001:001146B6
-   362 0001:001146CD   363 0001:001146E4   365 0001:001146FB   366 0001:00114712
-   367 0001:00114729   368 0001:00114740   369 0001:00114757   370 0001:0011476E
-   373 0001:00114785   374 0001:0011479C   375 0001:001147B3   376 0001:001147CA
-   377 0001:001147E1   379 0001:001147F8   381 0001:00114804   385 0001:00114808
-   386 0001:00114822   387 0001:00114841   388 0001:0011487F   389 0001:001148B9
-   391 0001:001148F1   392 0001:00114901   393 0001:00114913   395 0001:00114925
-   396 0001:0011494E   400 0001:00114984   401 0001:00114987   402 0001:00114992
-   406 0001:00114998   407 0001:0011499B   408 0001:001149C3   409 0001:001149CF
-   414 0001:001149D4   416 0001:001149E7   418 0001:001149F2   419 0001:001149FD
-   420 0001:00114A18   421 0001:00114A33   422 0001:00114A5C   423 0001:00114A85
-   427 0001:00114A90   428 0001:00114A98   430 0001:00114AB7   431 0001:00114AD4
-   432 0001:00114AFF   428 0001:00114B00   434 0001:00114B03   438 0001:00114B08
-   439 0001:00114B10   441 0001:00114B2F   442 0001:00114B4C   443 0001:00114B77
-   439 0001:00114B78   445 0001:00114B7B   449 0001:00114B80   450 0001:00114B8B
-   452 0001:00114BA2   453 0001:00114BEF   455 0001:00114C0E   456 0001:00114C2B
-   457 0001:00114C54   453 0001:00114C55   459 0001:00114C58   462 0001:00114C68
-   463 0001:00114C6B   464 0001:00114C70   467 0001:00114C74   474 0001:00114C7A
-   476 0001:00114C8F   477 0001:00114C9C   478 0001:00114CA9   479 0001:00114CBD
-   480 0001:00114CC9   481 0001:00114CD1   482 0001:00114CE5   484 0001:00114CEC
-   487 0001:00114DC0   492 0001:00114DC6   493 0001:00114DDB   494 0001:00114DE8
-   497 0001:00114DF5   500 0001:00114E01   501 0001:00114E0E   503 0001:00114E1B
-   506 0001:00114E8C   507 0001:00114E93   508 0001:00114EB3   509 0001:00114ECF
-   510 0001:00114EE5   512 0001:00114F1C   514 0001:00114F26
+   133 0001:00113730   134 0001:00113733   135 0001:00113738   138 0001:0011373C
+   140 0001:0011373F   141 0001:00113753   143 0001:00113765   144 0001:00113771
+   150 0001:00113778   151 0001:00113798   152 0001:001137A7   153 0001:001137B6
+   154 0001:001137C5   155 0001:001137D4   156 0001:001137E3   157 0001:001137F2
+   158 0001:00113801   159 0001:00113810   161 0001:0011381F   162 0001:00113823
+   163 0001:0011382D   166 0001:00113843   167 0001:00113847   168 0001:0011384A
+   162 0001:0011384E   170 0001:00113853   172 0001:00113864   178 0001:001138AE
+   179 0001:001138D1   180 0001:001138F0   182 0001:0011391B   184 0001:0011392A
+   185 0001:00113949   189 0001:00113997   192 0001:00113A64   193 0001:00113A74
+   194 0001:00113A85   195 0001:00113A96   196 0001:00113AA7   197 0001:00113AB8
+   198 0001:00113AC9   199 0001:00113ADA   200 0001:00113AEB   201 0001:00113AFC
+   203 0001:00113B0D   205 0001:00113B1E   206 0001:00113B25   209 0001:00113B2C
+   210 0001:00113B2F   211 0001:00113B3A   214 0001:00113B3C   215 0001:00113B3F
+   216 0001:00113B54   221 0001:00113B58   222 0001:00113B79   223 0001:00113B86
+   224 0001:00113B99   225 0001:00113BAC   226 0001:00113BDA   227 0001:00113C08
+   228 0001:00113C28   229 0001:00113C4F   234 0001:00113CA6   238 0001:00113D1C
+   243 0001:00113DD0   244 0001:00113DF0   245 0001:00113DFD   246 0001:00113E10
+   247 0001:00113E23   249 0001:00113E3C   250 0001:00113E4C   252 0001:00113E73
+   253 0001:00113E88   255 0001:00113EB6   261 0001:00113F22   265 0001:00113F9D
+   268 0001:00114098   269 0001:0011409B   270 0001:001140C3   271 0001:001140CF
+   274 0001:001140D4   275 0001:001140D7   276 0001:001140FF   278 0001:0011410B
+   281 0001:00114110   282 0001:00114120   284 0001:00114144   285 0001:00114163
+   286 0001:00114185   287 0001:001141A7   291 0001:001141C9   292 0001:001141EB
+   293 0001:0011420D   294 0001:0011422F   295 0001:00114251   297 0001:00114273
+   298 0001:0011428F   300 0001:0011429E   301 0001:001142A5   305 0001:001142AC
+   306 0001:001142B2   307 0001:001142C0   308 0001:001142CE   307 0001:001142E0
+   309 0001:001142E4   311 0001:0011430A   312 0001:00114317   313 0001:0011431E
+   314 0001:00114340   317 0001:00114347   319 0001:0011436F   320 0001:001143AE
+   321 0001:001143F3   325 0001:00114445   326 0001:00114457   328 0001:00114471
+   331 0001:001144DC   332 0001:001144DF   334 0001:001144E4   338 0001:001144E8
+   339 0001:001144F5   340 0001:0011450C   341 0001:00114523   342 0001:0011453A
+   344 0001:00114551   346 0001:00114568   347 0001:0011457F   348 0001:00114596
+   350 0001:001145AD   351 0001:001145C4   352 0001:001145DB   353 0001:001145F2
+   354 0001:00114609   355 0001:00114620   356 0001:00114637   358 0001:0011464E
+   362 0001:00114665   363 0001:0011467C   365 0001:00114693   366 0001:001146AA
+   367 0001:001146C1   368 0001:001146D8   369 0001:001146EF   370 0001:00114706
+   373 0001:0011471D   374 0001:00114734   375 0001:0011474B   376 0001:00114762
+   377 0001:00114779   379 0001:00114790   381 0001:0011479C   385 0001:001147A0
+   386 0001:001147BA   387 0001:001147D9   388 0001:00114817   389 0001:00114851
+   391 0001:00114889   392 0001:00114899   393 0001:001148AB   395 0001:001148BD
+   396 0001:001148E6   400 0001:0011491C   401 0001:0011491F   402 0001:0011492A
+   406 0001:00114930   407 0001:00114933   408 0001:0011495B   409 0001:00114967
+   414 0001:0011496C   416 0001:0011497F   418 0001:0011498A   419 0001:00114995
+   420 0001:001149B0   421 0001:001149CB   422 0001:001149F4   423 0001:00114A1D
+   427 0001:00114A28   428 0001:00114A30   430 0001:00114A4F   431 0001:00114A6C
+   432 0001:00114A97   428 0001:00114A98   434 0001:00114A9B   438 0001:00114AA0
+   439 0001:00114AA8   441 0001:00114AC7   442 0001:00114AE4   443 0001:00114B0F
+   439 0001:00114B10   445 0001:00114B13   449 0001:00114B18   450 0001:00114B23
+   452 0001:00114B3A   453 0001:00114B87   455 0001:00114BA6   456 0001:00114BC3
+   457 0001:00114BEC   453 0001:00114BED   459 0001:00114BF0   462 0001:00114C00
+   463 0001:00114C03   464 0001:00114C08   467 0001:00114C0C   474 0001:00114C12
+   476 0001:00114C27   477 0001:00114C34   478 0001:00114C41   479 0001:00114C55
+   480 0001:00114C61   481 0001:00114C69   482 0001:00114C7D   484 0001:00114C84
+   487 0001:00114D58   492 0001:00114D5E   493 0001:00114D73   494 0001:00114D80
+   497 0001:00114D8D   500 0001:00114D99   501 0001:00114DA6   503 0001:00114DB3
+   506 0001:00114E24   507 0001:00114E2B   508 0001:00114E4B   509 0001:00114E67
+   510 0001:00114E7D   512 0001:00114EB4   514 0001:00114EBE
 
 Line numbers for Trade(D:\Preobr\Delphi\Trade\Trade.dpr) segment .text
 
-    28 0001:00115350    29 0001:0011537C    30 0001:00115383    31 0001:00115391
-    32 0001:001153A0    33 0001:001153B3    34 0001:001153C6    36 0001:001153D9
-    37 0001:001153E3    38 0001:001153F6    40 0001:00115409    43 0001:0011541C
-    45 0001:00115425    48 0001:00115447    49 0001:00115449    54 0001:0011548E
+    28 0001:001152E8    29 0001:00115314    30 0001:0011531B    31 0001:00115329
+    32 0001:00115338    33 0001:0011534B    34 0001:0011535E    36 0001:00115371
+    37 0001:0011537B    38 0001:0011538E    40 0001:001153A1    43 0001:001153B4
+    45 0001:001153BD    48 0001:001153DF    49 0001:001153E1    54 0001:00115426
 
 Bound resource files
 
@@ -19467,4 +19467,4 @@ Trade.RES
 Trade.drf
 
 
-Program entry point at 0001:00115350
+Program entry point at 0001:001152E8

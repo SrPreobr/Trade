@@ -305,13 +305,14 @@ begin
   end;
   // http://web-developments.ru/filtratsiya-dannih-delfi-delphi
   // Like не поддерживается по видемому  для таблиц
+  (*
   If CheckBoxLike.Checked and (EditLike.Text<>'') then begin
-    If StFilter='' then StFilter:='TovarName Like '''+EditLike.Text+''+''''
-    else StFilter:=StFilter+ ' and TovarName Like '''+EditLike.Text+''+'''';
+    If StFilter='' then StFilter:='TovarName LIKE '''+EditLike.Text+''+''''
+    else StFilter:=StFilter+ ' and TovarName LIKE '''+EditLike.Text+''+'''';
     If SqlFilter<>'' then SqlFilter:= SqlFilter + ' and ';
-    SqlFilter:= SqlFilter + 'T.TovarName Like '''+EditLike.Text+'''';
+    SqlFilter:= SqlFilter + 'T.TovarName LIKE '''+EditLike.Text+'''';
   end;
-
+   *)
 
 
   If  DbGrid1.DataSource.DataSet=DM.TableTovar then

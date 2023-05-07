@@ -1337,8 +1337,13 @@ end;
 
 procedure TDM.TableTovarFilterRecord(DataSet: TDataSet;
   var Accept: Boolean);
+//  var St : String;
 begin
-//  Accept := DataSet.FieldByName('Fasovka').AsString = '30,0 Í„';
+//  St:= TovarForm.EditLike.Text;
+  If TovarForm.CheckBoxLike.Checked then
+    Accept := ( System.Pos( AnsiUpperCase(TovarForm.EditLike.Text), AnsiUpperCase(DataSet['TovarName']) ) <> 0 )
+
+  else Accept:=True;
 end;
 
 procedure TDM.TableAgentNewRecord(DataSet: TDataSet);
